@@ -1,0 +1,3453 @@
+{
+ "version": 1,
+ "games": [
+  {
+   "id": "13-days",
+   "name": "13 Days: The Cuban Missile Crisis, 1962",
+   "players": [
+    2,
+    2
+   ],
+   "best": [
+    2
+   ],
+   "time": [
+    45,
+    45
+   ],
+   "weight": 2.2,
+   "age": 10,
+   "tags": [
+    "Strategy",
+    "Thematic"
+   ],
+   "summary": "A tense two-player card game that replays the Cuban Missile Crisis in three short rounds. You fight for influence over world issues while trying not to push your own DEFCON tracks into nuclear war.",
+   "teach": [
+    "Goal: have the most prestige after three rounds by winning the issues you secretly care about.",
+    "On your turn: play a card either for its event or to place influence and move the DEFCON tracks. If it's your opponent's event, they may trigger it.",
+    "Game end: after round 3, or immediately if any of your DEFCON tracks reaches the nuclear war zone, in which case you lose."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "221b-baker-street",
+   "name": "221B Baker Street: The Master Detective Game",
+   "players": [
+    2,
+    6
+   ],
+   "best": [
+    3,
+    4
+   ],
+   "time": [
+    60,
+    90
+   ],
+   "weight": 1.9,
+   "age": 10,
+   "tags": [
+    "Deduction",
+    "Family"
+   ],
+   "summary": "A classic Sherlock Holmes mystery game. You race around a map of London visiting locations to read clues, then head back to Baker Street to name the culprit, motive and weapon.",
+   "teach": [
+    "Goal: be the first to solve the case correctly.",
+    "On your turn: roll and move to a location, then read its clue for the case in play. Keys and badges let you lock or unlock locations.",
+    "Game end: return to 221B and announce your solution. Check it against the answer; a wrong answer puts you out."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "7-wonders",
+   "name": "7 Wonders",
+   "players": [
+    2,
+    7
+   ],
+   "best": [
+    4,
+    5
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 2.3,
+   "age": 10,
+   "tags": [
+    "Strategy",
+    "Family"
+   ],
+   "summary": "Draft cards over three ages to grow an ancient civilisation and build your wonder. Everyone picks at the same time, so it stays quick even with seven players.",
+   "teach": [
+    "Goal: have the most points after Age III.",
+    "Each turn: everyone picks one card from their hand at the same time, then builds it, uses it for a wonder stage, or sells it for 3 coins. Pass the rest of the hand on.",
+    "Scoring: military, coins, wonder stages, buildings, guilds and science sets."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "7-wonders-duel",
+   "name": "7 Wonders Duel",
+   "players": [
+    2,
+    2
+   ],
+   "best": [
+    2
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 2.2,
+   "age": 10,
+   "tags": [
+    "Strategy"
+   ],
+   "summary": "The two-player version of 7 Wonders, played from a shared spread of cards. There are three ways to win, so you always have to watch what your opponent is building towards.",
+   "teach": [
+    "Goal: win by military supremacy (pushing the conflict pawn into their capital), scientific supremacy (6 different science symbols), or the most points after Age III.",
+    "On your turn: take an uncovered card from the spread and build it, discard it for coins, or use it to build one of your wonders.",
+    "Watch out: taking a card can uncover a better one for your opponent."
+   ],
+   "expansions": [
+    {
+     "name": "Pantheon",
+     "note": "Adds the Pantheon board with gods you can invoke, and Grand Temples in Age III."
+    }
+   ],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "game-of-thrones-board-game",
+   "name": "A Game of Thrones: The Board Game (2nd Edition)",
+   "players": [
+    3,
+    6
+   ],
+   "best": [
+    6
+   ],
+   "time": [
+    120,
+    240
+   ],
+   "weight": 3.7,
+   "age": 14,
+   "tags": [
+    "Strategy",
+    "Thematic",
+    "Bluffing"
+   ],
+   "summary": "An epic game of negotiation and betrayal for control of Westeros. Orders are placed in secret, so alliances are only as good as your next move.",
+   "teach": [
+    "Goal: control 7 castles and strongholds, or hold the most when round 10 ends.",
+    "Each round: Westeros cards, then everyone places orders face down. Reveal and resolve raids, marches, then consolidate power.",
+    "Combat: total strength plus support, then each side plays a house card."
+   ],
+   "expansions": [
+    {
+     "name": "Mother of Dragons",
+     "note": "Adds House Targaryen and House Arryn (up to 8 players), the Iron Bank and vassal rules."
+    }
+   ],
+   "complexity": 4,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "accentuate",
+   "name": "Accentuate",
+   "players": [
+    4,
+    12
+   ],
+   "best": [
+    6,
+    8
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 1.0,
+   "age": 12,
+   "tags": [
+    "Party"
+   ],
+   "summary": "A silly team party game built around saying things in different accents. It's best played loud, with people who don't mind sounding ridiculous.",
+   "teach": [
+    "Goal: score the most points for your team.",
+    "On your turn: follow the card and say the phrase in the accent shown while your team tries to guess.",
+    "Game end: first team to the target, or most points when you stop."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "ark-nova",
+   "name": "Ark Nova",
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    2
+   ],
+   "time": [
+    90,
+    150
+   ],
+   "weight": 3.8,
+   "age": 14,
+   "tags": [
+    "Strategy"
+   ],
+   "summary": "Plan and build a modern zoo, house animals and support conservation projects. It's a heavy, satisfying engine-builder with hundreds of different cards.",
+   "teach": [
+    "Goal: get your appeal and conservation markers to cross each other on the scoring track.",
+    "On your turn: choose one of your five action cards (Animals, Cards, Build, Association, Sponsors). Its strength depends on its slot (1–5), then it moves back to slot 1.",
+    "Game end: when someone's markers cross, everyone else gets one more turn. Then compare the gap between the two tracks."
+   ],
+   "expansions": [],
+   "complexity": 4,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "arkham-horror-lcg",
+   "name": "Arkham Horror: The Card Game",
+   "players": [
+    1,
+    2
+   ],
+   "best": [
+    2
+   ],
+   "time": [
+    60,
+    120
+   ],
+   "weight": 3.4,
+   "age": 14,
+   "tags": [
+    "Co-op",
+    "Campaign",
+    "Thematic"
+   ],
+   "summary": "A co-operative Lovecraftian mystery played out as a campaign of linked scenarios. Your investigators build decks, gather clues and slowly lose their minds, and what happens in one scenario carries into the next.",
+   "teach": [
+    "Goal: advance the act deck by gathering clues before the doom on the agenda deck runs out.",
+    "On your turn: take 3 actions: investigate, move, fight, evade, draw, gain a resource or play cards. Skill tests use your stat, committed cards and a token pulled from the chaos bag.",
+    "Between scenarios: record the outcome, trauma and experience in the campaign log and upgrade your deck."
+   ],
+   "expansions": [
+    {
+     "name": "The Dunwich Legacy",
+     "note": "An eight-scenario campaign plus new investigators. Play it as a campaign rather than mixing it in."
+    }
+   ],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "azul",
+   "name": "Azul",
+   "players": [
+    2,
+    4
+   ],
+   "best": [
+    2,
+    3
+   ],
+   "time": [
+    30,
+    45
+   ],
+   "weight": 1.8,
+   "age": 8,
+   "tags": [
+    "Family",
+    "Strategy"
+   ],
+   "summary": "A beautiful tile-drafting game about decorating a palace wall. The rules take two minutes, but leaving your opponents only the tiles they don't want is where the cunning comes in.",
+   "teach": [
+    "Goal: score the most points from your wall by the end of the game.",
+    "On your turn: take all tiles of one colour from a factory (the rest go to the centre) or from the centre, and place them on one pattern line. Extras fall to the floor and cost points.",
+    "End of round: each full pattern line moves one tile to the wall and scores for adjacent tiles. The game ends when someone completes a horizontal row."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "azul-duel",
+   "name": "Azul Duel",
+   "players": [
+    2,
+    2
+   ],
+   "best": [
+    2
+   ],
+   "time": [
+    30,
+    45
+   ],
+   "weight": 2.0,
+   "age": 8,
+   "tags": [
+    "Strategy"
+   ],
+   "summary": "A head-to-head take on Azul's tile drafting for exactly two players.",
+   "teach": [
+    "Goal: score more points than your opponent from the tiles you place.",
+    "On your turn: draft tiles and place them on your board; tiles you can't use cost you.",
+    "Check the rulebook for this edition's scoring and end condition."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "azul-summer-pavilion",
+   "name": "Azul: Summer Pavilion",
+   "players": [
+    2,
+    4
+   ],
+   "best": [
+    2,
+    3
+   ],
+   "time": [
+    30,
+    45
+   ],
+   "weight": 2.1,
+   "age": 8,
+   "tags": [
+    "Family",
+    "Strategy"
+   ],
+   "summary": "An Azul variant where you lay tiles into star-shaped patterns. Each round has a wild colour, which makes it a little more flexible and puzzly than the original.",
+   "teach": [
+    "Goal: score the most points over six rounds.",
+    "Drafting: take all tiles of one colour from a factory or the centre, plus one wild tile if available.",
+    "Placing: pay tiles of a colour to place one on a star space of matching value. Score it and its connected tiles. Covering certain spaces earns bonus tiles."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "backstories-alone-under-the-ice",
+   "name": "Backstories: Alone Under the Ice",
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    2
+   ],
+   "time": [
+    60,
+    90
+   ],
+   "weight": 1.5,
+   "age": 14,
+   "tags": [
+    "Thematic"
+   ],
+   "summary": "A story-driven card game where you explore one scenario, make choices and uncover what happened. It's played for the story rather than to win.",
+   "teach": [
+    "Goal: reach a good ending to the story.",
+    "On your turn: choose cards and actions to explore; the story text tells you what happens.",
+    "Replay: you can play again to find other endings."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "beat-that",
+   "name": "Beat That!",
+   "players": [
+    2,
+    8
+   ],
+   "best": [
+    4,
+    6
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 1.0,
+   "age": 8,
+   "tags": [
+    "Party",
+    "Dexterity",
+    "Family"
+   ],
+   "summary": "A party game of daft dexterity challenges with cups, balls and dice. You bet on whether you can pull each challenge off, then try to do it in front of everyone.",
+   "teach": [
+    "Goal: earn the most points.",
+    "On your turn: draw a challenge card, bet how confident you are, then attempt it.",
+    "Game end: after the agreed number of rounds; most points wins."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "blokus",
+   "name": "Blokus",
+   "players": [
+    2,
+    4
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    20,
+    20
+   ],
+   "weight": 1.2,
+   "age": 7,
+   "tags": [
+    "Family",
+    "Strategy"
+   ],
+   "summary": "An abstract game of fitting coloured pieces on a shared board. Simple enough for kids, but it turns cut-throat as space runs out.",
+   "teach": [
+    "Goal: place as many of your squares as possible.",
+    "On your turn: place one piece so it touches one of your own pieces only at a corner, never along an edge.",
+    "Game end: when nobody can place. Lose points for squares left in hand; bonuses for placing everything."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "blood-on-the-clocktower",
+   "name": "Blood on the Clocktower",
+   "players": [
+    5,
+    20
+   ],
+   "best": [
+    10,
+    12
+   ],
+   "time": [
+    60,
+    120
+   ],
+   "weight": 2.9,
+   "age": 15,
+   "tags": [
+    "Party",
+    "Deduction",
+    "Bluffing"
+   ],
+   "summary": "A big-group social deduction game run by a Storyteller. Even dead players keep talking and voting, so nobody sits out, and good players can be lied to by their own abilities.",
+   "teach": [
+    "Goal: Good wins if the Demon dies. Evil wins if only two players are left alive.",
+    "Night: the Storyteller wakes characters to use their abilities. Day: everyone talks, then nominates and votes to execute someone.",
+    "Needs: one person as Storyteller, running the grimoire."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "cards-against-humanity",
+   "name": "Cards Against Humanity",
+   "players": [
+    4,
+    20
+   ],
+   "best": [
+    6,
+    10
+   ],
+   "time": [
+    30,
+    90
+   ],
+   "weight": 1.2,
+   "age": 17,
+   "adults": true,
+   "tags": [
+    "Party"
+   ],
+   "summary": "The adults-only fill-in-the-blank card game. One player reads a prompt and everyone else plays the most outrageous answer they can.",
+   "teach": [
+    "Goal: win the most black cards.",
+    "Each round: the Card Czar reads a black card; everyone else plays white cards face down. The Czar picks the funniest.",
+    "Rotate: the Czar role passes left each round."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "shelf": ""
+  },
+  {
+   "id": "catan",
+   "name": "Catan",
+   "players": [
+    3,
+    4
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    60,
+    120
+   ],
+   "weight": 2.3,
+   "age": 10,
+   "tags": [
+    "Strategy",
+    "Family"
+   ],
+   "summary": "The classic game of settling an island: gather resources, trade with each other, and build roads, settlements and cities.",
+   "teach": [
+    "Goal: first to 10 victory points.",
+    "On your turn: roll; everyone with a settlement next to that number collects. Then trade and build roads, settlements, cities or development cards.",
+    "Rolling a 7: anyone with more than 7 cards discards half, and you move the robber to steal."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "the-chameleon",
+   "name": "The Chameleon",
+   "players": [
+    3,
+    8
+   ],
+   "best": [
+    5,
+    6
+   ],
+   "time": [
+    15,
+    15
+   ],
+   "weight": 1.1,
+   "age": 14,
+   "tags": [
+    "Party",
+    "Bluffing",
+    "Deduction"
+   ],
+   "summary": "A quick bluffing word game. Everyone knows the secret word except the Chameleon, who has to blend in.",
+   "teach": [
+    "Goal: catch the Chameleon, or as the Chameleon, avoid being caught.",
+    "Each round: everyone except the Chameleon learns the secret word from a topic card. Each player says one word related to it.",
+    "Then vote: if the Chameleon is caught, they can still win by guessing the secret word."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "cheating-moth",
+   "name": "Cheating Moth",
+   "players": [
+    3,
+    5
+   ],
+   "best": [
+    4,
+    5
+   ],
+   "time": [
+    20,
+    20
+   ],
+   "weight": 1.1,
+   "age": 7,
+   "tags": [
+    "Family",
+    "Party"
+   ],
+   "summary": "A card-shedding game where cheating is allowed. Hide cards up your sleeve or drop them under the table, as long as the guard doesn't spot you.",
+   "teach": [
+    "Goal: be first to get rid of all your cards.",
+    "On your turn: play a card one higher or lower than the top card. Some cards have special effects.",
+    "Cheating: sneak cards away whenever you can. The Bedbug guard catches cheaters, and caught players take penalty cards."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "civilization-a-new-dawn",
+   "name": "Civilization: A New Dawn",
+   "players": [
+    2,
+    4
+   ],
+   "best": [
+    3
+   ],
+   "time": [
+    60,
+    120
+   ],
+   "weight": 2.9,
+   "age": 14,
+   "tags": [
+    "Strategy"
+   ],
+   "summary": "A streamlined civilisation-building game. You expand across a modular map and push up the tech dial to complete victory cards.",
+   "teach": [
+    "Goal: complete your victory cards before anyone else.",
+    "On your turn: choose one of your five focus cards. Its strength depends on its slot, then it resets to slot 1.",
+    "Grow: expand, build wonders, trade and fight barbarians to meet the victory conditions."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "clank",
+   "name": "Clank!: A Deck-Building Adventure",
+   "players": [
+    2,
+    4
+   ],
+   "best": [
+    3,
+    4
+   ],
+   "time": [
+    45,
+    60
+   ],
+   "weight": 2.2,
+   "age": 12,
+   "tags": [
+    "Strategy",
+    "Thematic"
+   ],
+   "summary": "A deck-building dungeon crawl where you sneak into a dragon's lair, grab an artefact and try to get out alive. Make too much noise and the dragon notices.",
+   "teach": [
+    "Goal: escape with the most points, including at least one artefact.",
+    "On your turn: play all 5 cards for skill (buy cards), swords (fight) and boots (move). Clank adds your cubes to the bag.",
+    "Dragon attacks: draw cubes from the bag; yours hurt you. Leave the depths before you're knocked out."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "cockroach-poker",
+   "name": "Cockroach Poker",
+   "players": [
+    2,
+    6
+   ],
+   "best": [
+    4,
+    5
+   ],
+   "time": [
+    20,
+    20
+   ],
+   "weight": 1.1,
+   "age": 8,
+   "tags": [
+    "Party",
+    "Bluffing"
+   ],
+   "summary": "A pure bluffing game of passing critters to each other face down and lying about what they are. Simple, quick and very funny.",
+   "teach": [
+    "Goal: don't be the first to collect four of the same creature (or run out of cards).",
+    "On your turn: pass a card face down to anyone and name a creature, truthfully or not.",
+    "The receiver either calls 'true' or 'false' (wrong guess takes the card face up), or peeks and passes it on with a new claim."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "codenames",
+   "name": "Codenames",
+   "players": [
+    2,
+    8
+   ],
+   "best": [
+    6,
+    8
+   ],
+   "time": [
+    15,
+    15
+   ],
+   "weight": 1.3,
+   "age": 14,
+   "tags": [
+    "Party",
+    "Word & trivia"
+   ],
+   "summary": "The team word-association game. Spymasters give one-word clues to get their team to pick their agents from a grid of 25 words.",
+   "teach": [
+    "Goal: find all your team's agents first.",
+    "Spymaster: give one word and a number. Teammates touch words one at a time.",
+    "Watch out: picking the assassin loses immediately; a neutral or enemy word ends your turn."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "confident",
+   "name": "Confident?",
+   "players": [
+    2,
+    8
+   ],
+   "best": [
+    4,
+    6
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 1.0,
+   "age": 12,
+   "tags": [
+    "Party",
+    "Word & trivia"
+   ],
+   "summary": "A quiz where you don't need the exact answer: you give a range you're confident contains it. Narrow ranges score more, but miss and you score nothing.",
+   "teach": [
+    "Goal: score the most points.",
+    "Each question: everyone writes a low and high number they think contains the answer.",
+    "Scoring: correct ranges score; the narrowest correct range does best."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "coup",
+   "name": "Coup",
+   "players": [
+    2,
+    6
+   ],
+   "best": [
+    5
+   ],
+   "time": [
+    15,
+    15
+   ],
+   "weight": 1.4,
+   "age": 13,
+   "tags": [
+    "Bluffing",
+    "Party"
+   ],
+   "summary": "A fast bluffing game of court intrigue. Claim any role you like, but if someone challenges and you were lying, you lose influence.",
+   "teach": [
+    "Goal: be the last player with influence (face-down cards) left.",
+    "On your turn: take income, foreign aid, coup (7 coins), or claim a character's action: Duke (tax), Assassin, Captain (steal) or Ambassador (swap).",
+    "Challenges and blocks: anyone can challenge a claim. The loser of the challenge loses an influence card."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "the-crew-mission-deep-sea",
+   "name": "The Crew: Mission Deep Sea",
+   "players": [
+    2,
+    5
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    20,
+    20
+   ],
+   "weight": 2.0,
+   "age": 10,
+   "tags": [
+    "Co-op"
+   ],
+   "summary": "A co-operative trick-taking campaign set under the sea. You must win (or avoid winning) particular tricks with very limited communication.",
+   "teach": [
+    "Goal: complete every task in the current mission.",
+    "Tricks: follow suit if you can; the highest card of the led suit wins, and submarines are trumps.",
+    "Talking: you can't discuss your hand. Each player may reveal one card once per mission."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "the-crew-planet-nine",
+   "name": "The Crew: The Quest for Planet Nine",
+   "players": [
+    2,
+    5
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    20,
+    20
+   ],
+   "weight": 2.0,
+   "age": 10,
+   "tags": [
+    "Co-op",
+    "Campaign"
+   ],
+   "summary": "The original Crew: a co-operative space-themed trick-taking campaign of 50 missions that gradually get harder.",
+   "teach": [
+    "Goal: complete the mission's task cards by winning the right tricks.",
+    "Tricks: follow suit; the highest of the led suit wins, and rockets are trumps.",
+    "Talking: no talking about cards. Each player may communicate one card once per mission."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "cryptid",
+   "name": "Cryptid",
+   "players": [
+    3,
+    5
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    30,
+    50
+   ],
+   "weight": 2.2,
+   "age": 10,
+   "tags": [
+    "Deduction"
+   ],
+   "summary": "A deduction game about finding a legendary creature. Everyone holds one clue to where it lives, and you work out the others' clues from their answers.",
+   "teach": [
+    "Goal: be first to find the one hex where the creature lives.",
+    "On your turn: question another player about a hex (they mark yes or no), or search a hex yourself.",
+    "Watch out: a wrong 'no' forces you to place a cube, which reveals information about your clue."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "debatable",
+   "name": "Debatable",
+   "players": [
+    3,
+    8
+   ],
+   "best": [
+    4,
+    6
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 1.0,
+   "age": 12,
+   "tags": [
+    "Party"
+   ],
+   "summary": "A party game of arguing for silly positions and trying to win the room over.",
+   "teach": [
+    "Goal: win the most rounds.",
+    "Each round: take a topic, make your case, and the others decide who argued best.",
+    "Game end: first to the target score."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "deep-regrets",
+   "name": "Deep Regrets",
+   "players": [
+    1,
+    5
+   ],
+   "best": [
+    3,
+    4
+   ],
+   "time": [
+    60,
+    90
+   ],
+   "weight": 2.5,
+   "age": 14,
+   "tags": [
+    "Strategy",
+    "Thematic"
+   ],
+   "summary": "A darkly funny push-your-luck fishing game. The deeper you fish, the stranger and more valuable the catch, but your regrets pile up.",
+   "teach": [
+    "Goal: end the game with the best haul once regrets are counted.",
+    "Each day: choose where to fish, how deep to go, and when to sell, mount or keep your catch.",
+    "Watch out: dreadful fish and some choices give you regrets, which count against you at the end."
+   ],
+   "expansions": [
+    {
+     "name": "Mini expansion",
+     "note": "Included in your copy (extra cards)."
+    },
+    {
+     "name": "Even Deeper Regrets",
+     "note": "Adds more fish, more regrets and extra content."
+    }
+   ],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "dobble",
+   "name": "Dobble",
+   "players": [
+    2,
+    8
+   ],
+   "best": [
+    4,
+    6
+   ],
+   "time": [
+    15,
+    15
+   ],
+   "weight": 1.0,
+   "age": 6,
+   "tags": [
+    "Family",
+    "Party"
+   ],
+   "summary": "The frantic spotting game: any two cards share exactly one symbol, and you race to call it first.",
+   "teach": [
+    "Goal: depends on the mini-game, usually the most cards collected.",
+    "Spot it: find the one symbol your card shares with the middle card and say it aloud.",
+    "Mini-games: the tin has several. The Towering Inferno is a good default."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "doomlings",
+   "name": "Doomlings (Blackbox Bundle)",
+   "players": [
+    2,
+    6
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    30,
+    45
+   ],
+   "weight": 1.5,
+   "age": 10,
+   "tags": [
+    "Family",
+    "Party"
+   ],
+   "summary": "A fast card game about evolving a creature with silly traits before the world ends. Catastrophes hit everyone as the ages pass.",
+   "teach": [
+    "Goal: score the most points from the traits in your creature when the world ends.",
+    "On your turn: play a trait card, then draw back up. Some traits have effects or change scores.",
+    "Ages: each age card changes the rules. Three catastrophes end the world."
+   ],
+   "expansions": [
+    {
+     "name": "Blackbox Bundle",
+     "note": "Your copy includes the base game plus bundled expansions; check the box for which are included."
+    }
+   ],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "dune-imperium",
+   "name": "Dune: Imperium",
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    3,
+    4
+   ],
+   "time": [
+    60,
+    120
+   ],
+   "weight": 3.0,
+   "age": 14,
+   "tags": [
+    "Strategy",
+    "Thematic"
+   ],
+   "summary": "A mix of deck-building and worker placement set in the Dune universe. You send agents to gain influence with the factions and fight for control of Arrakis.",
+   "teach": [
+    "Goal: first to 10 victory points (or the most when the conflict deck runs out).",
+    "Agent turn: play a card to send an agent to a board space with a matching icon, gaining its effect and the card's.",
+    "Reveal turn: reveal your remaining cards for persuasion (buy cards) and swords (combat). Each round ends with a conflict."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "dungeon-party",
+   "name": "Dungeon Party",
+   "players": [
+    2,
+    6
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    20,
+    30
+   ],
+   "weight": 1.2,
+   "age": 8,
+   "tags": [
+    "Party",
+    "Dexterity",
+    "Family"
+   ],
+   "summary": "A light dexterity party game set in a dungeon.",
+   "teach": [],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "eldritch-horror",
+   "name": "Eldritch Horror",
+   "players": [
+    1,
+    8
+   ],
+   "best": [
+    3,
+    4
+   ],
+   "time": [
+    120,
+    240
+   ],
+   "weight": 3.3,
+   "age": 14,
+   "tags": [
+    "Co-op",
+    "Thematic"
+   ],
+   "summary": "A globe-trotting co-operative adventure against an Ancient One. You travel the world, close gates and solve mysteries before doom runs out.",
+   "teach": [
+    "Goal: solve three mysteries before the Ancient One awakens (or deal with it if it does).",
+    "On your turn: take 2 actions (travel, rest, trade, acquire assets, prepare), then resolve an encounter where you stand.",
+    "Mythos phase: each round a mythos card spawns gates, monsters and trouble."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "everdell",
+   "name": "Everdell",
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    2,
+    3
+   ],
+   "time": [
+    40,
+    80
+   ],
+   "weight": 2.8,
+   "age": 13,
+   "tags": [
+    "Strategy",
+    "Family"
+   ],
+   "summary": "A charming worker-placement and tableau game about building a woodland city of critters and constructions through the seasons.",
+   "teach": [
+    "Goal: score the most points from your city of up to 15 cards.",
+    "On your turn: place a worker to gain resources, play a card into your city, or prepare for the next season (get workers back and more).",
+    "Game end: when everyone has passed after autumn."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "exit-pharaohs-tomb",
+   "name": "EXIT: The Game – The Pharaoh's Tomb",
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    2,
+    3
+   ],
+   "time": [
+    45,
+    90
+   ],
+   "weight": 2.4,
+   "age": 12,
+   "tags": [
+    "Co-op",
+    "Deduction"
+   ],
+   "summary": "A one-time escape room in a box. You solve linked puzzles with a decoder disc, and you're allowed to cut, fold and write on the components.",
+   "teach": [
+    "Goal: escape as fast as possible with as few hints as possible.",
+    "Play: solve a riddle, enter the code on the disc, then check the answer card.",
+    "Note: it can only be played once. Check it hasn't been used already."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "exploding-kittens",
+   "name": "Exploding Kittens",
+   "players": [
+    2,
+    5
+   ],
+   "best": [
+    4,
+    5
+   ],
+   "time": [
+    15,
+    15
+   ],
+   "weight": 1.1,
+   "age": 7,
+   "tags": [
+    "Party",
+    "Family"
+   ],
+   "summary": "Card-based Russian roulette with kittens. Draw an Exploding Kitten without a Defuse and you're out.",
+   "teach": [
+    "Goal: be the last player who hasn't exploded.",
+    "On your turn: play as many cards as you like (skip, attack, see the future, shuffle and so on), then draw one card to end your turn.",
+    "Exploding Kitten: play a Defuse and secretly put the kitten back anywhere in the deck."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "fallout-wasteland-warfare",
+   "name": "Fallout: Wasteland Warfare",
+   "players": [
+    1,
+    2
+   ],
+   "best": [
+    2
+   ],
+   "time": [
+    60,
+    120
+   ],
+   "weight": 3.0,
+   "age": 14,
+   "tags": [
+    "Thematic",
+    "Strategy"
+   ],
+   "summary": "A miniatures skirmish game set in the Fallout universe. It can be played head to head or with AI-controlled enemies for solo and co-op scenarios.",
+   "teach": [
+    "Goal: complete the scenario's objectives.",
+    "On your turn: activate a model and take actions; attack and skill rolls use the special dice and range rulers.",
+    "AI cards: control enemy models in solo or co-op play."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "fog-of-love",
+   "name": "Fog of Love",
+   "players": [
+    2,
+    2
+   ],
+   "best": [
+    2
+   ],
+   "time": [
+    60,
+    90
+   ],
+   "weight": 2.2,
+   "age": 17,
+   "tags": [
+    "Thematic"
+   ],
+   "summary": "A two-player romantic comedy in a box. You play two characters in a relationship, and each of you has secret goals that may or may not include making it work.",
+   "teach": [
+    "Goal: fulfil your secret destiny by the end of the story.",
+    "Each turn: play a scene card for both characters; you choose answers and personality traits shift.",
+    "Chapters: the story card sets the length; decide your destiny at the end."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "forbidden-island",
+   "name": "Forbidden Island",
+   "players": [
+    2,
+    4
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 1.7,
+   "age": 10,
+   "tags": [
+    "Co-op",
+    "Family"
+   ],
+   "summary": "A co-operative family game: grab four treasures from a sinking island and escape by helicopter before it disappears.",
+   "teach": [
+    "Goal: collect all four treasures and fly off from Fools' Landing together.",
+    "On your turn: take up to 3 actions (move, shore up, give a card, capture a treasure), draw 2 treasure cards, then flood tiles.",
+    "You lose if Fools' Landing or both tiles of a treasure sink, a player drowns, or the water level tops out."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "gloomhaven",
+   "name": "Gloomhaven",
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    3
+   ],
+   "time": [
+    60,
+    120
+   ],
+   "weight": 3.9,
+   "age": 14,
+   "tags": [
+    "Co-op",
+    "Campaign",
+    "Thematic"
+   ],
+   "summary": "A huge tactical dungeon-crawling campaign. Card-driven combat means every turn is a puzzle, and your characters grow and retire as the story branches.",
+   "teach": [
+    "Goal: complete the scenario's objective before your party is exhausted.",
+    "Each round: choose two cards and reveal them. Initiative comes from the lead card; use the top action of one and the bottom of the other.",
+    "Cards are your stamina: when you can't play two, you're exhausted. Rest to recover some cards."
+   ],
+   "expansions": [],
+   "complexity": 4,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "gwent",
+   "name": "Gwent: The Legendary Card Game",
+   "players": [
+    2,
+    2
+   ],
+   "best": [
+    2
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 2.4,
+   "age": 12,
+   "tags": [
+    "Strategy"
+   ],
+   "summary": "The Witcher card game in physical form: a two-player duel over three rounds where knowing when to pass matters as much as what you play.",
+   "teach": [
+    "Goal: win two of three rounds by having more total power on your rows.",
+    "On your turn: play one card or pass. Once you pass, you're out for the rest of the round.",
+    "Hand management: cards are scarce, so sometimes losing a round cheaply wins the game."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "heat",
+   "name": "Heat: Pedal to the Metal",
+   "players": [
+    1,
+    6
+   ],
+   "best": [
+    4,
+    6
+   ],
+   "time": [
+    30,
+    60
+   ],
+   "weight": 2.2,
+   "age": 10,
+   "tags": [
+    "Family",
+    "Strategy"
+   ],
+   "summary": "A slick motor-racing card game. You manage your gears and push through corners too fast, but every risk adds heat that clogs up your hand.",
+   "teach": [
+    "Goal: be first across the line after the set number of laps.",
+    "On your turn: shift gear (1–4 cards, or more by paying heat), play that many cards and move.",
+    "Corners: exceed the speed limit and you pay heat for every point over. If you can't pay, you spin out."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "high-treason",
+   "name": "High Treason: The Trial of Louis Riel",
+   "players": [
+    2,
+    2
+   ],
+   "best": [
+    2
+   ],
+   "time": [
+    20,
+    40
+   ],
+   "weight": 2.3,
+   "age": 14,
+   "tags": [
+    "Strategy",
+    "Thematic"
+   ],
+   "summary": "A two-player courtroom game based on the 1885 trial of Louis Riel. One player prosecutes and the other defends, competing for the jury's verdict.",
+   "teach": [
+    "Goal: win the jury over to your verdict.",
+    "Jury selection: first pick the jurors you want.",
+    "Trial: play cards to argue and sway individual jurors. The final verdict depends on where each juror lands."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "hoplomachus-victorum",
+   "name": "Hoplomachus: Victorum (Kickstarter Edition)",
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    1,
+    2
+   ],
+   "time": [
+    60,
+    120
+   ],
+   "weight": 3.0,
+   "age": 14,
+   "tags": [
+    "Strategy",
+    "Campaign",
+    "Thematic"
+   ],
+   "summary": "A tactical gladiator game played on a grid, built for solo and co-op. You lead a ludus of gladiators through a campaign of arena battles.",
+   "teach": [
+    "Goal: win arena battles and grow your ludus over the campaign.",
+    "Combat: move gladiators on the grid and attack using dice and prowess cards; positioning matters.",
+    "Between battles: upgrade your gladiators with prowess and earn rewards."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "horrified",
+   "name": "Horrified",
+   "players": [
+    1,
+    5
+   ],
+   "best": [
+    3,
+    4
+   ],
+   "time": [
+    60,
+    60
+   ],
+   "weight": 2.0,
+   "age": 10,
+   "tags": [
+    "Co-op",
+    "Family",
+    "Thematic"
+   ],
+   "summary": "A co-operative game against classic movie monsters. Each monster has its own way to be defeated, so every game is a different puzzle.",
+   "teach": [
+    "Goal: defeat every monster in play before the terror level maxes out or the monster deck runs out.",
+    "On your turn: take actions (move, guide villagers, pick up items, advance or defeat a monster), then draw a monster card.",
+    "Villagers: get them to safe locations. If they die, terror rises."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "jaipur",
+   "name": "Jaipur",
+   "players": [
+    2,
+    2
+   ],
+   "best": [
+    2
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 1.5,
+   "age": 10,
+   "tags": [
+    "Family",
+    "Strategy"
+   ],
+   "summary": "A slick two-player trading game set in a market. Take goods or sell them, and use camels to control what's on offer.",
+   "teach": [
+    "Goal: win two rounds by earning more rupees.",
+    "On your turn: take one good, take several goods by swapping, take all the camels, or sell cards of one type.",
+    "Selling: earlier sales get higher tokens, and big sales earn bonus tokens."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "last-of-us-escape-the-dark",
+   "name": "The Last of Us: Escape the Dark",
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    2,
+    3
+   ],
+   "time": [
+    45,
+    60
+   ],
+   "weight": 2.0,
+   "age": 14,
+   "tags": [
+    "Co-op",
+    "Thematic"
+   ],
+   "summary": "A co-operative survival game based on The Last of Us, using a chapter-by-chapter dice-and-card system. Decisions and dice rolls decide who makes it out.",
+   "teach": [
+    "Goal: reach the end of the journey with someone still alive.",
+    "Each chapter: reveal a card and resolve it together, choosing actions and rolling dice to meet challenges.",
+    "Resources: share items and health carefully; losses add up."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "listography",
+   "name": "Listography: The Game",
+   "players": [
+    2,
+    6
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 1.0,
+   "age": 12,
+   "tags": [
+    "Party",
+    "Word & trivia"
+   ],
+   "summary": "A party game of writing lists against the clock. Points depend on what the others wrote too.",
+   "teach": [
+    "Goal: score the most points over the rounds.",
+    "Each round: read the topic and secretly write your list.",
+    "Scoring: compare lists; see the rulebook for how matches score."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "london",
+   "name": "London (Second Edition)",
+   "players": [
+    2,
+    4
+   ],
+   "best": [
+    2,
+    3
+   ],
+   "time": [
+    60,
+    90
+   ],
+   "weight": 2.8,
+   "age": 14,
+   "tags": [
+    "Strategy"
+   ],
+   "summary": "A tight card game about rebuilding London after the Great Fire. You build up stacks of cards and choose when to run your city, while poverty creeps up.",
+   "teach": [
+    "Goal: most victory points once the deck runs out and poverty is scored.",
+    "On your turn: draw a card, then do one action: play cards into your city, run your city, buy a borough, or draw 3 cards.",
+    "Poverty: it grows with your hand size and unused stacks, and costs you heavily at the end."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "lotr-fate-of-the-fellowship",
+   "name": "The Lord of the Rings: Fate of the Fellowship",
+   "players": [
+    1,
+    5
+   ],
+   "best": [
+    3,
+    4
+   ],
+   "time": [
+    60,
+    90
+   ],
+   "weight": 2.8,
+   "age": 14,
+   "tags": [
+    "Co-op",
+    "Thematic"
+   ],
+   "summary": "A co-operative game from Pandemic's designer: get the Ring to Mount Doom while the free peoples hold back Sauron's forces across Middle-earth.",
+   "teach": [
+    "Goal: destroy the Ring and complete your objectives before Sauron prevails.",
+    "On your turn: take actions with your character, play cards and move the Fellowship, then the Shadow advances.",
+    "Hunt: the closer the Ring gets, the more the Shadow hunts it."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "lotr-journeys-in-middle-earth",
+   "name": "The Lord of the Rings: Journeys in Middle-Earth",
+   "players": [
+    1,
+    5
+   ],
+   "best": [
+    2,
+    3
+   ],
+   "time": [
+    60,
+    120
+   ],
+   "weight": 2.7,
+   "age": 14,
+   "tags": [
+    "Co-op",
+    "Campaign",
+    "Thematic"
+   ],
+   "summary": "An app-driven co-operative adventure campaign in Middle-earth. The free app runs the story, map and enemies while you manage your heroes' decks.",
+   "teach": [
+    "Goal: complete each adventure's objective as the campaign unfolds.",
+    "On your turn: take 2 actions (move, explore, attack, interact). Tests use your deck: flip cards for successes.",
+    "Needs: the free app on a phone, tablet or computer."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "lotr-trick-taking",
+   "name": "The Lord of the Rings: The Fellowship of the Ring – Trick-Taking Game",
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    3,
+    4
+   ],
+   "time": [
+    20,
+    20
+   ],
+   "weight": 2.0,
+   "age": 10,
+   "tags": [
+    "Co-op",
+    "Campaign"
+   ],
+   "summary": "A co-operative trick-taking campaign through The Fellowship of the Ring. Each chapter gives the characters goals for which tricks they need to win.",
+   "teach": [
+    "Goal: every player completes their character's goal for the chapter.",
+    "Tricks: follow suit; the highest of the led suit wins, and rings are trumps.",
+    "Campaign: play chapters in order; failing means replaying the chapter."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "lost-ruins-of-arnak",
+   "name": "Lost Ruins of Arnak",
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    2,
+    3
+   ],
+   "time": [
+    30,
+    120
+   ],
+   "weight": 2.9,
+   "age": 12,
+   "tags": [
+    "Strategy",
+    "Thematic"
+   ],
+   "summary": "An expedition game that blends deck-building with worker placement. Explore an island, uncover sites, fight guardians and race up the research track.",
+   "teach": [
+    "Goal: most points after five rounds.",
+    "On your turn: do one main action: dig at a site, discover a new site, overcome a guardian, buy a card, play a card, or research. You can pass once you're done.",
+    "Research: moving up the track earns bonuses; reaching the temple is worth big points."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "love-letter",
+   "name": "Love Letter",
+   "players": [
+    2,
+    6
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    20,
+    20
+   ],
+   "weight": 1.2,
+   "age": 10,
+   "tags": [
+    "Bluffing",
+    "Party"
+   ],
+   "summary": "A tiny game of deduction and luck with a 16-card deck. Everyone holds a single card and tries to get their letter to the princess.",
+   "teach": [
+    "Goal: win enough rounds to collect the target number of tokens.",
+    "On your turn: draw a card, then play one of your two cards and do its effect (guess a hand, compare, protect yourself and so on).",
+    "Round end: the last player standing, or the highest card when the deck runs out, wins the round."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "magic-maze",
+   "name": "Magic Maze",
+   "players": [
+    1,
+    8
+   ],
+   "best": [
+    4,
+    5
+   ],
+   "time": [
+    15,
+    15
+   ],
+   "weight": 1.8,
+   "age": 8,
+   "tags": [
+    "Co-op",
+    "Party"
+   ],
+   "summary": "A real-time, mostly silent co-operative game. Everyone controls every hero, but each player can only make one kind of move.",
+   "teach": [
+    "Goal: get all four heroes to their items, then out of the exits, before the sand timer runs out.",
+    "Play: there are no turns. Use only the action on your tile (for example 'move north'), for any hero.",
+    "Talking: none allowed. Bang the big red pawn in front of someone to say 'do something!'"
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "marvel-champions",
+   "name": "Marvel Champions: The Card Game",
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    2
+   ],
+   "time": [
+    45,
+    90
+   ],
+   "weight": 2.7,
+   "age": 14,
+   "tags": [
+    "Co-op",
+    "Thematic"
+   ],
+   "summary": "A co-operative superhero card game. Each player is a hero with their own deck, flipping between hero and alter-ego to stop the villain's scheme.",
+   "teach": [
+    "Goal: knock the villain out before their main scheme completes, or before all heroes are defeated.",
+    "On your turn: play cards (pay with resources from other cards), use abilities, attack, thwart, or flip identity once.",
+    "Villain phase: the villain schemes or attacks each hero, and encounter cards add trouble."
+   ],
+   "expansions": [
+    {
+     "name": "The Galaxy's Most Wanted",
+     "note": "A campaign box with Groot and Rocket Raccoon as heroes."
+    },
+    {
+     "name": "Bonus packs",
+     "note": "Which packs you own is still to be checked."
+    }
+   ],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "mascarade",
+   "name": "Mascarade",
+   "players": [
+    2,
+    13
+   ],
+   "best": [
+    6,
+    10
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 1.5,
+   "age": 10,
+   "tags": [
+    "Bluffing",
+    "Party"
+   ],
+   "summary": "A chaotic bluffing game for a big group. Roles get secretly swapped around, so you may not even know who you are any more.",
+   "teach": [
+    "Goal: first to 13 coins.",
+    "On your turn: swap (or pretend to swap) your card with someone's under the table, look at your own card, or claim a role to use its power.",
+    "Claims: others may claim the same role. Everyone claiming reveals; the real one uses the power and the liars pay 1 coin."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "micromacro-crime-city",
+   "name": "MicroMacro: Crime City",
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    2,
+    3
+   ],
+   "time": [
+    15,
+    45
+   ],
+   "weight": 1.2,
+   "age": 12,
+   "tags": [
+    "Co-op",
+    "Deduction"
+   ],
+   "summary": "Detective work on a giant, densely drawn map of a city. Every case is hidden somewhere in the picture, and you follow the trail with a magnifying glass.",
+   "teach": [
+    "Goal: solve each case's questions by finding the scenes on the map.",
+    "Play: read the case card, then search the map together. There are no turns or rounds.",
+    "Tip: start with the easier cases. Some are a bit grim, so check the age guidance before playing with kids."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "monopoly-bojack",
+   "name": "Monopoly: BoJack Horseman Edition",
+   "players": [
+    2,
+    6
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    60,
+    180
+   ],
+   "weight": 1.6,
+   "age": 17,
+   "tags": [
+    "Family",
+    "Thematic"
+   ],
+   "summary": "Classic Monopoly reskinned with BoJack Horseman locations and characters. Ideal for fans of the show.",
+   "teach": [
+    "Goal: bankrupt everyone else.",
+    "On your turn: roll and move; buy unowned property or pay rent on owned property.",
+    "Build: complete colour sets to add houses and hotels."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "monopoly-cheaters",
+   "name": "Monopoly: Cheaters Edition",
+   "players": [
+    2,
+    6
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    60,
+    90
+   ],
+   "weight": 1.4,
+   "age": 8,
+   "tags": [
+    "Family",
+    "Party"
+   ],
+   "summary": "Monopoly where cheating is part of the rules. Cheat cards challenge you to get away with things, but get caught and you're cuffed to the board.",
+   "teach": [
+    "Goal: bankrupt everyone else.",
+    "Cheat cards: try to complete the cheat without anyone noticing. Success earns a reward; getting caught costs you.",
+    "Banker: players run the bank themselves, which is part of the cheating."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "mysterium",
+   "name": "Mysterium",
+   "players": [
+    2,
+    7
+   ],
+   "best": [
+    5,
+    6
+   ],
+   "time": [
+    40,
+    45
+   ],
+   "weight": 1.9,
+   "age": 10,
+   "tags": [
+    "Co-op",
+    "Deduction",
+    "Party"
+   ],
+   "summary": "A co-operative game where one player is a silent ghost sending dreamlike picture cards to help the psychics work out how they died.",
+   "teach": [
+    "Goal: every psychic identifies their suspect, location and weapon in time, then the group finds the true culprit.",
+    "Ghost: hand out vision cards without speaking to point each psychic at the right card.",
+    "Psychics: discuss, guess and vote with clairvoyance tokens before the clock runs out."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "nemesis",
+   "name": "Nemesis",
+   "players": [
+    1,
+    5
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    90,
+    180
+   ],
+   "weight": 3.4,
+   "age": 14,
+   "tags": [
+    "Thematic",
+    "Bluffing"
+   ],
+   "summary": "A tense sci-fi survival horror game. You wake on a ship crawling with aliens, and everyone has a secret objective that may not include you surviving.",
+   "teach": [
+    "Goal: complete your secret objective and survive (or be on the ship when it reaches Earth).",
+    "On your turn: play two cards for actions (move, search, fight, use rooms). Moving makes noise that can draw intruders.",
+    "Event phase: intruders move and attack, fires spread, and the ship's systems break."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "no-thanks",
+   "name": "No Thanks!",
+   "players": [
+    3,
+    7
+   ],
+   "best": [
+    5
+   ],
+   "time": [
+    20,
+    20
+   ],
+   "weight": 1.1,
+   "age": 8,
+   "tags": [
+    "Family",
+    "Party"
+   ],
+   "summary": "A tiny, clever filler where you try to avoid taking cards by paying chips, until the pile of chips on a card makes it worth taking.",
+   "teach": [
+    "Goal: the lowest score wins.",
+    "On your turn: take the face-up card (and its chips) or pay one chip onto it to pass.",
+    "Scoring: cards score their value, but a run of consecutive numbers only scores its lowest card. Chips are minus one each."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "on-a-scale-of-one-to-t-rex",
+   "name": "On a Scale of One to T-Rex",
+   "players": [
+    3,
+    8
+   ],
+   "best": [
+    5,
+    6
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 1.0,
+   "age": 10,
+   "tags": [
+    "Party"
+   ],
+   "summary": "A daft acting party game: act out a situation at a set intensity, from mild to full T-Rex, while everyone guesses the number.",
+   "teach": [
+    "Goal: score the most points.",
+    "On your turn: draw a scenario and secretly get a number, then act it out at that level.",
+    "Guessing: everyone guesses the number; points go to accurate guessers and the actor."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "outsmarted",
+   "name": "Outsmarted!",
+   "players": [
+    2,
+    8
+   ],
+   "best": [
+    4,
+    6
+   ],
+   "time": [
+    30,
+    60
+   ],
+   "weight": 1.2,
+   "age": 8,
+   "tags": [
+    "Family",
+    "Party",
+    "Word & trivia"
+   ],
+   "summary": "A family quiz-show board game run through a TV, phone or tablet app, with a mix of picture, video and general knowledge questions.",
+   "teach": [
+    "Goal: be first to collect a full set of pieces by answering questions.",
+    "On your turn: answer questions from the app, pitched at your level.",
+    "Needs: the app and a screen everyone can see."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "pandemic",
+   "name": "Pandemic",
+   "players": [
+    2,
+    4
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    45,
+    45
+   ],
+   "weight": 2.4,
+   "age": 8,
+   "tags": [
+    "Co-op",
+    "Strategy"
+   ],
+   "summary": "The classic co-operative game: a team of specialists races around the world to cure four diseases before outbreaks spiral out of control.",
+   "teach": [
+    "Goal: discover cures for all four diseases.",
+    "On your turn: take 4 actions (move, treat, build a research station, share knowledge, cure), draw 2 player cards, then infect cities.",
+    "You lose if outbreaks hit 8, any disease's cubes run out, or the player deck runs out."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "pandemic-legacy-s1",
+   "name": "Pandemic Legacy: Season 1",
+   "players": [
+    2,
+    4
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    60,
+    60
+   ],
+   "weight": 2.8,
+   "age": 13,
+   "tags": [
+    "Co-op",
+    "Campaign"
+   ],
+   "summary": "Pandemic as a year-long campaign. The board, rules and characters change permanently as you play through the months.",
+   "teach": [
+    "Goal: meet each month's objectives; you get two attempts per month.",
+    "Turns: like Pandemic (4 actions, draw 2, infect), plus whatever the campaign has added.",
+    "Legacy: stickers, opened boxes and torn cards are permanent, so play with a consistent group."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "pandemic-contagion",
+   "name": "Pandemic: Contagion",
+   "players": [
+    2,
+    5
+   ],
+   "best": [
+    3,
+    4
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 1.8,
+   "age": 14,
+   "tags": [
+    "Strategy"
+   ],
+   "summary": "A competitive spin on Pandemic where you play the diseases, competing to wipe out the most cities.",
+   "teach": [
+    "Goal: score the most points by eliminating cities.",
+    "On your turn: draw cards, infect a city by playing matching cards, or mutate your disease.",
+    "Events: event cards change conditions for everyone each round."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "pitch-car",
+   "name": "PitchCar",
+   "players": [
+    2,
+    8
+   ],
+   "best": [
+    6,
+    8
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 1.1,
+   "age": 6,
+   "tags": [
+    "Dexterity",
+    "Family",
+    "Party"
+   ],
+   "summary": "Flick wooden discs around a jigsaw race track. It's pure dexterity and pure fun at any age.",
+   "teach": [
+    "Goal: first to complete the agreed number of laps.",
+    "On your turn: flick your disc once.",
+    "Off the track: go back to where you were. Knocking others off sends them back too."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "priests-of-ra",
+   "name": "Priests of Ra",
+   "players": [
+    2,
+    5
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    60,
+    60
+   ],
+   "weight": 2.4,
+   "age": 13,
+   "tags": [
+    "Strategy",
+    "Bluffing"
+   ],
+   "summary": "A press-your-luck auction game. Draw tiles into the lot, then call an auction with your sun disks.",
+   "teach": [
+    "Goal: most points after three epochs.",
+    "On your turn: draw a tile and add it to the auction track, or call an auction. Everyone bids with sun disks.",
+    "Disasters and Ra tiles: drawing Ra forces an auction; filling the Ra track ends the epoch."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "really-nasty-horse-racing",
+   "name": "The Really Nasty Horse Racing Game",
+   "players": [
+    2,
+    8
+   ],
+   "best": [
+    4,
+    6
+   ],
+   "time": [
+    45,
+    60
+   ],
+   "weight": 1.4,
+   "age": 8,
+   "tags": [
+    "Family",
+    "Party"
+   ],
+   "summary": "An old-school horse racing and betting game where nasty cards let you sabotage other people's horses.",
+   "teach": [
+    "Goal: end with the most money.",
+    "Each race: place bets, then roll and move horses, playing nasty cards to hinder rivals.",
+    "Payouts: winning bets pay out at the horse's odds."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "regicide-legacy",
+   "name": "Regicide Legacy",
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    2
+   ],
+   "time": [
+    20,
+    40
+   ],
+   "weight": 2.0,
+   "age": 10,
+   "tags": [
+    "Co-op",
+    "Campaign"
+   ],
+   "summary": "A co-operative card battler that grows into a campaign. Fight through royal enemies by playing cards whose suits give different powers.",
+   "teach": [
+    "Goal: defeat the enemies in each encounter as the campaign unfolds.",
+    "On your turn: play a card (or a combo) to attack; its suit triggers a power such as drawing, healing or shielding.",
+    "Damage: then the enemy hits back, and you must discard cards to absorb it."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "the-resistance",
+   "name": "The Resistance",
+   "players": [
+    5,
+    10
+   ],
+   "best": [
+    7,
+    8
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 1.6,
+   "age": 13,
+   "tags": [
+    "Party",
+    "Bluffing",
+    "Deduction"
+   ],
+   "summary": "The hidden-traitor game for groups: a few spies hide among the resistance and secretly sabotage missions.",
+   "teach": [
+    "Goal: the resistance wins with 3 successful missions, the spies with 3 failed ones.",
+    "Each round: the leader proposes a team and everyone votes. An approved team secretly plays Success or Fail.",
+    "Spies: they know each other; a single Fail usually sinks a mission."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "revolution",
+   "name": "Revolution!",
+   "players": [
+    3,
+    4
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    45,
+    60
+   ],
+   "weight": 2.2,
+   "age": 12,
+   "tags": [
+    "Bluffing",
+    "Strategy"
+   ],
+   "summary": "A blind-bidding game of bribery, blackmail and force for control of a city. Everyone bids in secret, so outguessing each other is the heart of it.",
+   "teach": [
+    "Goal: most support (points) when the board fills.",
+    "Each round: secretly bid gold, blackmail and force tokens on the city's characters behind your screen.",
+    "Resolution: the highest bid wins each character's reward; force beats blackmail, which beats gold."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "riff-raff",
+   "name": "Riff Raff",
+   "players": [
+    2,
+    4
+   ],
+   "best": [
+    3,
+    4
+   ],
+   "time": [
+    30,
+    45
+   ],
+   "weight": 1.3,
+   "age": 8,
+   "tags": [
+    "Dexterity",
+    "Family"
+   ],
+   "summary": "A wobbly ship dexterity game. Load your cargo onto the swaying mast and deck without knocking anything into the sea.",
+   "teach": [
+    "Goal: be first to get rid of all your cargo.",
+    "On your turn: play a card to set where the ship tilts, then place a piece of cargo on the matching level.",
+    "Falls: anything that falls is yours to take back."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "risk-game-of-thrones",
+   "name": "Risk: Game of Thrones",
+   "players": [
+    2,
+    7
+   ],
+   "best": [
+    4,
+    5
+   ],
+   "time": [
+    120,
+    240
+   ],
+   "weight": 2.4,
+   "age": 14,
+   "tags": [
+    "Strategy",
+    "Thematic"
+   ],
+   "summary": "Risk set in Westeros and Essos, with character cards, maesters and objectives on top of classic conquest.",
+   "teach": [
+    "Goal: depends on the mode, usually objectives or points.",
+    "On your turn: deploy troops, attack with dice, then manoeuvre.",
+    "Extras: character and maester cards give special abilities; check the mode you're playing."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "room-25",
+   "name": "Room 25",
+   "players": [
+    1,
+    6
+   ],
+   "best": [
+    4,
+    6
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 2.0,
+   "age": 13,
+   "tags": [
+    "Co-op",
+    "Bluffing"
+   ],
+   "summary": "A sci-fi escape game in a shifting grid of deadly rooms. Play it fully co-op, or with hidden guards secretly working against the prisoners.",
+   "teach": [
+    "Goal: prisoners find Room 25 and escape before time runs out.",
+    "Each round: secretly plan two actions (look, move, push, control the rooms), then resolve them in turn.",
+    "Rooms: many are traps. Peek before you step in."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "scattergories",
+   "name": "Scattergories",
+   "players": [
+    2,
+    6
+   ],
+   "best": [
+    4,
+    6
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 1.2,
+   "age": 12,
+   "tags": [
+    "Party",
+    "Word & trivia",
+    "Family"
+   ],
+   "summary": "The classic category word game: roll a letter and race the timer to fill your list with answers nobody else thought of.",
+   "teach": [
+    "Goal: score the most points.",
+    "Each round: roll the letter die and start the timer. Write one answer per category starting with that letter.",
+    "Scoring: read answers out. Unique valid answers score a point."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "scythe",
+   "name": "Scythe",
+   "players": [
+    1,
+    5
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    90,
+    115
+   ],
+   "weight": 3.4,
+   "age": 14,
+   "tags": [
+    "Strategy",
+    "Thematic"
+   ],
+   "summary": "An engine-building game set in an alternate-history 1920s Europe of farms and mechs. There's surprisingly little fighting; it's mostly about efficiency and timing.",
+   "teach": [
+    "Goal: most coins when someone places their sixth star.",
+    "On your turn: move your token to a different section of your player mat. Take its top action, then optionally its bottom action.",
+    "Stars: earned for achievements (upgrades, mechs, buildings, workers, objectives, combat wins and so on)."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "sierra-west",
+   "name": "Sierra West",
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    2,
+    3
+   ],
+   "time": [
+    60,
+    90
+   ],
+   "weight": 3.0,
+   "age": 12,
+   "tags": [
+    "Strategy",
+    "Thematic"
+   ],
+   "summary": "A pioneering game set in the Sierra Nevada mountains, built around an unusual card-shifting system that decides your actions each turn.",
+   "teach": [
+    "Goal: most points at the end.",
+    "On your turn: play a card into your tableau, shifting the others; the visible card actions are what you get to do.",
+    "Expeditions: move your pioneer up the mountain to collect resources and opportunities."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "skull",
+   "name": "Skull",
+   "players": [
+    3,
+    6
+   ],
+   "best": [
+    5,
+    6
+   ],
+   "time": [
+    15,
+    45
+   ],
+   "weight": 1.1,
+   "age": 10,
+   "tags": [
+    "Bluffing",
+    "Party"
+   ],
+   "summary": "An elegant bluffing game with just four coasters each: three flowers and one skull. Bid how many you can flip without finding a skull.",
+   "teach": [
+    "Goal: win two challenges, or be the last player with coasters.",
+    "On your turn: add a coaster face down to your pile, or start a bid for how many you can flip.",
+    "Flipping: the highest bidder flips their own pile first. Hit a skull and you lose a coaster."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "sky-team",
+   "name": "Sky Team",
+   "players": [
+    2,
+    2
+   ],
+   "best": [
+    2
+   ],
+   "time": [
+    15,
+    20
+   ],
+   "weight": 2.0,
+   "age": 12,
+   "tags": [
+    "Co-op"
+   ],
+   "summary": "A co-operative two-player game about landing a plane. You place dice on the cockpit controls without talking, trusting your co-pilot to read your mind.",
+   "teach": [
+    "Goal: land safely at the airport.",
+    "Each round: both of you roll secretly, then take turns placing one die at a time on the controls. No talking about dice.",
+    "Landing: on the final round, axis, speed, gear, flaps and brakes must all be right."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "slay-the-spire",
+   "name": "Slay the Spire: The Board Game",
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    1,
+    2
+   ],
+   "time": [
+    30,
+    60
+   ],
+   "weight": 2.7,
+   "age": 12,
+   "tags": [
+    "Co-op",
+    "Campaign",
+    "Strategy"
+   ],
+   "summary": "The deck-building roguelike turned into a co-operative board game. Fight up the spire act by act, growing your deck and relics along the way.",
+   "teach": [
+    "Goal: defeat the boss at the top of each act.",
+    "Combat: draw 5, spend 3 energy on cards (attack, block, skills); enemies act based on dice and intent.",
+    "Between fights: choose your path on the map: fights, events, shops, rest sites."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "small-world",
+   "name": "Small World",
+   "players": [
+    2,
+    5
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    40,
+    80
+   ],
+   "weight": 2.4,
+   "age": 8,
+   "tags": [
+    "Strategy",
+    "Family"
+   ],
+   "summary": "A light area-control game of fantasy races in a world that's too small for all of them. Know when to put your race into decline and start a new one.",
+   "teach": [
+    "Goal: most coins after the last turn.",
+    "On your turn: conquer regions with your race's tokens; each region costs 2 tokens plus defenders.",
+    "Decline: put your race into decline (skip conquering for a turn) and pick a fresh race next turn. Score coins for every region you hold."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "snakesss",
+   "name": "Snakesss",
+   "players": [
+    3,
+    8
+   ],
+   "best": [
+    5,
+    6
+   ],
+   "time": [
+    20,
+    30
+   ],
+   "weight": 1.0,
+   "age": 10,
+   "tags": [
+    "Party"
+   ],
+   "summary": "A party game.",
+   "teach": [],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "spirit-island",
+   "name": "Spirit Island",
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    2,
+    3
+   ],
+   "time": [
+    90,
+    120
+   ],
+   "weight": 4.1,
+   "age": 13,
+   "tags": [
+    "Co-op",
+    "Strategy"
+   ],
+   "summary": "A deep co-operative game where you play island spirits driving out colonising invaders. Each spirit plays completely differently.",
+   "teach": [
+    "Goal: drive the invaders out by raising terror and meeting the terror victory condition.",
+    "Each round: grow, gain energy, then play power cards (fast powers happen before the invaders, slow powers after).",
+    "Invaders: they ravage, build and explore in a predictable cycle. Use that to plan ahead."
+   ],
+   "expansions": [],
+   "complexity": 4,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "splendor",
+   "name": "Splendor",
+   "players": [
+    2,
+    4
+   ],
+   "best": [
+    3
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 1.8,
+   "age": 10,
+   "tags": [
+    "Strategy",
+    "Family"
+   ],
+   "summary": "An elegant engine-builder: collect gem chips to buy development cards, which make future purchases cheaper.",
+   "teach": [
+    "Goal: first to 15 prestige (finish the round).",
+    "On your turn: take 3 different gems, take 2 of the same (if 4+ remain), reserve a card (and take gold), or buy a card.",
+    "Nobles: they visit automatically when you have enough cards of the right colours."
+   ],
+   "expansions": [
+    {
+     "name": "Cities of Splendor",
+     "note": "Four modules: Cities (new win conditions), Trading Posts, The Orient, and Strongholds. Add one at a time."
+    }
+   ],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "splendor-duel",
+   "name": "Splendor Duel",
+   "players": [
+    2,
+    2
+   ],
+   "best": [
+    2
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 2.0,
+   "age": 10,
+   "tags": [
+    "Strategy"
+   ],
+   "summary": "A tighter two-player Splendor with a shared token board, privileges and three ways to win.",
+   "teach": [
+    "Goal: 20 prestige, 10 crowns, or 10 prestige in a single colour.",
+    "On your turn: optional actions (use a privilege, refill the board), then take tokens in a line, reserve a card, or buy a card.",
+    "Watch out: refilling the board gives your opponent a privilege."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "splendor-marvel",
+   "name": "Splendor: Marvel",
+   "players": [
+    2,
+    4
+   ],
+   "best": [
+    3
+   ],
+   "time": [
+    30,
+    45
+   ],
+   "weight": 1.8,
+   "age": 10,
+   "tags": [
+    "Strategy",
+    "Family"
+   ],
+   "summary": "Splendor with Marvel heroes and the Infinity Stones. The finish needs a little more than points.",
+   "teach": [
+    "Goal: 16 points, 3 Avengers icons, and at least one card of each Infinity Stone colour.",
+    "On your turn: like Splendor: take stones, reserve, or buy a card.",
+    "Avengers tile: whoever has the most Avengers icons holds the tile."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "spyfall",
+   "name": "Spyfall",
+   "players": [
+    3,
+    8
+   ],
+   "best": [
+    6,
+    7
+   ],
+   "time": [
+    15,
+    15
+   ],
+   "weight": 1.2,
+   "age": 12,
+   "tags": [
+    "Party",
+    "Bluffing",
+    "Deduction"
+   ],
+   "summary": "A quick party game of questions. Everyone knows the location except the spy, who has to work it out without giving themselves away.",
+   "teach": [
+    "Goal: catch the spy, or as the spy, guess the location.",
+    "Play: take turns asking someone a question about the location; they answer, then ask someone else.",
+    "Accusations: anyone can call a vote. The spy can stop the game at any time to guess the location."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "star-wars-imperial-assault",
+   "name": "Star Wars: Imperial Assault",
+   "players": [
+    1,
+    5
+   ],
+   "best": [
+    3,
+    5
+   ],
+   "time": [
+    60,
+    120
+   ],
+   "weight": 3.3,
+   "age": 14,
+   "tags": [
+    "Campaign",
+    "Thematic",
+    "Strategy"
+   ],
+   "summary": "Tactical Star Wars skirmishes on tiled maps. Play a campaign with one Imperial player against the Rebels, a two-player skirmish, or co-op with the free app.",
+   "teach": [
+    "Goal: complete the mission's objectives.",
+    "On your turn: activate a figure group for 2 actions (move, attack, interact, rest). Attacks use custom dice.",
+    "Campaign: Rebels and the Empire both spend experience and credits between missions."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "star-wars-rebellion",
+   "name": "Star Wars: Rebellion",
+   "players": [
+    2,
+    4
+   ],
+   "best": [
+    2
+   ],
+   "time": [
+    180,
+    240
+   ],
+   "weight": 3.7,
+   "age": 14,
+   "tags": [
+    "Strategy",
+    "Thematic"
+   ],
+   "summary": "The whole original trilogy as an asymmetric strategy epic. The Empire hunts for the hidden Rebel base while the Rebels win hearts and minds.",
+   "teach": [
+    "Goal: the Empire finds and destroys the base. The Rebels survive until the time marker meets reputation.",
+    "Each round: assign leaders to missions face down, then take turns revealing missions or moving fleets.",
+    "Combat: dice and tactic cards; leaders can be captured."
+   ],
+   "expansions": [],
+   "complexity": 4,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "superclub",
+   "name": "Superclub: The Football Manager Board Game",
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    3,
+    4
+   ],
+   "time": [
+    60,
+    120
+   ],
+   "weight": 2.5,
+   "age": 12,
+   "tags": [
+    "Strategy",
+    "Thematic"
+   ],
+   "summary": "A football management board game. Buy and sell players, build your club and compete across a season.",
+   "teach": [
+    "Goal: build the most successful club over the season.",
+    "Each round: transfers, then matches, then finances and fans.",
+    "Matches: player ratings decide results, with a little luck."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "survive-the-island",
+   "name": "Survive the Island",
+   "players": [
+    2,
+    4
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    45,
+    60
+   ],
+   "weight": 1.6,
+   "age": 8,
+   "tags": [
+    "Family",
+    "Strategy"
+   ],
+   "summary": "A cut-throat family classic: rescue your islanders as the island sinks, while sending sharks, whales and sea serpents after everyone else's.",
+   "teach": [
+    "Goal: most points from the people you get to the safe islands.",
+    "On your turn: move your people or boats, remove an island tile (it may reveal something), then roll to move a sea creature.",
+    "Points: each person has a hidden value, so you never know exactly who's ahead."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "sushi-go",
+   "name": "Sushi Go! (10th Anniversary Edition)",
+   "players": [
+    2,
+    5
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    15,
+    15
+   ],
+   "weight": 1.2,
+   "age": 8,
+   "tags": [
+    "Family",
+    "Party"
+   ],
+   "summary": "A cute, quick card-drafting game: pick a sushi dish, pass the rest, and build the best-scoring meal.",
+   "teach": [
+    "Goal: most points after three rounds.",
+    "Each turn: everyone picks one card from their hand at the same time, then passes the rest.",
+    "Scoring: sets score in different ways (tempura pairs, sashimi triples, maki majority). Puddings are scored at the very end."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "taskmaster-card-game",
+   "name": "Taskmaster: The Card Game",
+   "players": [
+    3,
+    8
+   ],
+   "best": [
+    4,
+    6
+   ],
+   "time": [
+    30,
+    45
+   ],
+   "weight": 1.0,
+   "age": 12,
+   "tags": [
+    "Party"
+   ],
+   "summary": "Silly tasks in the style of the TV show. Players attempt the tasks and a Taskmaster judges who did best.",
+   "teach": [
+    "Goal: earn the most points.",
+    "Each round: reveal a task; everyone attempts it.",
+    "Judging: the Taskmaster awards points, as arbitrarily as on the show."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "tension",
+   "name": "Tension: The Crazy Naming Game",
+   "players": [
+    4,
+    12
+   ],
+   "best": [
+    6,
+    8
+   ],
+   "time": [
+    30,
+    45
+   ],
+   "weight": 1.0,
+   "age": 10,
+   "tags": [
+    "Party",
+    "Word & trivia"
+   ],
+   "summary": "A fast team naming game: shout out as many answers as you can in a category against the clock.",
+   "teach": [
+    "Goal: score the most points for your team.",
+    "Each turn: read the category and start the timer; your team names as many answers as possible.",
+    "Scoring: see the rulebook for which answers count."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "terraforming-mars",
+   "name": "Terraforming Mars",
+   "players": [
+    1,
+    5
+   ],
+   "best": [
+    3
+   ],
+   "time": [
+    120,
+    120
+   ],
+   "weight": 3.3,
+   "age": 12,
+   "tags": [
+    "Strategy"
+   ],
+   "summary": "Run a corporation turning Mars habitable. Raise temperature and oxygen, and place oceans, cities and greenery, all powered by a huge deck of project cards.",
+   "teach": [
+    "Goal: most victory points (terraform rating plus cards, tiles, milestones and awards) once Mars is terraformed.",
+    "On your turn: take 1–2 actions: play a card, use a standard project, claim a milestone, fund an award, or convert plants and heat.",
+    "Each generation: buy cards, take actions in turn until everyone passes, then production pays out."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "throw-throw-burrito",
+   "name": "Throw Throw Burrito",
+   "players": [
+    2,
+    6
+   ],
+   "best": [
+    4,
+    6
+   ],
+   "time": [
+    15,
+    15
+   ],
+   "weight": 1.2,
+   "age": 7,
+   "tags": [
+    "Party",
+    "Dexterity",
+    "Family"
+   ],
+   "summary": "A card game crossed with dodgeball. Collect matching sets, then throw squishy foam burritos at each other when battle cards come up.",
+   "teach": [
+    "Goal: most points from sets and burrito battles.",
+    "Play: there are no turns. Everyone draws and passes cards at the same time, collecting sets of three.",
+    "Battles: when a battle set appears, grab a burrito and throw. Getting hit costs points."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "ticket-to-ride",
+   "name": "Ticket to Ride",
+   "players": [
+    2,
+    5
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    30,
+    60
+   ],
+   "weight": 1.8,
+   "age": 8,
+   "tags": [
+    "Family",
+    "Strategy"
+   ],
+   "summary": "The gateway classic: collect coloured train cards to claim railway routes across the map and connect the cities on your tickets.",
+   "teach": [
+    "Goal: most points from routes, completed tickets and the longest route.",
+    "On your turn: draw 2 train cards, claim a route by paying matching cards, or draw destination tickets.",
+    "Watch out: unfinished tickets count against you."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "tokyo-highway",
+   "name": "Tokyo Highway (2-Player Version)",
+   "players": [
+    2,
+    2
+   ],
+   "best": [
+    2
+   ],
+   "time": [
+    30,
+    45
+   ],
+   "weight": 2.0,
+   "age": 8,
+   "tags": [
+    "Dexterity",
+    "Strategy"
+   ],
+   "summary": "A dexterity and strategy game about building elevated highways with tiny pillars and road sticks. Score by placing cars where your roads cross over or under others.",
+   "teach": [
+    "Goal: be first to place all your cars.",
+    "On your turn: add pillars and a road segment that extends your network. Pillar height must step up or down by one.",
+    "Cars: crossing over or under an opponent's road lets you place a car. Knocking pieces over means a penalty."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "uno",
+   "name": "UNO",
+   "players": [
+    2,
+    10
+   ],
+   "best": [
+    4,
+    6
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 1.1,
+   "age": 7,
+   "tags": [
+    "Family",
+    "Party"
+   ],
+   "summary": "The classic card game: match by colour or number, and don't forget to call UNO.",
+   "teach": [
+    "Goal: be first to empty your hand (or reach the target score over rounds).",
+    "On your turn: play a card matching the colour or number, or play a wild. If you can't, draw.",
+    "Action cards: skip, reverse, draw two and wild draw four. Say 'UNO' when you have one card left."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "wavelength",
+   "name": "Wavelength",
+   "players": [
+    2,
+    12
+   ],
+   "best": [
+    6,
+    8
+   ],
+   "time": [
+    30,
+    45
+   ],
+   "weight": 1.1,
+   "age": 14,
+   "tags": [
+    "Party"
+   ],
+   "summary": "A team guessing game about reading each other's minds. One player gives a clue to show where a hidden target sits on a spectrum like 'hot ↔ cold'.",
+   "teach": [
+    "Goal: first team to 10 points.",
+    "Each turn: the psychic secretly sees the target and gives a clue; their team turns the dial to where they think it is.",
+    "Scoring: points for how close the dial lands. The other team then guesses left or right of the dial for a bonus point."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "wingspan",
+   "name": "Wingspan",
+   "players": [
+    1,
+    5
+   ],
+   "best": [
+    2,
+    3
+   ],
+   "time": [
+    40,
+    70
+   ],
+   "weight": 2.4,
+   "age": 10,
+   "tags": [
+    "Strategy",
+    "Family"
+   ],
+   "summary": "A relaxing engine-builder about attracting birds to your wildlife preserves. It's lovely to look at, and your bird powers chain together nicely.",
+   "teach": [
+    "Goal: most points after four rounds.",
+    "On your turn: play a bird, or take one of three actions (gain food, lay eggs, draw cards). Each action also triggers the brown powers in that row.",
+    "Rounds: you get fewer turns each round, and each round has an end-of-round goal."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "witcher-old-world",
+   "name": "The Witcher: Old World",
+   "players": [
+    1,
+    5
+   ],
+   "best": [
+    2,
+    3
+   ],
+   "time": [
+    90,
+    150
+   ],
+   "weight": 3.0,
+   "age": 14,
+   "tags": [
+    "Thematic",
+    "Strategy"
+   ],
+   "summary": "An adventure game set in the Witcher world. You train as a witcher, hunt monsters across the Continent and race to complete your trophies.",
+   "teach": [
+    "Goal: first to complete the set number of trophies (monsters, quests, duels).",
+    "On your turn: take an action, move with travel cards, explore locations, then fight monsters with your deck.",
+    "Combat: play combo chains from your deck; build better attacks and defences over time."
+   ],
+   "expansions": [
+    {
+     "name": "Kickstarter expansion",
+     "note": "Exact contents of your Kickstarter add-ons still to be confirmed."
+    }
+   ],
+   "complexity": 3,
+   "adults": false,
+   "shelf": ""
+  },
+  {
+   "id": "wits-and-wagers",
+   "name": "Wits & Wagers",
+   "players": [
+    3,
+    7
+   ],
+   "best": [
+    6,
+    7
+   ],
+   "time": [
+    25,
+    25
+   ],
+   "weight": 1.2,
+   "age": 10,
+   "tags": [
+    "Party",
+    "Word & trivia",
+    "Family"
+   ],
+   "summary": "A trivia game where you don't need to know the answers. Everyone guesses a number, then bets on whichever guess they think is closest.",
+   "teach": [
+    "Goal: most chips after seven questions.",
+    "Each question: everyone writes a numerical guess; guesses go on the betting mat in order.",
+    "Betting: bet on the guess you think is closest without going over. Odds pay out more on the edges."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": ""
+  }
+ ]
+}

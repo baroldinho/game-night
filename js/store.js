@@ -5,7 +5,7 @@ import {
   signInWithRedirect, signOut, onAuthStateChanged, getFirestore, doc, getDoc, getDocs,
   setDoc, updateDoc, deleteDoc, collection, onSnapshot, writeBatch, serverTimestamp, increment
 } from "./firebase-bundle.js";
-import { firebaseConfig } from "./config.js";
+import { firebaseConfig, WEB3FORMS_KEY } from "./config.js";
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
@@ -166,3 +166,16 @@ export function watchRequests(cb) {
     (s) => cb(s.docs.map((d) => ({ id: d.id, ...d.data() }))), () => cb([]));
 }
 export async function deleteRequest(id) { await deleteDoc(doc(db, "requests", id)); }
+
+// Email the host about a new request. Best effort: a failed email never blocks the request.
+export async function emailHost({ subject, message, name }) {
+  if (!WEB3FORMS_KEY) return false;
+  try {
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify({ access_key: WEB3FORMS_KEY, subject, from_name: "Game Night", name, message }),
+    });
+    return res.ok;
+  } catch (e) { return false; }
+}

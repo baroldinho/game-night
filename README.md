@@ -1,6 +1,6 @@
 # Game Night
 
-James's board game collection and game night voting, live at
+Luke's board game collection and game night voting, live at
 **https://baroldinho.github.io/game-night/**
 
 - Guests scan the Game Night plate (QR or NFC) to browse the collection, filter by

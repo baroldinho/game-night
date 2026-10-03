@@ -654,6 +654,12 @@ const actions = {
     try {
       await store.saveRequest({ type, gameId: id, name: S.name });
       S.asked[`${type}_${id}`] = true;
+      const gname = S.byId[id] ? S.byId[id].name : id;
+      store.emailHost({
+        name: S.name,
+        subject: type === "bring" ? `Game Night: ${S.name} asked you to bring ${gname}` : `Game Night: ${S.name} asked you to teach ${gname}`,
+        message: `${S.name} ${type === "bring" ? "would like you to bring" : "would like you to teach them"} ${gname}.\n\nSee all requests: ${location.origin}${location.pathname}#/host`,
+      });
       writeLocal("gn-asked", JSON.stringify(S.asked));
       toast(type === "bring" ? `Asked ${HOST_NAME} to bring it.` : `Asked ${HOST_NAME} for a teach.`);
       render();

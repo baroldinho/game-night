@@ -9,9 +9,15 @@ export const firebaseConfig = {
   appId: "1:592531630345:web:22286ecbd1cab3ac598bd8"
 };
 
-// Shown to guests, e.g. "James will announce the winner".
-export const HOST_NAME = "James";
+// Shown to guests, e.g. "Luke will announce the winner".
+export const HOST_NAME = "Luke";
 
 // Voting limits per person.
 export const MAX_YES = 2;
 export const MAX_NO = 1;
+
+// Email alerts for "bring it" and "teach me" requests, sent through Web3Forms
+// (free). Paste the access key Web3Forms emails you between the quotes. The key
+// can only send to your own address, so it's safe to keep in public code.
+// Leave it empty to turn email alerts off.
+export const WEB3FORMS_KEY = "";

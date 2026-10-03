@@ -3,7 +3,7 @@
 import {
   initializeApp, getAuth, signInAnonymously, GoogleAuthProvider, signInWithPopup,
   signInWithRedirect, signOut, onAuthStateChanged, getFirestore, doc, getDoc, getDocs,
-  setDoc, updateDoc, collection, onSnapshot, writeBatch, serverTimestamp, increment
+  setDoc, updateDoc, deleteDoc, collection, onSnapshot, writeBatch, serverTimestamp, increment
 } from "./firebase-bundle.js";
 import { firebaseConfig } from "./config.js";
 
@@ -155,3 +155,14 @@ export async function loadShortlists() {
 export async function saveShortlists(lists) {
   await setDoc(doc(db, "private", "_shortlists"), { lists });
 }
+
+// ---------- guest requests: "bring this game" and "teach me" ----------
+export async function saveRequest({ type, gameId, name }) {
+  await setDoc(doc(db, "requests", `${type}_${gameId}_${currentUser.uid}`),
+    { type, gameId, name, uid: currentUser.uid, createdAt: serverTimestamp() });
+}
+export function watchRequests(cb) {
+  return onSnapshot(collection(db, "requests"),
+    (s) => cb(s.docs.map((d) => ({ id: d.id, ...d.data() }))), () => cb([]));
+}
+export async function deleteRequest(id) { await deleteDoc(doc(db, "requests", id)); }

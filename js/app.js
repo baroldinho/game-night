@@ -8,7 +8,7 @@ const S = {
   night: null, nightLoaded: false,
   myBallot: null, draft: { yes: [], no: [] }, draftDirty: false, saveState: "",
   name: readLocal("gn-name"), editingName: false,
-  ballots: [],
+  ballots: [], requests: [], asked: readAsked(),
   priv: {}, privLoaded: false, shortlists: {},
   filters: { q: "", players: 0, best: false, time: 0, cx: [], tags: [], hideAdults: false },
   filtersOpen: false,
@@ -23,6 +23,7 @@ const MANUAL_TAGS = FILTER_TAGS.slice(0, 10);
 const $app = document.getElementById("app");
 const $print = document.getElementById("print-root");
 
+function readAsked() { try { return JSON.parse(localStorage.getItem("gn-asked") || "{}"); } catch (e) { return {}; } }
 function readLocal(k) { try { return localStorage.getItem(k) || ""; } catch (e) { return ""; } }
 function writeLocal(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* private mode */ } }
 
@@ -94,6 +95,7 @@ function similar(g) {
 }
 
 // ------------------------------------------------------------------ subscriptions
+let unsubReq = null;
 let unsubNight = null, unsubMine = null, unsubAll = null, subsKey = "", lastUid = null, lastOwner = false;
 
 function startNightWatch() {
@@ -138,8 +140,8 @@ store.onUser((u, problem) => {
     lastUid = u.uid || "none";
     startNightWatch();
   }
-  if (u.isOwner && !lastOwner) { lastOwner = true; loadOwnerData(); }
-  if (!u.isOwner && lastOwner) { lastOwner = false; S.priv = {}; S.privLoaded = false; }
+  if (u.isOwner && !lastOwner) { lastOwner = true; loadOwnerData(); unsubReq = store.watchRequests((r) => { S.requests = r; refresh(); }); }
+  if (!u.isOwner && lastOwner) { lastOwner = false; S.priv = {}; S.privLoaded = false; S.requests = []; if (unsubReq) { unsubReq(); unsubReq = null; } }
   refreshSubs(); refresh();
 });
 setTimeout(() => { if (!S.nightLoaded) { S.nightLoaded = true; refresh(); } }, 5000);
@@ -279,6 +281,7 @@ function viewGame(g, params) {
       <div><dt>Complexity</dt><dd>${think(g.complexity)}</dd></div>
     </dl>
     ${canVote ? `<div class="panel"><strong>${nightOpen() ? "Vote on this game for tonight" : "Voting has closed"}</strong>${nameLine(true)}${voteButtons(g)}<p class="small muted" style="margin:8px 0 0">${voteCountText()}</p></div>` : ""}
+    ${editing ? "" : requestPanel(g)}
     ${editing ? editForm(g) : `
       ${g.summary ? `<p class="lead">${esc(g.summary)}</p>` : ""}
       <div class="taglist">${gameTags(g).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>
@@ -294,6 +297,21 @@ function viewGame(g, params) {
       </ul>
       ${isOwner() ? `<div class="btn-row"><button type="button" class="btn quiet" data-action="edit" data-id="${esc(g.id)}">Edit this game</button></div>` : ""}`}
     ${isOwner() ? privatePanel(g) : ""}`;
+}
+
+const TEACH_MIN = 3;
+const canTeach = (g) => (g.teachConfidence || 0) >= TEACH_MIN;
+function requestPanel(g) {
+  const asked = (t) => S.asked[`${t}_${g.id}`];
+  const btn = (t, label, done) => asked(t)
+    ? `<button type="button" class="btn quiet" disabled>${done}</button>`
+    : `<button type="button" class="btn ${t === "bring" ? "" : "quiet"}" data-action="ask" data-type="${t}" data-id="${esc(g.id)}">${label}</button>`;
+  return `<div class="panel"><strong>Fancy this one?</strong>
+    ${S.name ? `<p class="small" style="margin:6px 0 0">Asking as <strong>${esc(S.name)}</strong>.</p>` : nameLine(true)}
+    <div class="btn-row">
+      ${btn("bring", `Ask ${esc(HOST_NAME)} to bring it this week`, "Asked to bring it")}
+      ${canTeach(g) ? btn("teach", `Ask ${esc(HOST_NAME)} to teach me`, "Asked for a teach") : ""}
+    </div></div>`;
 }
 
 function editForm(g) {
@@ -333,6 +351,9 @@ function privatePanel(g) {
     ${p.check ? `<p class="notice warn"><strong>To check:</strong> ${esc(p.check)}</p>` : ""}
     <p><strong>Last played:</strong> ${p.lastPlayed ? esc(p.lastPlayed) : "not recorded"}${p.plays ? ` (${p.plays} play${p.plays > 1 ? "s" : ""} recorded)` : ""}</p>
     <div class="btn-row"><button type="button" class="btn" data-action="played" data-id="${esc(g.id)}">Mark as played today</button></div>
+    <label for="p-teach">How confident are you teaching this? (guests can ask for a teach at ${TEACH_MIN} or above)</label>
+    <div class="btn-row" style="margin-top:4px"><select id="p-teach" style="flex:1;min-width:160px">${[0, 1, 2, 3, 4, 5].map((n) => `<option value="${n}" ${(g.teachConfidence || 0) === n ? "selected" : ""}>${n ? `${n} of 5` : "Not set"}</option>`).join("")}</select>
+      <button type="button" class="btn quiet" data-action="teach-save" data-id="${esc(g.id)}">Save</button></div>
     <p><strong>Custom insert:</strong> ${esc(p.insert || "not recorded")}${p.pieces ? `<br><strong>Custom pieces:</strong> ${esc(p.pieces)}` : ""}</p>
     ${sleeves.length ? `<h3>Cards and sleeves</h3><div class="table-wrap"><table><thead><tr><th>Cards</th><th>Size</th><th class="num">Count</th><th>Sleeve</th><th>Status</th></tr></thead><tbody>
       ${sleeves.map((s) => `<tr><td>${esc(s.part)}</td><td>${esc(s.card)}</td><td class="num">${s.count ?? ""}</td><td>${esc(s.sleeve)}${s.sleeveSize ? `<br><span class="muted small">${esc(s.sleeveSize)}</span>` : ""}</td><td>${esc(s.status)}</td></tr>`).join("")}
@@ -461,6 +482,7 @@ function viewHost() {
   return `<h1>Host tools</h1>
     <p class="small muted">Signed in as ${esc(u.email || u.name)}. <button type="button" class="btn ghost" style="min-height:32px;padding:2px 8px" data-action="signout">Sign out</button></p>
     <section class="panel owner"><h2>Game night</h2>${night}</section>
+    ${requestsSection()}
     <section class="panel"><h2>Collection data</h2>
       ${S.source === "live" ? `<p>The site is reading ${S.games.length} games from your database.</p>` : `<p class="notice warn">The site is showing the starter list. Import it so your edits are saved.</p>`}
       <div class="btn-row"><button type="button" class="btn ${S.source === "live" ? "quiet" : ""}" data-action="import-games">${S.source === "live" ? "Re-import the starter list" : "Import the starter list"}</button></div>
@@ -474,6 +496,17 @@ function viewHost() {
     ${checks.length ? `<section class="panel"><h2>Games to check (${checks.length})</h2><p class="small muted">These summaries came from memory or I wasn't sure of the rules. Check them against the box and edit.</p>
       <ul>${checks.map((g) => `<li><a href="#/game/${esc(g.id)}">${esc(g.name)}</a> <span class="muted small">${esc(S.priv[g.id].check)}</span></li>`).join("")}</ul></section>` : ""}
     ${hasPrivate ? `<section class="panel"><h2>Longest since played</h2><ul>${leastPlayed.map((g) => `<li><a href="#/game/${esc(g.id)}">${esc(g.name)}</a> <span class="muted small">${(S.priv[g.id] || {}).lastPlayed || "never recorded"}</span></li>`).join("")}</ul></section>` : ""}`;
+}
+
+function requestsSection() {
+  const groups = [["bring", "Bring it this week"], ["teach", "Teach me"]].map(([t, title]) => {
+    const list = S.requests.filter((r) => r.type === t)
+      .sort((x, y) => ((y.createdAt && y.createdAt.seconds) || 0) - ((x.createdAt && x.createdAt.seconds) || 0));
+    return `<h3>${title} (${list.length})</h3>${list.length ? `<ul class="list">${list.map((r) => `<li class="vote-item" style="display:flex;justify-content:space-between;gap:10px;align-items:center">
+      <span><a href="#/game/${esc(r.gameId)}">${esc(S.byId[r.gameId] ? S.byId[r.gameId].name : r.gameId)}</a><br><span class="small muted">${esc(r.name)}${r.createdAt && r.createdAt.seconds ? `, ${new Date(r.createdAt.seconds * 1000).toLocaleDateString("en-GB", { day: "numeric", month: "short" })}` : ""}</span></span>
+      <button type="button" class="btn ghost" style="min-height:36px;padding:4px 10px" data-action="req-done" data-id="${esc(r.id)}">Done</button></li>`).join("")}</ul>` : `<p class="small muted">No requests.</p>`}`;
+  }).join("");
+  return `<section class="panel owner"><h2>Requests from guests</h2>${groups}</section>`;
 }
 
 // ---------- shortlist builder
@@ -613,6 +646,25 @@ const actions = {
       p.lastPlayed = day; p.plays = (p.plays || 0) + 1;
       toast("Marked as played today."); render();
     } catch (e) { toast("Couldn't save. Check you're signed in as the host."); }
+  },
+  ask: async (el) => {
+    const type = el.dataset.type, id = el.dataset.id;
+    if (!S.user.uid) { toast(S.authProblem || "Still connecting. Try again in a moment."); return; }
+    if (!S.name) { toast("Add your first name first."); const i = document.getElementById("voter-name"); if (i) i.focus(); return; }
+    try {
+      await store.saveRequest({ type, gameId: id, name: S.name });
+      S.asked[`${type}_${id}`] = true;
+      writeLocal("gn-asked", JSON.stringify(S.asked));
+      toast(type === "bring" ? `Asked ${HOST_NAME} to bring it.` : `Asked ${HOST_NAME} for a teach.`);
+      render();
+    } catch (e) { toast("Couldn't send the request. Try again."); }
+  },
+  "req-done": async (el) => { try { await store.deleteRequest(el.dataset.id); } catch (e) { toast("Couldn't clear it."); } },
+  "teach-save": async (el) => {
+    const id = el.dataset.id, v = Number(document.getElementById("p-teach").value);
+    if (S.source !== "live") { toast("Import the starter list on the Host page first."); return; }
+    try { await store.saveGame(id, { teachConfidence: v }); S.byId[id].teachConfidence = v; toast("Teaching confidence saved."); render(); }
+    catch (e) { toast("Couldn't save."); }
   },
   "notes-save": async (el) => {
     const id = el.dataset.id, t = document.getElementById("p-notes");

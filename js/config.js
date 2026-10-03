@@ -20,4 +20,4 @@ export const MAX_NO = 1;
 // (free). Paste the access key Web3Forms emails you between the quotes. The key
 // can only send to your own address, so it's safe to keep in public code.
 // Leave it empty to turn email alerts off.
-export const WEB3FORMS_KEY = "";
+export const WEB3FORMS_KEY = "ddc91f06-481b-4a7f-aba6-c75a3bcc5f0b";

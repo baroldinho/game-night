@@ -1,5 +1,6 @@
 import * as store from "./store.js";
 import { HOST_NAME, MAX_YES, MAX_NO } from "./config.js";
+import * as masterSheet from "./sheet.js";
 
 // ------------------------------------------------------------------ state
 const S = {
@@ -45,9 +46,12 @@ const gameTags = (g) => [...(g.tags || []), ...(isTwo(g) ? ["Two-player"] : []),
 const sortName = (n) => n.replace(/^(the|a)\s+/i, "").toLowerCase();
 const byName = (a, b) => sortName(a.name).localeCompare(sortName(b.name));
 const isOwner = () => !!S.user.isOwner;
+const isPre = (g) => g.status === "Pre-order";
+const playable = (list) => list.filter((g) => !isPre(g));
+const preBadge = (g) => (isPre(g) ? '<span class="badge pre">Pre-order</span>' : "");
 const nightOpen = () => S.night && S.night.status === "open";
 const onShortlist = (id) => S.night && S.night.mode === "shortlist" && (S.night.shortlist || []).includes(id);
-const votable = (id) => S.night && (S.night.mode === "all" || (S.night.shortlist || []).includes(id));
+const votable = (id) => S.night && (S.night.mode === "all" ? !(S.byId[id] && S.byId[id].status === "Pre-order") : (S.night.shortlist || []).includes(id));
 
 function toast(msg) {
   document.querySelectorAll(".toast").forEach((t) => t.remove());
@@ -87,6 +91,10 @@ const activeFilterCount = () => {
 };
 
 function similar(g) {
+  const chosen = (g.similar || []).map((id) => S.byId[id]).filter(Boolean);
+  return chosen.length ? chosen : autoSimilar(g);
+}
+function autoSimilar(g) {
   return S.games.filter((o) => o.id !== g.id).map((o) => {
     const shared = (o.tags || []).filter((t) => (g.tags || []).includes(t)).length;
     const overlap = o.players[0] <= g.players[1] && o.players[1] >= g.players[0] ? 1 : 0;
@@ -233,7 +241,7 @@ function factsLine(g) {
   return `<span class="facts"><span>${playersText(g)}</span><span>${timeText(g)}</span>${think(g.complexity)}</span>`;
 }
 function gameRow(g) {
-  const badges = `${onShortlist(g.id) ? '<span class="badge tonight">On tonight\'s list</span>' : ""}${g.adults ? '<span class="badge adults">Adults</span>' : ""}${isOwner() && S.priv[g.id] && S.priv[g.id].check ? '<span class="badge check">Check</span>' : ""}`;
+  const badges = `${preBadge(g)}${onShortlist(g.id) ? '<span class="badge tonight">On tonight\'s list</span>' : ""}${g.adults ? '<span class="badge adults">Adults</span>' : ""}${isOwner() && S.priv[g.id] && S.priv[g.id].check ? '<span class="badge check">Check</span>' : ""}`;
   return `<li><a class="row${g.cover ? " has-thumb" : ""}" href="#/game/${esc(g.id)}">${g.cover ? `<img class="thumb" src="${esc(g.cover)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ""}<span><span class="row-name">${esc(g.name)}${badges}</span>${factsLine(g)}</span></a></li>`;
 }
 
@@ -243,7 +251,7 @@ function viewCollection(params) {
   resultsFn = () => {
     const list = filtered();
     return `<div class="toolbar"><span class="muted">${list.length === S.games.length ? `All ${list.length} games` : `${list.length} of ${S.games.length} games`}</span>
-      <button type="button" class="btn ghost" data-action="pick" ${list.length ? "" : "disabled"}>Pick one for us</button></div>
+      <button type="button" class="btn ghost" data-action="pick" ${playable(list).length ? "" : "disabled"}>Pick one for us</button></div>
       ${list.length ? `<ul class="list">${list.map(gameRow).join("")}</ul>` : `<p class="empty">Nothing matches those filters. Try removing one.</p>`}`;
   };
   return `${S.night ? `<div class="notice">${nightOpen() ? `Game night is on. <a href="#/vote">Cast your votes</a>.` : `Voting has closed. ${esc(HOST_NAME)} will announce the winner.`}</div>` : ""}
@@ -270,8 +278,9 @@ function viewGame(g, params) {
   const editing = isOwner() && S.editing === g.id;
   const canVote = S.night && votable(g.id);
   return `<a class="back" href="#/all">Back to the collection</a>
-    ${picked ? `<div class="picked"><strong>Picked for you</strong> from ${esc(picked)} matching games. <button type="button" class="btn ghost" data-action="pick">Pick again</button></div>` : ""}
-    <h1>${esc(g.name)}${g.adults ? '<span class="badge adults">Adults</span>' : ""}</h1>
+    ${picked ? `<div class="picked"><strong>Picked for you</strong> from ${esc(picked)} matching games you can play now. <button type="button" class="btn ghost" data-action="pick">Pick again</button></div>` : ""}
+    <h1>${esc(g.name)}${preBadge(g)}${g.adults ? '<span class="badge adults">Adults</span>' : ""}</h1>
+    ${isPre(g) ? `<p class="notice">On pre-order: ${esc(HOST_NAME)} hasn't got this one yet.</p>` : ""}
     ${onShortlist(g.id) ? `<p><span class="badge tonight" style="margin-left:0">On tonight's list</span></p>` : ""}
     ${g.cover && !editing ? `<img class="cover" src="${esc(g.cover)}" alt="${esc(g.name)} box art" loading="lazy" referrerpolicy="no-referrer">` : ""}
     <dl class="factgrid">
@@ -282,7 +291,7 @@ function viewGame(g, params) {
       <div><dt>Complexity</dt><dd>${think(g.complexity)}</dd></div>
     </dl>
     ${canVote ? `<div class="panel"><strong>${nightOpen() ? "Vote on this game for tonight" : "Voting has closed"}</strong>${nameLine(true)}${voteButtons(g)}<p class="small muted" style="margin:8px 0 0">${voteCountText()}</p></div>` : ""}
-    ${editing ? "" : requestPanel(g)}
+    ${editing || isPre(g) ? "" : requestPanel(g)}
     ${editing ? editForm(g) : `
       ${g.summary ? `<p class="lead">${esc(g.summary)}</p>` : ""}
       <div class="taglist">${gameTags(g).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>
@@ -293,7 +302,7 @@ function viewGame(g, params) {
       ${sim.length ? `<h2>If you like this, try</h2><ul class="list">${sim.map(gameRow).join("")}</ul>` : ""}
       <h2>Learn more</h2>
       <ul>
-        <li><a href="https://boardgamegeek.com/geeksearch.php?action=search&amp;objecttype=boardgame&amp;q=${q}" target="_blank" rel="noopener">Find it on BoardGameGeek</a></li>
+        <li><a href="${g.bggId ? `https://boardgamegeek.com/boardgame/${Number(g.bggId)}` : `https://boardgamegeek.com/geeksearch.php?action=search&amp;objecttype=boardgame&amp;q=${q}`}" target="_blank" rel="noopener">${g.bggId ? "See it on BoardGameGeek" : "Find it on BoardGameGeek"}</a></li>
         <li><a href="https://www.youtube.com/results?search_query=${encodeURIComponent("how to play " + g.name)}" target="_blank" rel="noopener">How-to-play videos</a></li>
       </ul>
       ${isOwner() ? `<div class="btn-row"><button type="button" class="btn quiet" data-action="edit" data-id="${esc(g.id)}">Edit this game</button></div>` : ""}`}
@@ -322,6 +331,7 @@ function editForm(g) {
     <h2>Edit ${esc(g.name)}</h2>
     ${S.source !== "live" ? `<p class="notice warn">Import the starter list on the Host page before editing, or your change will be the only game in the database.</p>` : ""}
     <label for="e-name">Name</label><input id="e-name" type="text" name="name" value="${esc(g.name)}">
+    <label for="e-status">Status</label><select id="e-status" name="status">${["Owned", "Pre-order"].map((v) => `<option ${(g.status || "Owned") === v ? "selected" : ""}>${v}</option>`).join("")}</select>
     <label for="e-summary">Summary</label><textarea id="e-summary" name="summary">${esc(g.summary)}</textarea>
     <label for="e-teach">How to play in a minute (one point per line)</label><textarea id="e-teach" name="teach">${esc((g.teach || []).join("\n"))}</textarea>
     <div class="grid2">
@@ -386,9 +396,9 @@ function viewVote() {
   if (!S.night) return `<h1>No game night right now</h1><p>Voting opens when ${esc(HOST_NAME)} starts a game night. In the meantime, <a href="#/all">browse the collection</a>.</p>`;
   const n = S.night;
   const open = nightOpen();
-  const games = n.mode === "all" ? filtered() : (n.shortlist || []).map((id) => S.byId[id]).filter(Boolean).sort(byName);
+  const games = n.mode === "all" ? playable(filtered()) : (n.shortlist || []).map((id) => S.byId[id]).filter(Boolean).sort(byName);
   resultsFn = () => {
-    const list = n.mode === "all" ? filtered() : games;
+    const list = n.mode === "all" ? playable(filtered()) : games;
     if (!list.length) return `<p class="empty">${n.mode === "all" ? "Nothing matches those filters." : "The shortlist is empty."}</p>`;
     return `<ul class="list">${list.map((g) => `<li class="vote-item"><a class="row-name" href="#/game/${esc(g.id)}">${esc(g.name)}</a>${factsLine(g)}
       ${g.summary ? `<p class="snippet">${esc(g.summary.split(/(?<=\.)\s/)[0])}</p>` : ""}${voteButtons(g)}</li>`).join("")}</ul>`;
@@ -445,6 +455,29 @@ function tally() {
     .sort((a, b) => b.yes - a.yes || a.no - b.no || sortName(a.name).localeCompare(sortName(b.name)));
 }
 
+async function reloadGames() { const r = await store.loadGames(); setGames(r.games, r.source); }
+
+// What an upload would change, shown before anything is written.
+function makePlan(from, games, checks, errors, warnings) {
+  const incoming = new Set(games.map((g) => g.id));
+  const added = games.filter((g) => !S.byId[g.id]);
+  const remove = S.source === "live" ? S.games.filter((g) => !incoming.has(g.id)).map((g) => ({ id: g.id, name: g.name })) : [];
+  return { from, games, checks, errors, warnings, added, remove };
+}
+function sheetPlanPanel() {
+  const p = S.sheetPlan;
+  const pre = p.games.filter(isPre).length;
+  return `<div id="sheet-plan" class="notice${p.errors.length ? " warn" : ""}" style="margin-top:14px">
+    <strong>From ${esc(p.from)}</strong>
+    ${p.errors.length ? `<p style="margin:8px 0">Fix these in the spreadsheet, then upload it again. Nothing has been changed.</p><ul>${p.errors.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`
+      : `<p style="margin:8px 0">${p.games.length} games (${pre} on pre-order). ${p.added.length ? `New: ${p.added.map((g) => esc(g.name)).join(", ")}.` : "No new games."}</p>
+      ${p.remove.length ? `<p style="margin:8px 0 4px">Not in the file, so they'll be removed from the site (untick to keep):</p>${p.remove.map((r) => `<label class="check"><input type="checkbox" id="rm-${esc(r.id)}" checked> ${esc(r.name)}</label>`).join("")}` : ""}
+      ${p.warnings.length ? `<details style="margin:8px 0"><summary>${p.warnings.length} thing${p.warnings.length === 1 ? "" : "s"} to know</summary><ul>${p.warnings.map((x) => `<li class="small">${esc(x)}</li>`).join("")}</ul></details>` : ""}
+      <p class="small muted" style="margin:8px 0">${p.checks ? "Teaching confidence is only changed where the spreadsheet has a number. " : "Teaching confidence and check notes stay as they are. "}Last played, sleeves and private notes aren't touched.</p>`}
+    <div class="btn-row">${p.errors.length ? "" : `<button type="button" class="btn" data-action="sheet-apply">Update the collection</button>`}
+      <button type="button" class="btn quiet" data-action="sheet-cancel">Cancel</button></div></div>`;
+}
+
 function viewHost() {
   const u = S.user;
   if (!u.uid || u.isAnonymous) {
@@ -487,8 +520,14 @@ function viewHost() {
     ${requestsSection()}
     <section class="panel"><h2>Collection data</h2>
       ${S.source === "live" ? `<p>The site is reading ${S.games.length} games from your database.</p>` : `<p class="notice warn">The site is showing the starter list. Import it so your edits are saved.</p>`}
-      <div class="btn-row"><button type="button" class="btn ${S.source === "live" ? "quiet" : ""}" data-action="import-games">${S.source === "live" ? "Re-import the starter list" : "Import the starter list"}</button></div>
-      <p class="small muted">Re-importing overwrites summaries and details you've edited.</p>
+      <h3>Master spreadsheet</h3>
+      <p class="small">Download the whole collection as an Excel file, edit it, then upload it here. Uploading updates the games, adds new rows and asks before removing any. Last played, sleeves and notes are never touched.</p>
+      <div class="btn-row"><button type="button" class="btn quiet" data-action="sheet-download">Download spreadsheet</button></div>
+      <label for="sheet-file">Upload spreadsheet</label><input id="sheet-file" type="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" data-change="sheet-upload">
+      ${S.sheetPlan ? sheetPlanPanel() : ""}
+      <h3>Starter list</h3>
+      <p class="small">The list Claude keeps on the site. Use this after Claude says it's been updated; it works the same way as uploading a spreadsheet.</p>
+      <div class="btn-row"><button type="button" class="btn ${S.source === "live" ? "quiet" : ""}" data-action="import-games">${S.source === "live" ? "Update from the starter list" : "Import the starter list"}</button></div>
       <h3>Your private notes</h3>
       <p>${hasPrivate ? "Loaded: sleeves, inserts and last played are showing on each game page." : "Not imported yet. Choose the private-notes.json file Claude sent you."}</p>
       <label for="priv-file">Import private notes</label><input id="priv-file" type="file" accept="application/json,.json" data-change="import-private">
@@ -522,7 +561,7 @@ function viewBuilder() {
   const sel = S.builder.selected;
   const lists = Object.keys(S.shortlists).sort();
   resultsFn = () => {
-    const list = filtered();
+    const list = playable(filtered());
     return `<div class="toolbar"><span class="muted">${list.length} shown, ${sel.size} chosen</span>
         <span><button type="button" class="btn ghost" data-action="b-all">Choose all shown</button> <button type="button" class="btn ghost" data-action="b-none">Clear</button></span></div>
       <ul class="list">${list.map((g) => `<li><label class="check row" style="margin:0"><input type="checkbox" data-action="b-toggle" data-id="${esc(g.id)}" ${sel.has(g.id) ? "checked" : ""}>
@@ -585,7 +624,7 @@ const actions = {
   "f-adults": (el) => setFilter((f) => { f.hideAdults = el.checked; }),
   "f-clear": () => setFilter((f) => { Object.assign(f, { q: "", players: 0, best: false, time: 0, cx: [], tags: [], hideAdults: false }); }),
   pick: () => {
-    const list = filtered();
+    const list = playable(filtered());
     if (!list.length) return;
     const g = list[Math.floor(Math.random() * list.length)];
     location.hash = `#/game/${g.id}?picked=${list.length}&r=${Date.now() % 100000}`;
@@ -620,6 +659,7 @@ const actions = {
     const tmin = num("tmin", g.time[0]), tmax = Math.max(tmin, num("tmax", g.time[1]));
     const fields = {
       name: val("name").trim() || g.name,
+      status: val("status"),
       summary: val("summary").trim(),
       teach: val("teach").split("\n").map((s) => s.trim()).filter(Boolean),
       players: [pmin, pmax], time: [tmin, tmax],
@@ -700,16 +740,32 @@ const actions = {
     } catch (e) { toast("Couldn't save. Try again."); }
   },
   "import-games": async () => {
-    if (S.source === "live" && !confirm("Re-import the starter list? This overwrites summaries and details you've edited.")) return;
     try {
       const games = await store.loadStarterGames();
-      await store.importGames(games);
-      const r = await store.loadGames(); setGames(r.games, r.source);
-      toast(`Imported ${games.length} games.`); render();
-    } catch (e) { toast("Import failed. Check the database rules are published and you're signed in as the host."); }
+      if (S.source !== "live") {
+        await store.applyGames({ games });
+        await reloadGames(); toast(`Imported ${games.length} games.`); render(); return;
+      }
+      S.sheetPlan = makePlan("the starter list", games, null, [], []); render();
+      document.getElementById("sheet-plan")?.scrollIntoView({ block: "center" });
+    } catch (e) { toast("Couldn't load the starter list. Check your connection."); }
+  },
+  "sheet-download": async () => {
+    try { await masterSheet.download(S.games, S.priv, autoSimilar); } catch (e) { toast("Couldn't make the spreadsheet. Try again."); }
+  },
+  "sheet-cancel": () => { S.sheetPlan = null; render(); },
+  "sheet-apply": async () => {
+    const p = S.sheetPlan; if (!p || p.errors.length) return;
+    const removeIds = p.remove.filter((r) => document.getElementById(`rm-${r.id}`)?.checked).map((r) => r.id);
+    try {
+      await store.applyGames({ games: p.games, removeIds, checks: p.checks });
+      if (p.checks) S.priv = await store.loadPrivate();
+      await reloadGames(); S.sheetPlan = null;
+      toast(`Collection updated: ${p.games.length} games${removeIds.length ? `, ${removeIds.length} removed` : ""}.`); render();
+    } catch (e) { toast("Update failed. Check you're signed in as the host and try again."); }
   },
   "b-toggle": (el) => { const s = S.builder.selected; el.checked ? s.add(el.dataset.id) : s.delete(el.dataset.id); render(); },
-  "b-all": () => { filtered().forEach((g) => S.builder.selected.add(g.id)); render(); },
+  "b-all": () => { playable(filtered()).forEach((g) => S.builder.selected.add(g.id)); render(); },
   "b-none": () => { S.builder.selected.clear(); render(); },
   "b-load": () => { const n = document.getElementById("b-load").value; S.builder.selected = new Set(S.shortlists[n] || []); render(); },
   "b-delete": async () => {
@@ -753,6 +809,16 @@ $app.addEventListener("input", (e) => {
   }
 });
 $app.addEventListener("change", async (e) => {
+  if (e.target.dataset.change === "sheet-upload") {
+    const file = e.target.files && e.target.files[0];
+    if (!file) return;
+    try {
+      const r = await masterSheet.parse(file);
+      S.sheetPlan = makePlan(file.name, r.games, r.checks, r.errors, r.warnings);
+    } catch (err) { S.sheetPlan = null; toast("That file couldn't be read. Choose the .xlsx master list."); }
+    render(); document.getElementById("sheet-plan")?.scrollIntoView({ block: "center" });
+    return;
+  }
   if (e.target.dataset.change !== "import-private") return;
   const file = e.target.files && e.target.files[0];
   if (!file) return;

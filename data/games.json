@@ -1,9 +1,11 @@
 {
- "version": 1,
+ "version": 3,
  "games": [
   {
    "id": "13-days",
    "name": "13 Days: The Cuban Missile Crisis, 1962",
+   "status": "Owned",
+   "bggId": 177590,
    "players": [
     2,
     2
@@ -15,8 +17,8 @@
     45,
     45
    ],
-   "weight": 2.2,
-   "age": 10,
+   "weight": 2.34,
+   "age": 12,
    "tags": [
     "Strategy",
     "Thematic"
@@ -30,24 +32,27 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "221b-baker-street",
    "name": "221B Baker Street: The Master Detective Game",
+   "status": "Owned",
+   "bggId": 1275,
    "players": [
     2,
     6
    ],
    "best": [
-    3,
-    4
+    2
    ],
    "time": [
-    60,
+    90,
     90
    ],
-   "weight": 1.9,
+   "weight": 1.78,
    "age": 10,
    "tags": [
     "Deduction",
@@ -62,11 +67,15 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "7-wonders",
    "name": "7 Wonders",
+   "status": "Owned",
+   "bggId": 68448,
    "players": [
     2,
     7
@@ -79,7 +88,7 @@
     30,
     30
    ],
-   "weight": 2.3,
+   "weight": 2.31,
    "age": 10,
    "tags": [
     "Strategy",
@@ -94,11 +103,15 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "7-wonders-duel",
    "name": "7 Wonders Duel",
+   "status": "Owned",
+   "bggId": 173346,
    "players": [
     2,
     2
@@ -110,7 +123,7 @@
     30,
     30
    ],
-   "weight": 2.2,
+   "weight": 2.23,
    "age": 10,
    "tags": [
     "Strategy"
@@ -129,48 +142,15 @@
    ],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
-  },
-  {
-   "id": "game-of-thrones-board-game",
-   "name": "A Game of Thrones: The Board Game (2nd Edition)",
-   "players": [
-    3,
-    6
-   ],
-   "best": [
-    6
-   ],
-   "time": [
-    120,
-    240
-   ],
-   "weight": 3.7,
-   "age": 14,
-   "tags": [
-    "Strategy",
-    "Thematic",
-    "Bluffing"
-   ],
-   "summary": "An epic game of negotiation and betrayal for control of Westeros. Orders are placed in secret, so alliances are only as good as your next move.",
-   "teach": [
-    "Goal: control 7 castles and strongholds, or hold the most when round 10 ends.",
-    "Each round: Westeros cards, then everyone places orders face down. Reveal and resolve raids, marches, then consolidate power.",
-    "Combat: total strength plus support, then each side plays a house card."
-   ],
-   "expansions": [
-    {
-     "name": "Mother of Dragons",
-     "note": "Adds House Targaryen and House Arryn (up to 8 players), the Iron Bank and vassal rules."
-    }
-   ],
-   "complexity": 4,
-   "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "accentuate",
    "name": "Accentuate",
+   "status": "Owned",
+   "bggId": 170054,
    "players": [
     4,
     12
@@ -197,11 +177,15 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "ark-nova",
    "name": "Ark Nova",
+   "status": "Owned",
+   "bggId": 342942,
    "players": [
     1,
     4
@@ -227,11 +211,15 @@
    "expansions": [],
    "complexity": 4,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "arkham-horror-lcg",
    "name": "Arkham Horror: The Card Game",
+   "status": "Owned",
+   "bggId": 205637,
    "players": [
     1,
     2
@@ -243,7 +231,7 @@
     60,
     120
    ],
-   "weight": 3.4,
+   "weight": 3.57,
    "age": 14,
    "tags": [
     "Co-op",
@@ -262,26 +250,55 @@
      "note": "An eight-scenario campaign plus new investigators. Play it as a campaign rather than mixing it in."
     }
    ],
-   "complexity": 3,
+   "complexity": 4,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
+  },
+  {
+   "id": "assassins-creed-animus",
+   "name": "Assassin's Creed: Animus",
+   "status": "Owned",
+   "bggId": 445690,
+   "players": [
+    2,
+    4
+   ],
+   "best": [],
+   "time": [
+    45,
+    90
+   ],
+   "weight": 0,
+   "age": 12,
+   "tags": [],
+   "summary": "Summary still to be written.",
+   "teach": [],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "azul",
    "name": "Azul",
+   "status": "Owned",
+   "bggId": 230802,
    "players": [
     2,
     4
    ],
    "best": [
-    2,
-    3
+    2
    ],
    "time": [
     30,
     45
    ],
-   "weight": 1.8,
+   "weight": 1.77,
    "age": 8,
    "tags": [
     "Family",
@@ -296,11 +313,15 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "azul-duel",
    "name": "Azul Duel",
+   "status": "Owned",
+   "bggId": 431038,
    "players": [
     2,
     2
@@ -312,8 +333,8 @@
     30,
     45
    ],
-   "weight": 2.0,
-   "age": 8,
+   "weight": 2.28,
+   "age": 10,
    "tags": [
     "Strategy"
    ],
@@ -326,11 +347,15 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "azul-summer-pavilion",
    "name": "Azul: Summer Pavilion",
+   "status": "Owned",
+   "bggId": 287954,
    "players": [
     2,
     4
@@ -343,7 +368,7 @@
     30,
     45
    ],
-   "weight": 2.1,
+   "weight": 2.08,
    "age": 8,
    "tags": [
     "Family",
@@ -358,24 +383,29 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "backstories-alone-under-the-ice",
    "name": "Backstories: Alone Under the Ice",
+   "status": "Owned",
+   "bggId": 415921,
    "players": [
     1,
-    4
+    6
    ],
    "best": [
+    1,
     2
    ],
    "time": [
-    60,
-    90
+    50,
+    70
    ],
-   "weight": 1.5,
-   "age": 14,
+   "weight": 1.19,
+   "age": 12,
    "tags": [
     "Thematic"
    ],
@@ -386,26 +416,57 @@
     "Replay: you can play again to find other endings."
    ],
    "expansions": [],
-   "complexity": 2,
+   "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
+  },
+  {
+   "id": "battlesticks",
+   "name": "Battlesticks",
+   "status": "Owned",
+   "bggId": 468830,
+   "players": [
+    2,
+    5
+   ],
+   "best": [
+    3
+   ],
+   "time": [
+    15,
+    30
+   ],
+   "weight": 0,
+   "age": 8,
+   "tags": [],
+   "summary": "Summary still to be written.",
+   "teach": [],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "beat-that",
    "name": "Beat That!",
+   "status": "Owned",
+   "bggId": 290610,
    "players": [
     2,
     8
    ],
    "best": [
-    4,
-    6
+    4
    ],
    "time": [
     30,
-    30
+    90
    ],
-   "weight": 1.0,
+   "weight": 1.1,
    "age": 8,
    "tags": [
     "Party",
@@ -421,11 +482,15 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "blokus",
    "name": "Blokus",
+   "status": "Owned",
+   "bggId": 2453,
    "players": [
     2,
     4
@@ -434,11 +499,11 @@
     4
    ],
    "time": [
-    20,
-    20
+    30,
+    30
    ],
-   "weight": 1.2,
-   "age": 7,
+   "weight": 1.73,
+   "age": 6,
    "tags": [
     "Family",
     "Strategy"
@@ -450,27 +515,33 @@
     "Game end: when nobody can place. Lose points for squares left in hand; bonuses for placing everything."
    ],
    "expansions": [],
-   "complexity": 1,
+   "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "blood-on-the-clocktower",
    "name": "Blood on the Clocktower",
+   "status": "Owned",
+   "bggId": 240980,
    "players": [
-    5,
-    20
+    6,
+    21
    ],
    "best": [
+    9,
     10,
+    11,
     12
    ],
    "time": [
-    60,
+    30,
     120
    ],
-   "weight": 2.9,
-   "age": 15,
+   "weight": 3.03,
+   "age": 12,
    "tags": [
     "Party",
     "Deduction",
@@ -485,26 +556,62 @@
    "expansions": [],
    "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
+  },
+  {
+   "id": "by-order-of-the-king",
+   "name": "By Order of the King",
+   "status": "Owned",
+   "bggId": 469083,
+   "players": [
+    4,
+    8
+   ],
+   "best": [
+    5,
+    6,
+    7
+   ],
+   "time": [
+    10,
+    20
+   ],
+   "weight": 2.0,
+   "age": 8,
+   "tags": [
+    "Party"
+   ],
+   "summary": "Summary still to be written.",
+   "teach": [],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "cards-against-humanity",
    "name": "Cards Against Humanity",
+   "status": "Owned",
+   "bggId": 50381,
    "players": [
     4,
-    20
+    30
    ],
    "best": [
     6,
-    10
+    7,
+    8
    ],
    "time": [
     30,
-    90
+    30
    ],
-   "weight": 1.2,
-   "age": 17,
-   "adults": true,
+   "weight": 1.17,
+   "age": 16,
    "tags": [
     "Party"
    ],
@@ -516,11 +623,16 @@
    ],
    "expansions": [],
    "complexity": 1,
-   "shelf": ""
+   "adults": true,
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "catan",
    "name": "Catan",
+   "status": "Owned",
+   "bggId": 13,
    "players": [
     3,
     4
@@ -532,8 +644,8 @@
     60,
     120
    ],
-   "weight": 2.3,
-   "age": 10,
+   "weight": 2.28,
+   "age": 8,
    "tags": [
     "Strategy",
     "Family"
@@ -547,25 +659,29 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "the-chameleon",
    "name": "The Chameleon",
+   "status": "Owned",
+   "bggId": 227072,
    "players": [
     3,
     8
    ],
    "best": [
-    5,
-    6
+    6,
+    7
    ],
    "time": [
     15,
     15
    ],
-   "weight": 1.1,
-   "age": 14,
+   "weight": 1.05,
+   "age": 10,
    "tags": [
     "Party",
     "Bluffing",
@@ -580,25 +696,28 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "cheating-moth",
    "name": "Cheating Moth",
+   "status": "Owned",
+   "bggId": 105593,
    "players": [
     3,
     5
    ],
    "best": [
-    4,
     5
    ],
    "time": [
-    20,
-    20
+    30,
+    30
    ],
-   "weight": 1.1,
-   "age": 7,
+   "weight": 1.16,
+   "age": 6,
    "tags": [
     "Family",
     "Party"
@@ -612,24 +731,28 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "civilization-a-new-dawn",
    "name": "Civilization: A New Dawn",
+   "status": "Owned",
+   "bggId": 233247,
    "players": [
     2,
     4
    ],
    "best": [
-    3
+    4
    ],
    "time": [
     60,
     120
    ],
-   "weight": 2.9,
-   "age": 14,
+   "weight": 3.21,
+   "age": 12,
    "tags": [
     "Strategy"
    ],
@@ -642,25 +765,28 @@
    "expansions": [],
    "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "clank",
    "name": "Clank!: A Deck-Building Adventure",
+   "status": "Owned",
+   "bggId": 201808,
    "players": [
     2,
     4
    ],
    "best": [
-    3,
-    4
+    3
    ],
    "time": [
-    45,
+    30,
     60
    ],
-   "weight": 2.2,
-   "age": 12,
+   "weight": 2.23,
+   "age": 8,
    "tags": [
     "Strategy",
     "Thematic"
@@ -674,17 +800,20 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "cockroach-poker",
    "name": "Cockroach Poker",
+   "status": "Owned",
+   "bggId": 11971,
    "players": [
     2,
     6
    ],
    "best": [
-    4,
     5
    ],
    "time": [
@@ -692,7 +821,7 @@
     20
    ],
    "weight": 1.1,
-   "age": 8,
+   "age": 6,
    "tags": [
     "Party",
     "Bluffing"
@@ -706,11 +835,15 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "codenames",
    "name": "Codenames",
+   "status": "Owned",
+   "bggId": 178900,
    "players": [
     2,
     8
@@ -723,8 +856,8 @@
     15,
     15
    ],
-   "weight": 1.3,
-   "age": 14,
+   "weight": 1.25,
+   "age": 10,
    "tags": [
     "Party",
     "Word & trivia"
@@ -738,25 +871,29 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "confident",
    "name": "Confident?",
+   "status": "Owned",
+   "bggId": 251726,
    "players": [
-    2,
+    3,
     8
    ],
    "best": [
-    4,
+    5,
     6
    ],
    "time": [
-    30,
-    30
+    20,
+    40
    ],
    "weight": 1.0,
-   "age": 12,
+   "age": 10,
    "tags": [
     "Party",
     "Word & trivia"
@@ -770,11 +907,15 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "coup",
    "name": "Coup",
+   "status": "Owned",
+   "bggId": 131357,
    "players": [
     2,
     6
@@ -786,8 +927,8 @@
     15,
     15
    ],
-   "weight": 1.4,
-   "age": 13,
+   "weight": 1.41,
+   "age": 10,
    "tags": [
     "Bluffing",
     "Party"
@@ -801,11 +942,15 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "the-crew-mission-deep-sea",
    "name": "The Crew: Mission Deep Sea",
+   "status": "Owned",
+   "bggId": 324856,
    "players": [
     2,
     5
@@ -817,7 +962,7 @@
     20,
     20
    ],
-   "weight": 2.0,
+   "weight": 2.06,
    "age": 10,
    "tags": [
     "Co-op"
@@ -831,11 +976,15 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "the-crew-planet-nine",
    "name": "The Crew: The Quest for Planet Nine",
+   "status": "Owned",
+   "bggId": 284083,
    "players": [
     2,
     5
@@ -847,7 +996,7 @@
     20,
     20
    ],
-   "weight": 2.0,
+   "weight": 1.97,
    "age": 10,
    "tags": [
     "Co-op",
@@ -862,11 +1011,15 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "cryptid",
    "name": "Cryptid",
+   "status": "Owned",
+   "bggId": 246784,
    "players": [
     3,
     5
@@ -878,7 +1031,7 @@
     30,
     50
    ],
-   "weight": 2.2,
+   "weight": 2.26,
    "age": 10,
    "tags": [
     "Deduction"
@@ -892,25 +1045,29 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "debatable",
    "name": "Debatable",
+   "status": "Owned",
+   "bggId": 227026,
    "players": [
     3,
-    8
+    16
    ],
    "best": [
-    4,
-    6
+    5,
+    7
    ],
    "time": [
     30,
-    30
+    120
    ],
-   "weight": 1.0,
-   "age": 12,
+   "weight": 1.12,
+   "age": 14,
    "tags": [
     "Party"
    ],
@@ -923,25 +1080,28 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "deep-regrets",
    "name": "Deep Regrets",
+   "status": "Owned",
+   "bggId": 397931,
    "players": [
     1,
     5
    ],
    "best": [
-    3,
-    4
+    3
    ],
    "time": [
-    60,
-    90
+    30,
+    150
    ],
-   "weight": 2.5,
-   "age": 14,
+   "weight": 2.34,
+   "age": 12,
    "tags": [
     "Strategy",
     "Thematic"
@@ -954,53 +1114,54 @@
    ],
    "expansions": [
     {
-     "name": "Mini expansion",
-     "note": "Included in your copy (extra cards)."
+     "name": "Lamentable Tentacles",
+     "note": "A mini expansion: extra cards that come with your copy."
     },
     {
      "name": "Even Deeper Regrets",
      "note": "Adds more fish, more regrets and extra content."
     }
    ],
-   "complexity": 3,
+   "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
-   "id": "dobble",
-   "name": "Dobble",
+   "id": "dobble-access-plus",
+   "name": "Dobble Access+",
+   "status": "Owned",
+   "bggId": 375753,
    "players": [
-    2,
-    8
+    1,
+    4
    ],
-   "best": [
-    4,
-    6
-   ],
+   "best": [],
    "time": [
-    15,
-    15
+    10,
+    10
    ],
-   "weight": 1.0,
-   "age": 6,
+   "weight": 0,
+   "age": 8,
    "tags": [
     "Family",
     "Party"
    ],
-   "summary": "The frantic spotting game: any two cards share exactly one symbol, and you race to call it first.",
-   "teach": [
-    "Goal: depends on the mini-game, usually the most cards collected.",
-    "Spot it: find the one symbol your card shares with the middle card and say it aloud.",
-    "Mini-games: the tin has several. The Towering Inferno is a good default."
-   ],
+   "summary": "Summary still to be written.",
+   "teach": [],
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "doomlings",
    "name": "Doomlings (Blackbox Bundle)",
+   "status": "Owned",
+   "bggId": 361815,
    "players": [
     2,
     6
@@ -1009,10 +1170,10 @@
     4
    ],
    "time": [
-    30,
+    20,
     45
    ],
-   "weight": 1.5,
+   "weight": 1.0,
    "age": 10,
    "tags": [
     "Family",
@@ -1030,13 +1191,17 @@
      "note": "Your copy includes the base game plus bundled expansions; check the box for which are included."
     }
    ],
-   "complexity": 2,
+   "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "dune-imperium",
    "name": "Dune: Imperium",
+   "status": "Owned",
+   "bggId": 316554,
    "players": [
     1,
     4
@@ -1049,8 +1214,8 @@
     60,
     120
    ],
-   "weight": 3.0,
-   "age": 14,
+   "weight": 3.08,
+   "age": 12,
    "tags": [
     "Strategy",
     "Thematic"
@@ -1064,23 +1229,27 @@
    "expansions": [],
    "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "dungeon-party",
    "name": "Dungeon Party",
+   "status": "Owned",
+   "bggId": 293586,
    "players": [
-    2,
+    1,
     6
    ],
    "best": [
     4
    ],
    "time": [
-    20,
-    30
+    30,
+    60
    ],
-   "weight": 1.2,
+   "weight": 1.25,
    "age": 8,
    "tags": [
     "Party",
@@ -1092,24 +1261,64 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
+  },
+  {
+   "id": "skyrim-adventure-game",
+   "name": "The Elder Scrolls V: Skyrim – The Adventure Game",
+   "status": "Owned",
+   "bggId": 342372,
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    1,
+    2
+   ],
+   "time": [
+    60,
+    120
+   ],
+   "weight": 3.24,
+   "age": 12,
+   "tags": [
+    "Co-op",
+    "Campaign",
+    "Thematic"
+   ],
+   "summary": "A co-operative campaign adventure set in Skyrim. You explore the map, take on quests, fight and level up your characters, and your choices carry the story on from one session to the next.",
+   "teach": [
+    "Goal: work together to complete the campaign's quests.",
+    "On your turn: travel, explore, take on quests and fight, using your character's skills and the dice.",
+    "Between sessions: level up, and the story picks up where you left it."
+   ],
+   "expansions": [],
+   "complexity": 3,
+   "adults": false,
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "eldritch-horror",
    "name": "Eldritch Horror",
+   "status": "Owned",
+   "bggId": 146021,
    "players": [
     1,
     8
    ],
    "best": [
-    3,
     4
    ],
    "time": [
     120,
     240
    ],
-   "weight": 3.3,
+   "weight": 3.32,
    "age": 14,
    "tags": [
     "Co-op",
@@ -1124,25 +1333,28 @@
    "expansions": [],
    "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "everdell",
    "name": "Everdell",
+   "status": "Owned",
+   "bggId": 199792,
    "players": [
     1,
     4
    ],
    "best": [
-    2,
     3
    ],
    "time": [
     40,
     80
    ],
-   "weight": 2.8,
-   "age": 13,
+   "weight": 2.84,
+   "age": 10,
    "tags": [
     "Strategy",
     "Family"
@@ -1156,24 +1368,27 @@
    "expansions": [],
    "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "exit-pharaohs-tomb",
    "name": "EXIT: The Game – The Pharaoh's Tomb",
+   "status": "Owned",
+   "bggId": 203416,
    "players": [
     1,
-    4
+    6
    ],
    "best": [
-    2,
-    3
+    2
    ],
    "time": [
     45,
     90
    ],
-   "weight": 2.4,
+   "weight": 2.73,
    "age": 12,
    "tags": [
     "Co-op",
@@ -1186,13 +1401,17 @@
     "Note: it can only be played once. Check it hasn't been used already."
    ],
    "expansions": [],
-   "complexity": 2,
+   "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "exploding-kittens",
    "name": "Exploding Kittens",
+   "status": "Owned",
+   "bggId": 172225,
    "players": [
     2,
     5
@@ -1205,8 +1424,8 @@
     15,
     15
    ],
-   "weight": 1.1,
-   "age": 7,
+   "weight": 1.08,
+   "age": 8,
    "tags": [
     "Party",
     "Family"
@@ -1220,24 +1439,28 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "fallout-wasteland-warfare",
    "name": "Fallout: Wasteland Warfare",
+   "status": "Owned",
+   "bggId": 226176,
    "players": [
     1,
-    2
+    8
    ],
    "best": [
     2
    ],
    "time": [
-    60,
-    120
+    30,
+    240
    ],
-   "weight": 3.0,
-   "age": 14,
+   "weight": 3.61,
+   "age": 12,
    "tags": [
     "Thematic",
     "Strategy"
@@ -1249,13 +1472,17 @@
     "AI cards: control enemy models in solo or co-op play."
    ],
    "expansions": [],
-   "complexity": 3,
+   "complexity": 4,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "fog-of-love",
    "name": "Fog of Love",
+   "status": "Owned",
+   "bggId": 175324,
    "players": [
     2,
     2
@@ -1265,10 +1492,10 @@
    ],
    "time": [
     60,
-    90
+    120
    ],
-   "weight": 2.2,
-   "age": 17,
+   "weight": 2.25,
+   "age": 16,
    "tags": [
     "Thematic"
    ],
@@ -1281,11 +1508,15 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "forbidden-island",
    "name": "Forbidden Island",
+   "status": "Owned",
+   "bggId": 65244,
    "players": [
     2,
     4
@@ -1297,8 +1528,8 @@
     30,
     30
    ],
-   "weight": 1.7,
-   "age": 10,
+   "weight": 1.74,
+   "age": 8,
    "tags": [
     "Co-op",
     "Family"
@@ -1312,11 +1543,155 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
+  },
+  {
+   "id": "fractured-sky",
+   "name": "Fractured Sky",
+   "status": "Pre-order",
+   "bggId": 370581,
+   "players": [
+    1,
+    5
+   ],
+   "best": [
+    4,
+    5
+   ],
+   "time": [
+    45,
+    75
+   ],
+   "weight": 2.37,
+   "age": 12,
+   "tags": [],
+   "summary": "Summary still to be written.",
+   "teach": [],
+   "expansions": [
+    {
+     "name": "Awakening",
+     "note": "Pre-ordered with the base game."
+    }
+   ],
+   "complexity": 2,
+   "adults": false,
+   "shelf": "",
+   "cover": "",
+   "similar": []
+  },
+  {
+   "id": "frosthaven",
+   "name": "Frosthaven",
+   "status": "Owned",
+   "bggId": 295770,
+   "players": [
+    1,
+    4
+   ],
+   "best": [
+    3
+   ],
+   "time": [
+    90,
+    180
+   ],
+   "weight": 4.41,
+   "age": 12,
+   "tags": [
+    "Strategy",
+    "Co-op",
+    "Campaign",
+    "Thematic"
+   ],
+   "summary": "The sequel to Gloomhaven: a huge co-operative campaign in a frozen outpost. You fight through tactical card-driven scenarios, and between them you rebuild the town of Frosthaven.",
+   "teach": [
+    "Goal: complete each scenario's objective before your mercenaries are exhausted.",
+    "Each round: everyone picks two cards from their hand, playing the top half of one and the bottom half of the other. Initiative sets the order, and monsters act from their own deck.",
+    "Between scenarios: resolve outpost events, build and upgrade the town, and level up."
+   ],
+   "expansions": [],
+   "complexity": 4,
+   "adults": false,
+   "shelf": "",
+   "cover": "",
+   "similar": []
+  },
+  {
+   "id": "game-changer-home-edition",
+   "name": "Game Changer: Home Edition",
+   "status": "Pre-order",
+   "bggId": 470036,
+   "players": [
+    4,
+    8
+   ],
+   "best": [],
+   "time": [
+    60,
+    90
+   ],
+   "weight": 0,
+   "age": 14,
+   "tags": [
+    "Party"
+   ],
+   "summary": "A party game based on Dropout's Game Changer, the show where the twist is that nobody knows the rules until the game is under way.",
+   "teach": [],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": "",
+   "cover": "",
+   "similar": []
+  },
+  {
+   "id": "game-of-thrones-board-game",
+   "name": "A Game of Thrones: The Board Game (2nd Edition)",
+   "status": "Owned",
+   "bggId": 103343,
+   "players": [
+    3,
+    6
+   ],
+   "best": [
+    6
+   ],
+   "time": [
+    120,
+    240
+   ],
+   "weight": 3.73,
+   "age": 14,
+   "tags": [
+    "Strategy",
+    "Thematic",
+    "Bluffing"
+   ],
+   "summary": "An epic game of negotiation and betrayal for control of Westeros. Orders are placed in secret, so alliances are only as good as your next move.",
+   "teach": [
+    "Goal: control 7 castles and strongholds, or hold the most when round 10 ends.",
+    "Each round: Westeros cards, then everyone places orders face down. Reveal and resolve raids, marches, then consolidate power.",
+    "Combat: total strength plus support, then each side plays a house card."
+   ],
+   "expansions": [
+    {
+     "name": "Mother of Dragons",
+     "note": "Adds House Targaryen and House Arryn (up to 8 players), the Iron Bank and vassal rules."
+    }
+   ],
+   "complexity": 4,
+   "adults": false,
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "gloomhaven",
    "name": "Gloomhaven",
+   "status": "Owned",
+   "bggId": 174430,
    "players": [
     1,
     4
@@ -1328,7 +1703,7 @@
     60,
     120
    ],
-   "weight": 3.9,
+   "weight": 3.92,
    "age": 14,
    "tags": [
     "Co-op",
@@ -1344,24 +1719,28 @@
    "expansions": [],
    "complexity": 4,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "gwent",
    "name": "Gwent: The Legendary Card Game",
+   "status": "Owned",
+   "bggId": 434222,
    "players": [
-    2,
-    2
+    1,
+    5
    ],
    "best": [
     2
    ],
    "time": [
-    30,
-    30
+    20,
+    20
    ],
-   "weight": 2.4,
-   "age": 12,
+   "weight": 1.88,
+   "age": 10,
    "tags": [
     "Strategy"
    ],
@@ -1374,17 +1753,21 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "heat",
    "name": "Heat: Pedal to the Metal",
+   "status": "Owned",
+   "bggId": 366013,
    "players": [
     1,
     6
    ],
    "best": [
-    4,
+    5,
     6
    ],
    "time": [
@@ -1392,7 +1775,7 @@
     60
    ],
    "weight": 2.2,
-   "age": 10,
+   "age": 8,
    "tags": [
     "Family",
     "Strategy"
@@ -1406,11 +1789,15 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "high-treason",
    "name": "High Treason: The Trial of Louis Riel",
+   "status": "Owned",
+   "bggId": 197072,
    "players": [
     2,
     2
@@ -1419,10 +1806,10 @@
     2
    ],
    "time": [
-    20,
-    40
+    30,
+    45
    ],
-   "weight": 2.3,
+   "weight": 2.67,
    "age": 14,
    "tags": [
     "Strategy",
@@ -1435,27 +1822,30 @@
     "Trial: play cards to argue and sway individual jurors. The final verdict depends on where each juror lands."
    ],
    "expansions": [],
-   "complexity": 2,
+   "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "hoplomachus-victorum",
    "name": "Hoplomachus: Victorum (Kickstarter Edition)",
+   "status": "Owned",
+   "bggId": 313889,
    "players": [
     1,
-    4
+    1
    ],
    "best": [
-    1,
-    2
+    1
    ],
    "time": [
     60,
-    120
+    90
    ],
-   "weight": 3.0,
-   "age": 14,
+   "weight": 3.56,
+   "age": 12,
    "tags": [
     "Strategy",
     "Campaign",
@@ -1468,27 +1858,30 @@
     "Between battles: upgrade your gladiators with prowess and earn rewards."
    ],
    "expansions": [],
-   "complexity": 3,
+   "complexity": 4,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "horrified",
    "name": "Horrified",
+   "status": "Owned",
+   "bggId": 282524,
    "players": [
     1,
     5
    ],
    "best": [
-    3,
-    4
+    3
    ],
    "time": [
     60,
     60
    ],
-   "weight": 2.0,
-   "age": 10,
+   "weight": 2.02,
+   "age": 8,
    "tags": [
     "Co-op",
     "Family",
@@ -1503,11 +1896,15 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "jaipur",
    "name": "Jaipur",
+   "status": "Owned",
+   "bggId": 54043,
    "players": [
     2,
     2
@@ -1519,8 +1916,8 @@
     30,
     30
    ],
-   "weight": 1.5,
-   "age": 10,
+   "weight": 1.46,
+   "age": 8,
    "tags": [
     "Family",
     "Strategy"
@@ -1532,26 +1929,65 @@
     "Selling: earlier sales get higher tokens, and big sales earn bonus tokens."
    ],
    "expansions": [],
-   "complexity": 2,
+   "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
+  },
+  {
+   "id": "king-of-tokyo",
+   "name": "King of Tokyo",
+   "status": "Owned",
+   "bggId": 70323,
+   "players": [
+    2,
+    6
+   ],
+   "best": [
+    4,
+    5
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 1.48,
+   "age": 6,
+   "tags": [
+    "Family",
+    "Party"
+   ],
+   "summary": "Giant monsters smash each other for control of Tokyo. You roll dice Yahtzee-style for points, energy, healing or attacks, and buy power cards that bend the rules.",
+   "teach": [
+    "Goal: be the first to 20 victory points, or the last monster standing.",
+    "On your turn: roll six dice up to three times, keeping any you like. Numbers score points, claws hit other monsters, hearts heal and lightning buys power cards.",
+    "Tokyo: while you're in Tokyo you score points but can't heal, and your claws hit everyone outside. When you're hit, you can leave and let the attacker in."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "last-of-us-escape-the-dark",
    "name": "The Last of Us: Escape the Dark",
+   "status": "Owned",
+   "bggId": 374593,
    "players": [
     1,
-    4
+    5
    ],
    "best": [
-    2,
-    3
+    2
    ],
    "time": [
-    45,
-    60
+    60,
+    120
    ],
-   "weight": 2.0,
+   "weight": 2.35,
    "age": 14,
    "tags": [
     "Co-op",
@@ -1566,21 +2002,26 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "listography",
    "name": "Listography: The Game",
+   "status": "Owned",
+   "bggId": 199766,
    "players": [
-    2,
+    3,
     6
    ],
    "best": [
-    4
+    5,
+    6
    ],
    "time": [
-    30,
-    30
+    15,
+    45
    ],
    "weight": 1.0,
    "age": 12,
@@ -1597,25 +2038,28 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "london",
    "name": "London (Second Edition)",
+   "status": "Owned",
+   "bggId": 236191,
    "players": [
     2,
     4
    ],
    "best": [
-    2,
     3
    ],
    "time": [
     60,
     90
    ],
-   "weight": 2.8,
-   "age": 14,
+   "weight": 2.72,
+   "age": 12,
    "tags": [
     "Strategy"
    ],
@@ -1628,25 +2072,28 @@
    "expansions": [],
    "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "lotr-fate-of-the-fellowship",
    "name": "The Lord of the Rings: Fate of the Fellowship",
+   "status": "Owned",
+   "bggId": 436217,
    "players": [
     1,
     5
    ],
    "best": [
-    3,
-    4
+    3
    ],
    "time": [
     60,
-    90
+    150
    ],
-   "weight": 2.8,
-   "age": 14,
+   "weight": 3.11,
+   "age": 12,
    "tags": [
     "Co-op",
     "Thematic"
@@ -1660,25 +2107,28 @@
    "expansions": [],
    "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "lotr-journeys-in-middle-earth",
    "name": "The Lord of the Rings: Journeys in Middle-Earth",
+   "status": "Owned",
+   "bggId": 269385,
    "players": [
     1,
     5
    ],
    "best": [
-    2,
-    3
+    2
    ],
    "time": [
     60,
     120
    ],
    "weight": 2.7,
-   "age": 14,
+   "age": 10,
    "tags": [
     "Co-op",
     "Campaign",
@@ -1693,24 +2143,27 @@
    "expansions": [],
    "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "lotr-trick-taking",
    "name": "The Lord of the Rings: The Fellowship of the Ring – Trick-Taking Game",
+   "status": "Owned",
+   "bggId": 429293,
    "players": [
     1,
     4
    ],
    "best": [
-    3,
     4
    ],
    "time": [
     20,
     20
    ],
-   "weight": 2.0,
+   "weight": 1.91,
    "age": 10,
    "tags": [
     "Co-op",
@@ -1725,25 +2178,56 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
+  },
+  {
+   "id": "lotr-kings-gambit",
+   "name": "The Lord of the Rings: The King's Gambit",
+   "status": "Pre-order",
+   "bggId": 467694,
+   "players": [
+    1,
+    4
+   ],
+   "best": [],
+   "time": [
+    90,
+    120
+   ],
+   "weight": 0,
+   "age": 12,
+   "tags": [
+    "Thematic"
+   ],
+   "summary": "Summary still to be written.",
+   "teach": [],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "lost-ruins-of-arnak",
    "name": "Lost Ruins of Arnak",
+   "status": "Owned",
+   "bggId": 312484,
    "players": [
     1,
     4
    ],
    "best": [
-    2,
     3
    ],
    "time": [
     30,
     120
    ],
-   "weight": 2.9,
-   "age": 12,
+   "weight": 2.93,
+   "age": 10,
    "tags": [
     "Strategy",
     "Thematic"
@@ -1757,14 +2241,18 @@
    "expansions": [],
    "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "love-letter",
    "name": "Love Letter",
+   "status": "Owned",
+   "bggId": 129622,
    "players": [
     2,
-    6
+    4
    ],
    "best": [
     4
@@ -1773,8 +2261,8 @@
     20,
     20
    ],
-   "weight": 1.2,
-   "age": 10,
+   "weight": 1.18,
+   "age": 8,
    "tags": [
     "Bluffing",
     "Party"
@@ -1788,24 +2276,27 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "magic-maze",
    "name": "Magic Maze",
+   "status": "Owned",
+   "bggId": 209778,
    "players": [
     1,
     8
    ],
    "best": [
-    4,
-    5
+    4
    ],
    "time": [
     15,
     15
    ],
-   "weight": 1.8,
+   "weight": 1.75,
    "age": 8,
    "tags": [
     "Co-op",
@@ -1820,24 +2311,29 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "marvel-champions",
    "name": "Marvel Champions: The Card Game",
+   "status": "Owned",
+   "bggId": 285774,
    "players": [
     1,
     4
    ],
    "best": [
+    1,
     2
    ],
    "time": [
     45,
     90
    ],
-   "weight": 2.7,
-   "age": 14,
+   "weight": 2.96,
+   "age": 12,
    "tags": [
     "Co-op",
     "Thematic"
@@ -1860,24 +2356,29 @@
    ],
    "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "mascarade",
    "name": "Mascarade",
+   "status": "Owned",
+   "bggId": 139030,
    "players": [
     2,
     13
    ],
    "best": [
     6,
-    10
+    7,
+    8
    ],
    "time": [
     30,
     30
    ],
-   "weight": 1.5,
+   "weight": 1.53,
    "age": 10,
    "tags": [
     "Bluffing",
@@ -1892,25 +2393,28 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "micromacro-crime-city",
    "name": "MicroMacro: Crime City",
+   "status": "Owned",
+   "bggId": 318977,
    "players": [
     1,
     4
    ],
    "best": [
-    2,
-    3
+    2
    ],
    "time": [
     15,
     45
    ],
-   "weight": 1.2,
-   "age": 12,
+   "weight": 1.11,
+   "age": 8,
    "tags": [
     "Co-op",
     "Deduction"
@@ -1924,11 +2428,15 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "monopoly-bojack",
    "name": "Monopoly: BoJack Horseman Edition",
+   "status": "Owned",
+   "bggId": 268265,
    "players": [
     2,
     6
@@ -1938,7 +2446,7 @@
    ],
    "time": [
     60,
-    180
+    60
    ],
    "weight": 1.6,
    "age": 17,
@@ -1955,11 +2463,15 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "monopoly-cheaters",
    "name": "Monopoly: Cheaters Edition",
+   "status": "Owned",
+   "bggId": 254617,
    "players": [
     2,
     6
@@ -1969,9 +2481,9 @@
    ],
    "time": [
     60,
-    90
+    180
    ],
-   "weight": 1.4,
+   "weight": 1.33,
    "age": 8,
    "tags": [
     "Family",
@@ -1986,11 +2498,15 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "mysterium",
    "name": "Mysterium",
+   "status": "Owned",
+   "bggId": 181304,
    "players": [
     2,
     7
@@ -2000,11 +2516,11 @@
     6
    ],
    "time": [
-    40,
-    45
+    42,
+    42
    ],
-   "weight": 1.9,
-   "age": 10,
+   "weight": 1.89,
+   "age": 8,
    "tags": [
     "Co-op",
     "Deduction",
@@ -2019,23 +2535,28 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "nemesis",
    "name": "Nemesis",
+   "status": "Owned",
+   "bggId": 167355,
    "players": [
     1,
     5
    ],
    "best": [
-    4
+    4,
+    5
    ],
    "time": [
     90,
     180
    ],
-   "weight": 3.4,
+   "weight": 3.49,
    "age": 14,
    "tags": [
     "Thematic",
@@ -2050,23 +2571,28 @@
    "expansions": [],
    "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "no-thanks",
    "name": "No Thanks!",
+   "status": "Owned",
+   "bggId": 12942,
    "players": [
     3,
     7
    ],
    "best": [
+    4,
     5
    ],
    "time": [
     20,
     20
    ],
-   "weight": 1.1,
+   "weight": 1.13,
    "age": 8,
    "tags": [
     "Family",
@@ -2081,25 +2607,28 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "on-a-scale-of-one-to-t-rex",
    "name": "On a Scale of One to T-Rex",
+   "status": "Owned",
+   "bggId": 289018,
    "players": [
-    3,
+    2,
     8
    ],
    "best": [
-    5,
     6
    ],
    "time": [
-    30,
-    30
+    15,
+    15
    ],
    "weight": 1.0,
-   "age": 10,
+   "age": 6,
    "tags": [
     "Party"
    ],
@@ -2112,25 +2641,32 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "outsmarted",
    "name": "Outsmarted!",
+   "status": "Owned",
+   "bggId": 323367,
    "players": [
     2,
-    8
+    24
    ],
    "best": [
+    2,
     4,
-    6
+    5,
+    7,
+    8
    ],
    "time": [
     30,
-    60
+    30
    ],
-   "weight": 1.2,
-   "age": 8,
+   "weight": 1.0,
+   "age": 10,
    "tags": [
     "Family",
     "Party",
@@ -2145,11 +2681,15 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "pandemic",
    "name": "Pandemic",
+   "status": "Owned",
+   "bggId": 30549,
    "players": [
     2,
     4
@@ -2161,8 +2701,8 @@
     45,
     45
    ],
-   "weight": 2.4,
-   "age": 8,
+   "weight": 2.39,
+   "age": 10,
    "tags": [
     "Co-op",
     "Strategy"
@@ -2176,56 +2716,29 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
-  },
-  {
-   "id": "pandemic-legacy-s1",
-   "name": "Pandemic Legacy: Season 1",
-   "players": [
-    2,
-    4
-   ],
-   "best": [
-    4
-   ],
-   "time": [
-    60,
-    60
-   ],
-   "weight": 2.8,
-   "age": 13,
-   "tags": [
-    "Co-op",
-    "Campaign"
-   ],
-   "summary": "Pandemic as a year-long campaign. The board, rules and characters change permanently as you play through the months.",
-   "teach": [
-    "Goal: meet each month's objectives; you get two attempts per month.",
-    "Turns: like Pandemic (4 actions, draw 2, infect), plus whatever the campaign has added.",
-    "Legacy: stickers, opened boxes and torn cards are permanent, so play with a consistent group."
-   ],
-   "expansions": [],
-   "complexity": 3,
-   "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "pandemic-contagion",
    "name": "Pandemic: Contagion",
+   "status": "Owned",
+   "bggId": 157789,
    "players": [
     2,
     5
    ],
    "best": [
-    3,
-    4
+    4,
+    5
    ],
    "time": [
     30,
     30
    ],
-   "weight": 1.8,
-   "age": 14,
+   "weight": 1.91,
+   "age": 10,
    "tags": [
     "Strategy"
    ],
@@ -2238,25 +2751,29 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "pitch-car",
    "name": "PitchCar",
+   "status": "Owned",
+   "bggId": 150,
    "players": [
     2,
     8
    ],
    "best": [
-    6,
-    8
+    5,
+    6
    ],
    "time": [
     30,
     30
    ],
-   "weight": 1.1,
-   "age": 6,
+   "weight": 1.12,
+   "age": 5,
    "tags": [
     "Dexterity",
     "Family",
@@ -2271,11 +2788,15 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "priests-of-ra",
    "name": "Priests of Ra",
+   "status": "Owned",
+   "bggId": 59753,
    "players": [
     2,
     5
@@ -2287,8 +2808,8 @@
     60,
     60
    ],
-   "weight": 2.4,
-   "age": 13,
+   "weight": 2.24,
+   "age": 10,
    "tags": [
     "Strategy",
     "Bluffing"
@@ -2302,25 +2823,28 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "really-nasty-horse-racing",
    "name": "The Really Nasty Horse Racing Game",
+   "status": "Owned",
+   "bggId": 126,
    "players": [
     2,
-    8
+    6
    ],
    "best": [
-    4,
     6
    ],
    "time": [
-    45,
-    60
+    90,
+    90
    ],
-   "weight": 1.4,
-   "age": 8,
+   "weight": 1.65,
+   "age": 10,
    "tags": [
     "Family",
     "Party"
@@ -2332,13 +2856,17 @@
     "Payouts: winning bets pay out at the horse's odds."
    ],
    "expansions": [],
-   "complexity": 1,
+   "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "regicide-legacy",
    "name": "Regicide Legacy",
+   "status": "Owned",
+   "bggId": 412963,
    "players": [
     1,
     4
@@ -2348,9 +2876,9 @@
    ],
    "time": [
     20,
-    40
+    60
    ],
-   "weight": 2.0,
+   "weight": 2.44,
    "age": 10,
    "tags": [
     "Co-op",
@@ -2365,25 +2893,28 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "the-resistance",
    "name": "The Resistance",
+   "status": "Owned",
+   "bggId": 41114,
    "players": [
     5,
     10
    ],
    "best": [
-    7,
-    8
+    7
    ],
    "time": [
     30,
     30
    ],
-   "weight": 1.6,
-   "age": 13,
+   "weight": 1.59,
+   "age": 12,
    "tags": [
     "Party",
     "Bluffing",
@@ -2398,11 +2929,15 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "revolution",
    "name": "Revolution!",
+   "status": "Owned",
+   "bggId": 34887,
    "players": [
     3,
     4
@@ -2411,11 +2946,11 @@
     4
    ],
    "time": [
-    45,
+    60,
     60
    ],
-   "weight": 2.2,
-   "age": 12,
+   "weight": 2.04,
+   "age": 10,
    "tags": [
     "Bluffing",
     "Strategy"
@@ -2429,11 +2964,15 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "riff-raff",
    "name": "Riff Raff",
+   "status": "Owned",
+   "bggId": 118695,
    "players": [
     2,
     4
@@ -2444,9 +2983,9 @@
    ],
    "time": [
     30,
-    45
+    30
    ],
-   "weight": 1.3,
+   "weight": 1.19,
    "age": 8,
    "tags": [
     "Dexterity",
@@ -2461,11 +3000,15 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "risk-game-of-thrones",
    "name": "Risk: Game of Thrones",
+   "status": "Owned",
+   "bggId": 179719,
    "players": [
     2,
     7
@@ -2478,7 +3021,7 @@
     120,
     240
    ],
-   "weight": 2.4,
+   "weight": 2.71,
    "age": 14,
    "tags": [
     "Strategy",
@@ -2491,27 +3034,32 @@
     "Extras: character and maester cards give special abilities; check the mode you're playing."
    ],
    "expansions": [],
-   "complexity": 2,
+   "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "room-25",
    "name": "Room 25",
+   "status": "Owned",
+   "bggId": 127024,
    "players": [
     1,
     6
    ],
    "best": [
     4,
+    5,
     6
    ],
    "time": [
     30,
     30
    ],
-   "weight": 2.0,
-   "age": 13,
+   "weight": 1.93,
+   "age": 10,
    "tags": [
     "Co-op",
     "Bluffing"
@@ -2525,25 +3073,30 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "scattergories",
    "name": "Scattergories",
+   "status": "Owned",
+   "bggId": 2381,
    "players": [
     2,
     6
    ],
    "best": [
     4,
+    5,
     6
    ],
    "time": [
     30,
     30
    ],
-   "weight": 1.2,
-   "age": 12,
+   "weight": 1.36,
+   "age": 10,
    "tags": [
     "Party",
     "Word & trivia",
@@ -2558,11 +3111,15 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "scythe",
    "name": "Scythe",
+   "status": "Owned",
+   "bggId": 169786,
    "players": [
     1,
     5
@@ -2571,11 +3128,11 @@
     4
    ],
    "time": [
-    90,
+    115,
     115
    ],
-   "weight": 3.4,
-   "age": 14,
+   "weight": 3.45,
+   "age": 12,
    "tags": [
     "Strategy",
     "Thematic"
@@ -2589,24 +3146,27 @@
    "expansions": [],
    "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "sierra-west",
    "name": "Sierra West",
+   "status": "Owned",
+   "bggId": 257066,
    "players": [
     1,
     4
    ],
    "best": [
-    2,
-    3
+    2
    ],
    "time": [
-    60,
-    90
+    40,
+    60
    ],
-   "weight": 3.0,
+   "weight": 2.96,
    "age": 12,
    "tags": [
     "Strategy",
@@ -2621,11 +3181,15 @@
    "expansions": [],
    "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "skull",
    "name": "Skull",
+   "status": "Owned",
+   "bggId": 92415,
    "players": [
     3,
     6
@@ -2638,8 +3202,8 @@
     15,
     45
    ],
-   "weight": 1.1,
-   "age": 10,
+   "weight": 1.12,
+   "age": 8,
    "tags": [
     "Bluffing",
     "Party"
@@ -2653,11 +3217,15 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "sky-team",
    "name": "Sky Team",
+   "status": "Owned",
+   "bggId": 373106,
    "players": [
     2,
     2
@@ -2666,11 +3234,11 @@
     2
    ],
    "time": [
-    15,
+    20,
     20
    ],
-   "weight": 2.0,
-   "age": 12,
+   "weight": 2.04,
+   "age": 10,
    "tags": [
     "Co-op"
    ],
@@ -2683,24 +3251,27 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "slay-the-spire",
    "name": "Slay the Spire: The Board Game",
+   "status": "Owned",
+   "bggId": 338960,
    "players": [
     1,
     4
    ],
    "best": [
-    1,
     2
    ],
    "time": [
     30,
-    60
+    150
    ],
-   "weight": 2.7,
+   "weight": 2.91,
    "age": 12,
    "tags": [
     "Co-op",
@@ -2716,11 +3287,15 @@
    "expansions": [],
    "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "small-world",
    "name": "Small World",
+   "status": "Owned",
+   "bggId": 40692,
    "players": [
     2,
     5
@@ -2732,7 +3307,7 @@
     40,
     80
    ],
-   "weight": 2.4,
+   "weight": 2.35,
    "age": 8,
    "tags": [
     "Strategy",
@@ -2747,25 +3322,28 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "snakesss",
    "name": "Snakesss",
+   "status": "Owned",
+   "bggId": 337389,
    "players": [
-    3,
+    4,
     8
    ],
    "best": [
-    5,
     6
    ],
    "time": [
     20,
-    30
+    20
    ],
-   "weight": 1.0,
-   "age": 10,
+   "weight": 1.08,
+   "age": 12,
    "tags": [
     "Party"
    ],
@@ -2774,25 +3352,54 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
+  },
+  {
+   "id": "soar",
+   "name": "Soar",
+   "status": "Pre-order",
+   "bggId": 464147,
+   "players": [
+    2,
+    5
+   ],
+   "best": [],
+   "time": [
+    30,
+    30
+   ],
+   "weight": 2.0,
+   "age": 8,
+   "tags": [],
+   "summary": "Summary still to be written.",
+   "teach": [],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "spirit-island",
    "name": "Spirit Island",
+   "status": "Owned",
+   "bggId": 162886,
    "players": [
     1,
     4
    ],
    "best": [
-    2,
-    3
+    2
    ],
    "time": [
     90,
     120
    ],
-   "weight": 4.1,
-   "age": 13,
+   "weight": 4.08,
+   "age": 14,
    "tags": [
     "Co-op",
     "Strategy"
@@ -2806,11 +3413,15 @@
    "expansions": [],
    "complexity": 4,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "splendor",
    "name": "Splendor",
+   "status": "Owned",
+   "bggId": 148228,
    "players": [
     2,
     4
@@ -2822,8 +3433,8 @@
     30,
     30
    ],
-   "weight": 1.8,
-   "age": 10,
+   "weight": 1.77,
+   "age": 8,
    "tags": [
     "Strategy",
     "Family"
@@ -2842,11 +3453,15 @@
    ],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "splendor-duel",
    "name": "Splendor Duel",
+   "status": "Owned",
+   "bggId": 364073,
    "players": [
     2,
     2
@@ -2858,7 +3473,7 @@
     30,
     30
    ],
-   "weight": 2.0,
+   "weight": 2.05,
    "age": 10,
    "tags": [
     "Strategy"
@@ -2872,11 +3487,15 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "splendor-marvel",
    "name": "Splendor: Marvel",
+   "status": "Owned",
+   "bggId": 293296,
    "players": [
     2,
     4
@@ -2886,10 +3505,10 @@
    ],
    "time": [
     30,
-    45
+    30
    ],
    "weight": 1.8,
-   "age": 10,
+   "age": 8,
    "tags": [
     "Strategy",
     "Family"
@@ -2903,24 +3522,63 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
-   "id": "spyfall",
-   "name": "Spyfall",
+   "id": "dobble",
+   "name": "Dobble",
+   "status": "Owned",
+   "bggId": 63268,
    "players": [
-    3,
+    2,
     8
    ],
    "best": [
-    6,
-    7
+    4,
+    5
    ],
    "time": [
     15,
     15
    ],
-   "weight": 1.2,
+   "weight": 1.04,
+   "age": 4,
+   "tags": [
+    "Family",
+    "Party"
+   ],
+   "summary": "The frantic spotting game: any two cards share exactly one symbol, and you race to call it first.",
+   "teach": [
+    "Goal: depends on the mini-game, usually the most cards collected.",
+    "Spot it: find the one symbol your card shares with the middle card and say it aloud.",
+    "Mini-games: the tin has several. The Towering Inferno is a good default."
+   ],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": "",
+   "cover": "",
+   "similar": []
+  },
+  {
+   "id": "spyfall",
+   "name": "Spyfall",
+   "status": "Owned",
+   "bggId": 166384,
+   "players": [
+    3,
+    8
+   ],
+   "best": [
+    6
+   ],
+   "time": [
+    15,
+    15
+   ],
+   "weight": 1.23,
    "age": 12,
    "tags": [
     "Party",
@@ -2936,17 +3594,21 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "star-wars-imperial-assault",
    "name": "Star Wars: Imperial Assault",
+   "status": "Owned",
+   "bggId": 164153,
    "players": [
-    1,
+    2,
     5
    ],
    "best": [
-    3,
+    2,
     5
    ],
    "time": [
@@ -2954,7 +3616,7 @@
     120
    ],
    "weight": 3.3,
-   "age": 14,
+   "age": 12,
    "tags": [
     "Campaign",
     "Thematic",
@@ -2969,11 +3631,15 @@
    "expansions": [],
    "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "star-wars-rebellion",
    "name": "Star Wars: Rebellion",
+   "status": "Owned",
+   "bggId": 187645,
    "players": [
     2,
     4
@@ -2985,8 +3651,8 @@
     180,
     240
    ],
-   "weight": 3.7,
-   "age": 14,
+   "weight": 3.75,
+   "age": 12,
    "tags": [
     "Strategy",
     "Thematic"
@@ -3000,13 +3666,17 @@
    "expansions": [],
    "complexity": 4,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "superclub",
    "name": "Superclub: The Football Manager Board Game",
+   "status": "Owned",
+   "bggId": 294047,
    "players": [
-    1,
+    2,
     4
    ],
    "best": [
@@ -3014,11 +3684,11 @@
     4
    ],
    "time": [
-    60,
-    120
+    90,
+    240
    ],
-   "weight": 2.5,
-   "age": 12,
+   "weight": 2.17,
+   "age": 10,
    "tags": [
     "Strategy",
     "Thematic"
@@ -3030,25 +3700,57 @@
     "Matches: player ratings decide results, with a little luck."
    ],
    "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": "",
+   "cover": "",
+   "similar": []
+  },
+  {
+   "id": "survivalist",
+   "name": "Survivalist",
+   "status": "Pre-order",
+   "bggId": 459646,
+   "players": [
+    2,
+    6
+   ],
+   "best": [
+    6
+   ],
+   "time": [
+    40,
+    80
+   ],
+   "weight": 3.0,
+   "age": 8,
+   "tags": [],
+   "summary": "Summary still to be written.",
+   "teach": [],
+   "expansions": [],
    "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "survive-the-island",
    "name": "Survive the Island",
+   "status": "Owned",
+   "bggId": 425428,
    "players": [
     2,
-    4
+    5
    ],
    "best": [
     4
    ],
    "time": [
     45,
-    60
+    45
    ],
-   "weight": 1.6,
+   "weight": 1.48,
    "age": 8,
    "tags": [
     "Family",
@@ -3061,13 +3763,17 @@
     "Points: each person has a hidden value, so you never know exactly who's ahead."
    ],
    "expansions": [],
-   "complexity": 2,
+   "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "sushi-go",
    "name": "Sushi Go! (10th Anniversary Edition)",
+   "status": "Owned",
+   "bggId": 424972,
    "players": [
     2,
     5
@@ -3094,11 +3800,15 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "taskmaster-card-game",
    "name": "Taskmaster: The Card Game",
+   "status": "Owned",
+   "bggId": 377606,
    "players": [
     3,
     8
@@ -3108,8 +3818,8 @@
     6
    ],
    "time": [
-    30,
-    45
+    20,
+    60
    ],
    "weight": 1.0,
    "age": 12,
@@ -3125,24 +3835,27 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "tension",
    "name": "Tension: The Crazy Naming Game",
+   "status": "Owned",
+   "bggId": 12920,
    "players": [
     4,
-    12
+    4
    ],
    "best": [
-    6,
-    8
+    4
    ],
    "time": [
-    30,
-    45
+    40,
+    40
    ],
-   "weight": 1.0,
+   "weight": 1.14,
    "age": 10,
    "tags": [
     "Party",
@@ -3157,11 +3870,15 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "terraforming-mars",
    "name": "Terraforming Mars",
+   "status": "Owned",
+   "bggId": 167791,
    "players": [
     1,
     5
@@ -3173,7 +3890,7 @@
     120,
     120
    ],
-   "weight": 3.3,
+   "weight": 3.27,
    "age": 12,
    "tags": [
     "Strategy"
@@ -3187,25 +3904,30 @@
    "expansions": [],
    "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "throw-throw-burrito",
    "name": "Throw Throw Burrito",
+   "status": "Owned",
+   "bggId": 274533,
    "players": [
     2,
     6
    ],
    "best": [
     4,
+    5,
     6
    ],
    "time": [
     15,
     15
    ],
-   "weight": 1.2,
-   "age": 7,
+   "weight": 1.09,
+   "age": 8,
    "tags": [
     "Party",
     "Dexterity",
@@ -3220,11 +3942,50 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
+  },
+  {
+   "id": "thunder-road-vendetta",
+   "name": "Thunder Road: Vendetta (Maximum Chrome)",
+   "status": "Owned",
+   "bggId": 355997,
+   "players": [
+    2,
+    5
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    45,
+    75
+   ],
+   "weight": 2.32,
+   "age": 8,
+   "tags": [
+    "Family",
+    "Thematic"
+   ],
+   "summary": "Mad Max-style racing and car combat. Each player drives a gang of cars down a desert road that builds as you go, ramming, shooting and leaving the stragglers behind.",
+   "teach": [
+    "Goal: be first across the finish line, or the last gang still driving.",
+    "On your turn: roll your dice, assign them to your cars, then move, ram and shoot.",
+    "Watch out: cars that drop off the back of the road are wrecked."
+   ],
+   "expansions": [],
+   "complexity": 2,
+   "adults": false,
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "ticket-to-ride",
    "name": "Ticket to Ride",
+   "status": "Owned",
+   "bggId": 9209,
    "players": [
     2,
     5
@@ -3236,7 +3997,7 @@
     30,
     60
    ],
-   "weight": 1.8,
+   "weight": 1.82,
    "age": 8,
    "tags": [
     "Family",
@@ -3251,11 +4012,15 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "tokyo-highway",
    "name": "Tokyo Highway (2-Player Version)",
+   "status": "Owned",
+   "bggId": 215463,
    "players": [
     2,
     2
@@ -3265,9 +4030,9 @@
    ],
    "time": [
     30,
-    45
+    50
    ],
-   "weight": 2.0,
+   "weight": 1.4,
    "age": 8,
    "tags": [
     "Dexterity",
@@ -3280,19 +4045,24 @@
     "Cars: crossing over or under an opponent's road lets you place a car. Knocking pieces over means a penalty."
    ],
    "expansions": [],
-   "complexity": 2,
+   "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "uno",
    "name": "UNO",
+   "status": "Owned",
+   "bggId": 2223,
    "players": [
     2,
     10
    ],
    "best": [
     4,
+    5,
     6
    ],
    "time": [
@@ -3300,7 +4070,7 @@
     30
    ],
    "weight": 1.1,
-   "age": 7,
+   "age": 5,
    "tags": [
     "Family",
     "Party"
@@ -3314,11 +4084,15 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "wavelength",
    "name": "Wavelength",
+   "status": "Owned",
+   "bggId": 262543,
    "players": [
     2,
     12
@@ -3332,7 +4106,7 @@
     45
    ],
    "weight": 1.1,
-   "age": 14,
+   "age": 10,
    "tags": [
     "Party"
    ],
@@ -3345,24 +4119,55 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
+  },
+  {
+   "id": "what-on-earth",
+   "name": "What on Earth Are You Talking About?",
+   "status": "Pre-order",
+   "bggId": 368857,
+   "players": [
+    2,
+    10
+   ],
+   "best": [],
+   "time": [
+    15,
+    45
+   ],
+   "weight": 0,
+   "age": 8,
+   "tags": [
+    "Party"
+   ],
+   "summary": "Summary still to be written.",
+   "teach": [],
+   "expansions": [],
+   "complexity": 1,
+   "adults": false,
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "wingspan",
    "name": "Wingspan",
+   "status": "Owned",
+   "bggId": 266192,
    "players": [
     1,
     5
    ],
    "best": [
-    2,
     3
    ],
    "time": [
     40,
     70
    ],
-   "weight": 2.4,
+   "weight": 2.48,
    "age": 10,
    "tags": [
     "Strategy",
@@ -3377,11 +4182,15 @@
    "expansions": [],
    "complexity": 2,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "witcher-old-world",
    "name": "The Witcher: Old World",
+   "status": "Owned",
+   "bggId": 331106,
    "players": [
     1,
     5
@@ -3394,8 +4203,8 @@
     90,
     150
    ],
-   "weight": 3.0,
-   "age": 14,
+   "weight": 2.88,
+   "age": 12,
    "tags": [
     "Thematic",
     "Strategy"
@@ -3414,11 +4223,15 @@
    ],
    "complexity": 3,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   },
   {
    "id": "wits-and-wagers",
    "name": "Wits & Wagers",
+   "status": "Owned",
+   "bggId": 20100,
    "players": [
     3,
     7
@@ -3432,7 +4245,7 @@
     25
    ],
    "weight": 1.2,
-   "age": 10,
+   "age": 8,
    "tags": [
     "Party",
     "Word & trivia",
@@ -3447,7 +4260,9 @@
    "expansions": [],
    "complexity": 1,
    "adults": false,
-   "shelf": ""
+   "shelf": "",
+   "cover": "",
+   "similar": []
   }
  ]
 }

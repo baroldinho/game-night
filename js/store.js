@@ -84,10 +84,21 @@ export async function saveGame(id, fields) {
   await setDoc(doc(db, "games", id), { ...fields, updatedAt: serverTimestamp() }, { merge: true });
 }
 
-export async function importGames(games) {
-  const batch = writeBatch(db);
-  games.forEach((g) => batch.set(doc(db, "games", g.id), { ...g, updatedAt: serverTimestamp() }));
-  await batch.commit();
+// Brings the database in line with a game list (the starter list or an
+// uploaded spreadsheet). Only the fields in each record are written, so
+// teaching confidence stays as it is unless the record includes it. Private
+// notes, last played and play counts live elsewhere and are never touched.
+// removeIds are games to delete; checks are private check notes by game id.
+export async function applyGames({ games, removeIds = [], checks = null }) {
+  const ops = [];
+  games.forEach((g) => ops.push((b) => b.set(doc(db, "games", g.id), { ...g, updatedAt: serverTimestamp() }, { merge: true })));
+  removeIds.forEach((id) => ops.push((b) => b.delete(doc(db, "games", id))));
+  if (checks) Object.entries(checks).forEach(([id, check]) => ops.push((b) => b.set(doc(db, "private", id), { check }, { merge: true })));
+  for (let i = 0; i < ops.length; i += 400) {
+    const batch = writeBatch(db);
+    ops.slice(i, i + 400).forEach((op) => op(batch));
+    await batch.commit();
+  }
 }
 
 // ---------- owner-only notes ----------

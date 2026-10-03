@@ -113,6 +113,7 @@ details.filters[open] summary { border-bottom: 2px solid var(--line); }
 .badge.tonight { background: var(--yellow); color: #1E1E1E; }
 .badge.adults { border: 1px solid var(--muted); color: var(--muted); }
 .badge.check { border: 1px solid var(--no); color: var(--no); }
+.badge.pre { border: 2px dashed var(--yellow); color: var(--yellow); }
 .empty { padding: 24px 4px; color: var(--muted); }
 
 /* ---------- game page ---------- */

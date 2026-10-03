@@ -234,7 +234,7 @@ function factsLine(g) {
 }
 function gameRow(g) {
   const badges = `${onShortlist(g.id) ? '<span class="badge tonight">On tonight\'s list</span>' : ""}${g.adults ? '<span class="badge adults">Adults</span>' : ""}${isOwner() && S.priv[g.id] && S.priv[g.id].check ? '<span class="badge check">Check</span>' : ""}`;
-  return `<li><a class="row" href="#/game/${esc(g.id)}"><span class="row-name">${esc(g.name)}${badges}</span>${factsLine(g)}</a></li>`;
+  return `<li><a class="row${g.cover ? " has-thumb" : ""}" href="#/game/${esc(g.id)}">${g.cover ? `<img class="thumb" src="${esc(g.cover)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ""}<span><span class="row-name">${esc(g.name)}${badges}</span>${factsLine(g)}</span></a></li>`;
 }
 
 // ---------- collection
@@ -273,6 +273,7 @@ function viewGame(g, params) {
     ${picked ? `<div class="picked"><strong>Picked for you</strong> from ${esc(picked)} matching games. <button type="button" class="btn ghost" data-action="pick">Pick again</button></div>` : ""}
     <h1>${esc(g.name)}${g.adults ? '<span class="badge adults">Adults</span>' : ""}</h1>
     ${onShortlist(g.id) ? `<p><span class="badge tonight" style="margin-left:0">On tonight's list</span></p>` : ""}
+    ${g.cover && !editing ? `<img class="cover" src="${esc(g.cover)}" alt="${esc(g.name)} box art" loading="lazy" referrerpolicy="no-referrer">` : ""}
     <dl class="factgrid">
       <div><dt>Players</dt><dd>${span(g.players[0], g.players[1])}</dd></div>
       ${best ? `<div><dt>Best with</dt><dd>${best}</dd></div>` : ""}
@@ -336,6 +337,7 @@ function editForm(g) {
     <div class="filter-label">Type of game</div>${tagBoxes}
     <label class="check"><input type="checkbox" name="adults" ${g.adults ? "checked" : ""}> Adults only</label>
     <label for="e-exp">Expansions (one per line, "Name: note")</label><textarea id="e-exp" name="expansions">${esc(exp)}</textarea>
+    <label for="e-cover">Picture (paste an image link, e.g. from BoardGameGeek: press and hold the box picture, then "Copy image address")</label><input id="e-cover" type="text" name="cover" inputmode="url" value="${esc(g.cover || "")}" placeholder="https://…">
     <label for="e-shelf">Where it lives (shelf)</label><input id="e-shelf" type="text" name="shelf" value="${esc(g.shelf || "")}">
     <div class="btn-row"><button type="button" class="btn" data-action="edit-save" data-id="${esc(g.id)}">Save changes</button>
       <button type="button" class="btn quiet" data-action="edit-cancel">Cancel</button></div>
@@ -631,6 +633,7 @@ const actions = {
         return i > 0 ? { name: line.slice(0, i).trim(), note: line.slice(i + 1).trim() } : { name: line, note: "" };
       }),
       shelf: val("shelf").trim(),
+      cover: val("cover").trim(),
     };
     try {
       await store.saveGame(id, fields);

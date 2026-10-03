@@ -1,5 +1,5 @@
 {
- "version": 3,
+ "version": 4,
  "games": [
   {
    "id": "13-days",
@@ -17,12 +17,14 @@
     45,
     45
    ],
-   "weight": 2.34,
    "age": 12,
+   "weight": 2.34,
+   "complexity": 2,
    "tags": [
     "Strategy",
     "Thematic"
    ],
+   "adults": false,
    "summary": "A tense two-player card game that replays the Cuban Missile Crisis in three short rounds. You fight for influence over world issues while trying not to push your own DEFCON tracks into nuclear war.",
    "teach": [
     "Goal: have the most prestige after three rounds by winning the issues you secretly care about.",
@@ -30,11 +32,9 @@
     "Game end: after round 3, or immediately if any of your DEFCON tracks reaches the nuclear war zone, in which case you lose."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/A37oW1nGIGZHtV-I7itwSw__large/img/UzPXLWaTTdNk1mwANzNgtVtOdyc=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2935653.jpg"
   },
   {
    "id": "221b-baker-street",
@@ -52,12 +52,14 @@
     90,
     90
    ],
-   "weight": 1.78,
    "age": 10,
+   "weight": 1.78,
+   "complexity": 2,
    "tags": [
-    "Deduction",
-    "Family"
+    "Family",
+    "Deduction"
    ],
+   "adults": false,
    "summary": "A classic Sherlock Holmes mystery game. You race around a map of London visiting locations to read clues, then head back to Baker Street to name the culprit, motive and weapon.",
    "teach": [
     "Goal: be the first to solve the case correctly.",
@@ -65,11 +67,9 @@
     "Game end: return to 221B and announce your solution. Check it against the answer; a wrong answer puts you out."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/IlxGJOvexKgXN9pGoE_ivA__large/img/Q5hyVj1ZG_f3jXM9aWWrhio676A=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic469310.jpg"
   },
   {
    "id": "7-wonders",
@@ -88,12 +88,14 @@
     30,
     30
    ],
-   "weight": 2.31,
    "age": 10,
+   "weight": 2.31,
+   "complexity": 2,
    "tags": [
     "Strategy",
     "Family"
    ],
+   "adults": false,
    "summary": "Draft cards over three ages to grow an ancient civilisation and build your wonder. Everyone picks at the same time, so it stays quick even with seven players.",
    "teach": [
     "Goal: have the most points after Age III.",
@@ -101,11 +103,9 @@
     "Scoring: military, coins, wonder stages, buildings, guilds and science sets."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/RvFVTEpnbb4NM7k0IF8V7A__large/img/PUYIgB7U8hrMVrA1ikJrUmFG5Ec=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic860217.jpg"
   },
   {
    "id": "7-wonders-duel",
@@ -123,11 +123,13 @@
     30,
     30
    ],
-   "weight": 2.23,
    "age": 10,
+   "weight": 2.23,
+   "complexity": 2,
    "tags": [
     "Strategy"
    ],
+   "adults": false,
    "summary": "The two-player version of 7 Wonders, played from a shared spread of cards. There are three ways to win, so you always have to watch what your opponent is building towards.",
    "teach": [
     "Goal: win by military supremacy (pushing the conflict pawn into their capital), scientific supremacy (6 different science symbols), or the most points after Age III.",
@@ -140,11 +142,9 @@
      "note": "Adds the Pantheon board with gods you can invoke, and Grand Temples in Age III."
     }
    ],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "accentuate",
@@ -163,11 +163,13 @@
     30,
     30
    ],
-   "weight": 1.0,
    "age": 12,
+   "weight": 1,
+   "complexity": 1,
    "tags": [
     "Party"
    ],
+   "adults": false,
    "summary": "A silly team party game built around saying things in different accents. It's best played loud, with people who don't mind sounding ridiculous.",
    "teach": [
     "Goal: score the most points for your team.",
@@ -175,11 +177,9 @@
     "Game end: first team to the target, or most points when you stop."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "ark-nova",
@@ -197,11 +197,13 @@
     90,
     150
    ],
-   "weight": 3.8,
    "age": 14,
+   "weight": 3.8,
+   "complexity": 4,
    "tags": [
     "Strategy"
    ],
+   "adults": false,
    "summary": "Plan and build a modern zoo, house animals and support conservation projects. It's a heavy, satisfying engine-builder with hundreds of different cards.",
    "teach": [
     "Goal: get your appeal and conservation markers to cross each other on the scoring track.",
@@ -209,11 +211,9 @@
     "Game end: when someone's markers cross, everyone else gets one more turn. Then compare the gap between the two tracks."
    ],
    "expansions": [],
-   "complexity": 4,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "arkham-horror-lcg",
@@ -231,13 +231,15 @@
     60,
     120
    ],
-   "weight": 3.57,
    "age": 14,
+   "weight": 3.57,
+   "complexity": 4,
    "tags": [
+    "Thematic",
     "Co-op",
-    "Campaign",
-    "Thematic"
+    "Campaign"
    ],
+   "adults": false,
    "summary": "A co-operative Lovecraftian mystery played out as a campaign of linked scenarios. Your investigators build decks, gather clues and slowly lose their minds, and what happens in one scenario carries into the next.",
    "teach": [
     "Goal: advance the act deck by gathering clues before the doom on the agenda deck runs out.",
@@ -250,11 +252,9 @@
      "note": "An eight-scenario campaign plus new investigators. Play it as a campaign rather than mixing it in."
     }
    ],
-   "complexity": 4,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "assassins-creed-animus",
@@ -270,17 +270,17 @@
     45,
     90
    ],
-   "weight": 0,
    "age": 12,
+   "weight": 0,
+   "complexity": 2,
    "tags": [],
+   "adults": false,
    "summary": "Summary still to be written.",
    "teach": [],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/8Cpnk9KS8yl7XUpyEqpkmQ__large/img/n6EQ-QFDHI-OBxC6y9nsiIlHJsE=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8858621.jpg"
   },
   {
    "id": "azul",
@@ -298,12 +298,14 @@
     30,
     45
    ],
-   "weight": 1.77,
    "age": 8,
+   "weight": 1.77,
+   "complexity": 2,
    "tags": [
-    "Family",
-    "Strategy"
+    "Strategy",
+    "Family"
    ],
+   "adults": false,
    "summary": "A beautiful tile-drafting game about decorating a palace wall. The rules take two minutes, but leaving your opponents only the tiles they don't want is where the cunning comes in.",
    "teach": [
     "Goal: score the most points from your wall by the end of the game.",
@@ -311,11 +313,9 @@
     "End of round: each full pattern line moves one tile to the wall and scores for adjacent tiles. The game ends when someone completes a horizontal row."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/tz19PfklMdAdjxV9WArraA__large/img/e5IJxTYvZIm5sLF16f5pcyG_fIw=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3718275.jpg"
   },
   {
    "id": "azul-duel",
@@ -333,11 +333,13 @@
     30,
     45
    ],
-   "weight": 2.28,
    "age": 10,
+   "weight": 2.28,
+   "complexity": 2,
    "tags": [
     "Strategy"
    ],
+   "adults": false,
    "summary": "A head-to-head take on Azul's tile drafting for exactly two players.",
    "teach": [
     "Goal: score more points than your opponent from the tiles you place.",
@@ -345,11 +347,9 @@
     "Check the rulebook for this edition's scoring and end condition."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/wcYNm1g5mtv6LNZGok_PZw__large/img/ZURWdtiwoq9ZOea-Cama1n3uZqg=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8491761.png"
   },
   {
    "id": "azul-summer-pavilion",
@@ -368,12 +368,14 @@
     30,
     45
    ],
-   "weight": 2.08,
    "age": 8,
+   "weight": 2.08,
+   "complexity": 2,
    "tags": [
-    "Family",
-    "Strategy"
+    "Strategy",
+    "Family"
    ],
+   "adults": false,
    "summary": "An Azul variant where you lay tiles into star-shaped patterns. Each round has a wild colour, which makes it a little more flexible and puzzly than the original.",
    "teach": [
     "Goal: score the most points over six rounds.",
@@ -381,11 +383,9 @@
     "Placing: pay tiles of a colour to place one on a star space of matching value. Score it and its connected tiles. Covering certain spaces earns bonus tiles."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/OyzTx82bKd5iLNIbR570UQ__large/img/4FIMPh8xcNdFmvm03vd-Oa7UQV0=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5027805.png"
   },
   {
    "id": "backstories-alone-under-the-ice",
@@ -404,11 +404,13 @@
     50,
     70
    ],
-   "weight": 1.19,
    "age": 12,
+   "weight": 1.19,
+   "complexity": 1,
    "tags": [
     "Thematic"
    ],
+   "adults": false,
    "summary": "A story-driven card game where you explore one scenario, make choices and uncover what happened. It's played for the story rather than to win.",
    "teach": [
     "Goal: reach a good ending to the story.",
@@ -416,11 +418,9 @@
     "Replay: you can play again to find other endings."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/XoNr0ImZ12f2tMUvoAp_ww__large/img/wHB8U_NHrZlLoC4pHwez_aaijv0=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8134255.jpg"
   },
   {
    "id": "battlesticks",
@@ -438,17 +438,17 @@
     15,
     30
    ],
-   "weight": 0,
    "age": 8,
+   "weight": 0,
+   "complexity": 1,
    "tags": [],
+   "adults": false,
    "summary": "Summary still to be written.",
    "teach": [],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/O6JCPDBk5kplit5lvo_1_A__large/img/tgDPKBStsEQqHrwm4vu9AmwOcCc=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9527970.jpg"
   },
   {
    "id": "beat-that",
@@ -466,13 +466,15 @@
     30,
     90
    ],
-   "weight": 1.1,
    "age": 8,
+   "weight": 1.1,
+   "complexity": 1,
    "tags": [
     "Party",
-    "Dexterity",
-    "Family"
+    "Family",
+    "Dexterity"
    ],
+   "adults": false,
    "summary": "A party game of daft dexterity challenges with cups, balls and dice. You bet on whether you can pull each challenge off, then try to do it in front of everyone.",
    "teach": [
     "Goal: earn the most points.",
@@ -480,11 +482,9 @@
     "Game end: after the agreed number of rounds; most points wins."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/B7jYGZP9qXo_6AoKgHpNUQ__large/img/lv4DqLYIEfwIEzy1hlBpNunOcAY=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5483944.png"
   },
   {
    "id": "blokus",
@@ -502,12 +502,14 @@
     30,
     30
    ],
-   "weight": 1.73,
    "age": 6,
+   "weight": 1.73,
+   "complexity": 2,
    "tags": [
-    "Family",
-    "Strategy"
+    "Strategy",
+    "Family"
    ],
+   "adults": false,
    "summary": "An abstract game of fitting coloured pieces on a shared board. Simple enough for kids, but it turns cut-throat as space runs out.",
    "teach": [
     "Goal: place as many of your squares as possible.",
@@ -515,11 +517,9 @@
     "Game end: when nobody can place. Lose points for squares left in hand; bonuses for placing everything."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/C-EG1K3xkjZJf8rjeZEnEw__large/img/3eQEtFQM5pTJwGWg83CLmXPOWbo=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic153979.jpg"
   },
   {
    "id": "blood-on-the-clocktower",
@@ -540,13 +540,15 @@
     30,
     120
    ],
-   "weight": 3.03,
    "age": 12,
+   "weight": 3.03,
+   "complexity": 3,
    "tags": [
     "Party",
-    "Deduction",
-    "Bluffing"
+    "Bluffing",
+    "Deduction"
    ],
+   "adults": false,
    "summary": "A big-group social deduction game run by a Storyteller. Even dead players keep talking and voting, so nobody sits out, and good players can be lied to by their own abilities.",
    "teach": [
     "Goal: Good wins if the Demon dies. Evil wins if only two players are left alive.",
@@ -554,11 +556,9 @@
     "Needs: one person as Storyteller, running the grimoire."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/6By7Sm8Nsy8M6SNfEhQtGw__large/img/K9dBzKIJbv4H0yVxcmGIwvwyF6M=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4103239.jpg"
   },
   {
    "id": "by-order-of-the-king",
@@ -578,19 +578,19 @@
     10,
     20
    ],
-   "weight": 2.0,
    "age": 8,
+   "weight": 2,
+   "complexity": 2,
    "tags": [
     "Party"
    ],
+   "adults": false,
    "summary": "Summary still to be written.",
    "teach": [],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/knyEFtYMHGSztMpn14xRMg__large/img/mTY12Lh80goSkzYWhMss9yVYBts=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9536445.png"
   },
   {
    "id": "cards-against-humanity",
@@ -610,11 +610,13 @@
     30,
     30
    ],
-   "weight": 1.17,
    "age": 16,
+   "weight": 1.17,
+   "complexity": 1,
    "tags": [
     "Party"
    ],
+   "adults": true,
    "summary": "The adults-only fill-in-the-blank card game. One player reads a prompt and everyone else plays the most outrageous answer they can.",
    "teach": [
     "Goal: win the most black cards.",
@@ -622,11 +624,9 @@
     "Rotate: the Czar role passes left each round."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": true,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/nYLrPiI9gnvlrwOrKQ4_CA__large/img/PUpqCMioJkhR75dK9Mk1hwnjkVk=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2909692.jpg"
   },
   {
    "id": "catan",
@@ -644,12 +644,14 @@
     60,
     120
    ],
-   "weight": 2.28,
    "age": 8,
+   "weight": 2.28,
+   "complexity": 2,
    "tags": [
     "Strategy",
     "Family"
    ],
+   "adults": false,
    "summary": "The classic game of settling an island: gather resources, trade with each other, and build roads, settlements and cities.",
    "teach": [
     "Goal: first to 10 victory points.",
@@ -657,11 +659,9 @@
     "Rolling a 7: anyone with more than 7 cards discards half, and you move the robber to steal."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/_82k0XUTLdx15kqgoPrxrQ__large/img/-ynN3CVjVWki5QbVOYZtWk5lreM=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic268839.jpg"
   },
   {
    "id": "the-chameleon",
@@ -680,13 +680,15 @@
     15,
     15
    ],
-   "weight": 1.05,
    "age": 10,
+   "weight": 1.05,
+   "complexity": 1,
    "tags": [
     "Party",
     "Bluffing",
     "Deduction"
    ],
+   "adults": false,
    "summary": "A quick bluffing word game. Everyone knows the secret word except the Chameleon, who has to blend in.",
    "teach": [
     "Goal: catch the Chameleon, or as the Chameleon, avoid being caught.",
@@ -694,11 +696,9 @@
     "Then vote: if the Chameleon is caught, they can still win by guessing the secret word."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/-uBkiypUVyRKxNuOI_-ZpQ__large/img/tm8mVQ4WMW795fl-55ySaZguLsA=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3552344.png"
   },
   {
    "id": "cheating-moth",
@@ -716,12 +716,14 @@
     30,
     30
    ],
-   "weight": 1.16,
    "age": 6,
+   "weight": 1.16,
+   "complexity": 1,
    "tags": [
-    "Family",
-    "Party"
+    "Party",
+    "Family"
    ],
+   "adults": false,
    "summary": "A card-shedding game where cheating is allowed. Hide cards up your sleeve or drop them under the table, as long as the guard doesn't spot you.",
    "teach": [
     "Goal: be first to get rid of all your cards.",
@@ -729,11 +731,9 @@
     "Cheating: sneak cards away whenever you can. The Bedbug guard catches cheaters, and caught players take penalty cards."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/3S3JJc5-n59kml9z1FlDTg__large/img/g-qGEOuFlsSXaJEa7memPjDbTek=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6962311.jpg"
   },
   {
    "id": "civilization-a-new-dawn",
@@ -751,11 +751,13 @@
     60,
     120
    ],
-   "weight": 3.21,
    "age": 12,
+   "weight": 3.21,
+   "complexity": 3,
    "tags": [
     "Strategy"
    ],
+   "adults": false,
    "summary": "A streamlined civilisation-building game. You expand across a modular map and push up the tech dial to complete victory cards.",
    "teach": [
     "Goal: complete your victory cards before anyone else.",
@@ -763,11 +765,9 @@
     "Grow: expand, build wonders, trade and fight barbarians to meet the victory conditions."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/S0GM2Mxfh8Tmvsdeog0W0g__large/img/x4duZD5j9angGrnRrK-NnkIljxo=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3764168.jpg"
   },
   {
    "id": "clank",
@@ -785,12 +785,14 @@
     30,
     60
    ],
-   "weight": 2.23,
    "age": 8,
+   "weight": 2.23,
+   "complexity": 2,
    "tags": [
     "Strategy",
     "Thematic"
    ],
+   "adults": false,
    "summary": "A deck-building dungeon crawl where you sneak into a dragon's lair, grab an artefact and try to get out alive. Make too much noise and the dragon notices.",
    "teach": [
     "Goal: escape with the most points, including at least one artefact.",
@@ -798,11 +800,9 @@
     "Dragon attacks: draw cubes from the bag; yours hurt you. Leave the depths before you're knocked out."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/p6yE2N7_TbkD3JV9Jve6Zw__large/img/-3Grt7Sqf344iSP6FNB7Uv87aQQ=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7526914.jpg"
   },
   {
    "id": "cockroach-poker",
@@ -820,12 +820,14 @@
     20,
     20
    ],
-   "weight": 1.1,
    "age": 6,
+   "weight": 1.1,
+   "complexity": 1,
    "tags": [
     "Party",
     "Bluffing"
    ],
+   "adults": false,
    "summary": "A pure bluffing game of passing critters to each other face down and lying about what they are. Simple, quick and very funny.",
    "teach": [
     "Goal: don't be the first to collect four of the same creature (or run out of cards).",
@@ -833,11 +835,9 @@
     "The receiver either calls 'true' or 'false' (wrong guess takes the card face up), or peeks and passes it on with a new claim."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/ffSUPH6b7hzYdh0IHJHQKw__large/img/3Ahj4WTLAnSOn_cu_0cHmgXnmxE=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic296226.jpg"
   },
   {
    "id": "codenames",
@@ -856,12 +856,14 @@
     15,
     15
    ],
-   "weight": 1.25,
    "age": 10,
+   "weight": 1.25,
+   "complexity": 1,
    "tags": [
     "Party",
     "Word & trivia"
    ],
+   "adults": false,
    "summary": "The team word-association game. Spymasters give one-word clues to get their team to pick their agents from a grid of 25 words.",
    "teach": [
     "Goal: find all your team's agents first.",
@@ -869,11 +871,9 @@
     "Watch out: picking the assassin loses immediately; a neutral or enemy word ends your turn."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/nC6ifPCDnAItwoKSKXVrnw__large/img/eQTMOoAUtaSh4ysrXVQ7GT-vQ1g=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8907965.jpg"
   },
   {
    "id": "confident",
@@ -892,12 +892,14 @@
     20,
     40
    ],
-   "weight": 1.0,
    "age": 10,
+   "weight": 1,
+   "complexity": 1,
    "tags": [
     "Party",
     "Word & trivia"
    ],
+   "adults": false,
    "summary": "A quiz where you don't need the exact answer: you give a range you're confident contains it. Narrow ranges score more, but miss and you score nothing.",
    "teach": [
     "Goal: score the most points.",
@@ -905,11 +907,9 @@
     "Scoring: correct ranges score; the narrowest correct range does best."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/tKzTbkvl4pEUHStLn4gh5w__large/img/PK6v5A1O-17LCYo_im9OghaE2MM=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9628573.png"
   },
   {
    "id": "coup",
@@ -927,12 +927,14 @@
     15,
     15
    ],
-   "weight": 1.41,
    "age": 10,
+   "weight": 1.41,
+   "complexity": 1,
    "tags": [
-    "Bluffing",
-    "Party"
+    "Party",
+    "Bluffing"
    ],
+   "adults": false,
    "summary": "A fast bluffing game of court intrigue. Claim any role you like, but if someone challenges and you were lying, you lose influence.",
    "teach": [
     "Goal: be the last player with influence (face-down cards) left.",
@@ -940,11 +942,9 @@
     "Challenges and blocks: anyone can challenge a claim. The loser of the challenge loses an influence card."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/H0LomaCTd6MVXvH1KqUaeQ__large/img/RfHgU3kfYm4p0ROaZ1kudUVzegY=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic1929575.jpg"
   },
   {
    "id": "the-crew-mission-deep-sea",
@@ -962,11 +962,13 @@
     20,
     20
    ],
-   "weight": 2.06,
    "age": 10,
+   "weight": 2.06,
+   "complexity": 2,
    "tags": [
     "Co-op"
    ],
+   "adults": false,
    "summary": "A co-operative trick-taking campaign set under the sea. You must win (or avoid winning) particular tricks with very limited communication.",
    "teach": [
     "Goal: complete every task in the current mission.",
@@ -974,11 +976,9 @@
     "Talking: you can't discuss your hand. Each player may reveal one card once per mission."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/0d5_I9L3qgt_6Fz6_YhNGw__large/img/iybI7xesz3ThzaFnOw_cpNTwGf4=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6014017.jpg"
   },
   {
    "id": "the-crew-planet-nine",
@@ -996,12 +996,14 @@
     20,
     20
    ],
-   "weight": 1.97,
    "age": 10,
+   "weight": 1.97,
+   "complexity": 2,
    "tags": [
     "Co-op",
     "Campaign"
    ],
+   "adults": false,
    "summary": "The original Crew: a co-operative space-themed trick-taking campaign of 50 missions that gradually get harder.",
    "teach": [
     "Goal: complete the mission's task cards by winning the right tricks.",
@@ -1009,11 +1011,9 @@
     "Talking: no talking about cards. Each player may communicate one card once per mission."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/F9eMTAGMiQ1vdEumFEyVNg__large/img/V4T7ja3munhwpVkV_CXvAtsOkcw=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7280490.jpg"
   },
   {
    "id": "cryptid",
@@ -1031,11 +1031,13 @@
     30,
     50
    ],
-   "weight": 2.26,
    "age": 10,
+   "weight": 2.26,
+   "complexity": 2,
    "tags": [
     "Deduction"
    ],
+   "adults": false,
    "summary": "A deduction game about finding a legendary creature. Everyone holds one clue to where it lives, and you work out the others' clues from their answers.",
    "teach": [
     "Goal: be first to find the one hex where the creature lives.",
@@ -1043,11 +1045,9 @@
     "Watch out: a wrong 'no' forces you to place a cube, which reveals information about your clue."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/qrPLpAnhFgc470ZRuXlvbg__large/img/D5WWNBOxJXgjC0ZKbwFBfuLOhIo=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4037705.jpg"
   },
   {
    "id": "debatable",
@@ -1066,11 +1066,13 @@
     30,
     120
    ],
-   "weight": 1.12,
    "age": 14,
+   "weight": 1.12,
+   "complexity": 1,
    "tags": [
     "Party"
    ],
+   "adults": false,
    "summary": "A party game of arguing for silly positions and trying to win the room over.",
    "teach": [
     "Goal: win the most rounds.",
@@ -1078,11 +1080,9 @@
     "Game end: first to the target score."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/NMLnWbJsqrouWTsLGKjr7A__large/img/F2Cx7nznkElCu7nmbFdzrtIQNgc=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3591274.jpg"
   },
   {
    "id": "deep-regrets",
@@ -1100,12 +1100,14 @@
     30,
     150
    ],
-   "weight": 2.34,
    "age": 12,
+   "weight": 2.34,
+   "complexity": 2,
    "tags": [
     "Strategy",
     "Thematic"
    ],
+   "adults": false,
    "summary": "A darkly funny push-your-luck fishing game. The deeper you fish, the stranger and more valuable the catch, but your regrets pile up.",
    "teach": [
     "Goal: end the game with the best haul once regrets are counted.",
@@ -1122,40 +1124,45 @@
      "note": "Adds more fish, more regrets and extra content."
     }
    ],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
-   "id": "dobble-access-plus",
-   "name": "Dobble Access+",
+   "id": "dobble",
+   "name": "Dobble",
    "status": "Owned",
-   "bggId": 375753,
+   "bggId": 63268,
    "players": [
-    1,
-    4
+    2,
+    8
    ],
-   "best": [],
+   "best": [
+    4,
+    5
+   ],
    "time": [
-    10,
-    10
+    15,
+    15
    ],
-   "weight": 0,
-   "age": 8,
-   "tags": [
-    "Family",
-    "Party"
-   ],
-   "summary": "Summary still to be written.",
-   "teach": [],
-   "expansions": [],
+   "age": 4,
+   "weight": 1.04,
    "complexity": 1,
+   "tags": [
+    "Party",
+    "Family"
+   ],
    "adults": false,
+   "summary": "The frantic spotting game: any two cards share exactly one symbol, and you race to call it first.",
+   "teach": [
+    "Goal: depends on the mini-game, usually the most cards collected.",
+    "Spot it: find the one symbol your card shares with the middle card and say it aloud.",
+    "Mini-games: the tin has several. The Towering Inferno is a good default."
+   ],
+   "expansions": [],
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "doomlings",
@@ -1173,12 +1180,14 @@
     20,
     45
    ],
-   "weight": 1.0,
    "age": 10,
+   "weight": 1,
+   "complexity": 1,
    "tags": [
-    "Family",
-    "Party"
+    "Party",
+    "Family"
    ],
+   "adults": false,
    "summary": "A fast card game about evolving a creature with silly traits before the world ends. Catastrophes hit everyone as the ages pass.",
    "teach": [
     "Goal: score the most points from the traits in your creature when the world ends.",
@@ -1191,11 +1200,9 @@
      "note": "Your copy includes the base game plus bundled expansions; check the box for which are included."
     }
    ],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "dune-imperium",
@@ -1214,12 +1221,14 @@
     60,
     120
    ],
-   "weight": 3.08,
    "age": 12,
+   "weight": 3.08,
+   "complexity": 3,
    "tags": [
     "Strategy",
     "Thematic"
    ],
+   "adults": false,
    "summary": "A mix of deck-building and worker placement set in the Dune universe. You send agents to gain influence with the factions and fight for control of Arrakis.",
    "teach": [
     "Goal: first to 10 victory points (or the most when the conflict deck runs out).",
@@ -1227,11 +1236,9 @@
     "Reveal turn: reveal your remaining cards for persuasion (buy cards) and swords (combat). Each round ends with a conflict."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "dungeon-party",
@@ -1249,21 +1256,21 @@
     30,
     60
    ],
-   "weight": 1.25,
    "age": 8,
+   "weight": 1.25,
+   "complexity": 1,
    "tags": [
     "Party",
-    "Dexterity",
-    "Family"
+    "Family",
+    "Dexterity"
    ],
+   "adults": false,
    "summary": "A light dexterity party game set in a dungeon.",
    "teach": [],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/GbG_-3r-2l8xGqIn1Pinag__large/img/5pGIwwjLfPV4SZaYIwv0F-ATH0A=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5051889.jpg"
   },
   {
    "id": "skyrim-adventure-game",
@@ -1282,13 +1289,15 @@
     60,
     120
    ],
-   "weight": 3.24,
    "age": 12,
+   "weight": 3.24,
+   "complexity": 3,
    "tags": [
+    "Thematic",
     "Co-op",
-    "Campaign",
-    "Thematic"
+    "Campaign"
    ],
+   "adults": false,
    "summary": "A co-operative campaign adventure set in Skyrim. You explore the map, take on quests, fight and level up your characters, and your choices carry the story on from one session to the next.",
    "teach": [
     "Goal: work together to complete the campaign's quests.",
@@ -1296,11 +1305,9 @@
     "Between sessions: level up, and the story picks up where you left it."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/NTa3H9kWaUjlrldh8qgYlg__large/img/i04EwxEMnHKkbQB5NE_rlGbzzek=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7203331.jpg"
   },
   {
    "id": "eldritch-horror",
@@ -1318,12 +1325,14 @@
     120,
     240
    ],
-   "weight": 3.32,
    "age": 14,
+   "weight": 3.32,
+   "complexity": 3,
    "tags": [
-    "Co-op",
-    "Thematic"
+    "Thematic",
+    "Co-op"
    ],
+   "adults": false,
    "summary": "A globe-trotting co-operative adventure against an Ancient One. You travel the world, close gates and solve mysteries before doom runs out.",
    "teach": [
     "Goal: solve three mysteries before the Ancient One awakens (or deal with it if it does).",
@@ -1331,11 +1340,9 @@
     "Mythos phase: each round a mythos card spawns gates, monsters and trouble."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/oxdsZKIX5_3ovDo38EIaeg__large/img/dplVG7fYjLdFjvcxyS3PVB6Gplw=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic1872452.jpg"
   },
   {
    "id": "everdell",
@@ -1353,12 +1360,14 @@
     40,
     80
    ],
-   "weight": 2.84,
    "age": 10,
+   "weight": 2.84,
+   "complexity": 3,
    "tags": [
     "Strategy",
     "Family"
    ],
+   "adults": false,
    "summary": "A charming worker-placement and tableau game about building a woodland city of critters and constructions through the seasons.",
    "teach": [
     "Goal: score the most points from your city of up to 15 cards.",
@@ -1366,11 +1375,9 @@
     "Game end: when everyone has passed after autumn."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/Gqut8wnq6RmTVzdL2yRhTA__large/img/wRxgpdfrI6Vi-Ms-_pW3jE1pquk=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5103731.jpg"
   },
   {
    "id": "exit-pharaohs-tomb",
@@ -1388,12 +1395,14 @@
     45,
     90
    ],
-   "weight": 2.73,
    "age": 12,
+   "weight": 2.73,
+   "complexity": 3,
    "tags": [
     "Co-op",
     "Deduction"
    ],
+   "adults": false,
    "summary": "A one-time escape room in a box. You solve linked puzzles with a decoder disc, and you're allowed to cut, fold and write on the components.",
    "teach": [
     "Goal: escape as fast as possible with as few hints as possible.",
@@ -1401,11 +1410,9 @@
     "Note: it can only be played once. Check it hasn't been used already."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/fGO2BYF3whgNaSBZMVSO9g__large/img/kPj9avC2DOi7G4nLwhCGRIA4xZw=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3332423.jpg"
   },
   {
    "id": "exploding-kittens",
@@ -1424,12 +1431,14 @@
     15,
     15
    ],
-   "weight": 1.08,
    "age": 8,
+   "weight": 1.08,
+   "complexity": 1,
    "tags": [
     "Party",
     "Family"
    ],
+   "adults": false,
    "summary": "Card-based Russian roulette with kittens. Draw an Exploding Kitten without a Defuse and you're out.",
    "teach": [
     "Goal: be the last player who hasn't exploded.",
@@ -1437,11 +1446,9 @@
     "Exploding Kitten: play a Defuse and secretly put the kitten back anywhere in the deck."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/N8bL53-pRU7zaXDTrEaYrw__large/img/5WmNI5pvapmRAB2Mh3jsjCs7DXg=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2691976.png"
   },
   {
    "id": "fallout-wasteland-warfare",
@@ -1459,12 +1466,14 @@
     30,
     240
    ],
-   "weight": 3.61,
    "age": 12,
+   "weight": 3.61,
+   "complexity": 4,
    "tags": [
-    "Thematic",
-    "Strategy"
+    "Strategy",
+    "Thematic"
    ],
+   "adults": false,
    "summary": "A miniatures skirmish game set in the Fallout universe. It can be played head to head or with AI-controlled enemies for solo and co-op scenarios.",
    "teach": [
     "Goal: complete the scenario's objectives.",
@@ -1472,11 +1481,9 @@
     "AI cards: control enemy models in solo or co-op play."
    ],
    "expansions": [],
-   "complexity": 4,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/L46l6kfWDEv41wLo3b5Xlw__large/img/Tmyrky0wC2NmIQh2qho8K2a7oWA=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4166667.jpg"
   },
   {
    "id": "fog-of-love",
@@ -1494,11 +1501,13 @@
     60,
     120
    ],
-   "weight": 2.25,
    "age": 16,
+   "weight": 2.25,
+   "complexity": 2,
    "tags": [
     "Thematic"
    ],
+   "adults": false,
    "summary": "A two-player romantic comedy in a box. You play two characters in a relationship, and each of you has secret goals that may or may not include making it work.",
    "teach": [
     "Goal: fulfil your secret destiny by the end of the story.",
@@ -1506,11 +1515,9 @@
     "Chapters: the story card sets the length; decide your destiny at the end."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/sz7k-dCgsK1ZmuFQV3BL6w__large/img/HScbodF-DEr70oP6htgLdanX_Og=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3686636.jpg"
   },
   {
    "id": "forbidden-island",
@@ -1528,12 +1535,14 @@
     30,
     30
    ],
-   "weight": 1.74,
    "age": 8,
+   "weight": 1.74,
+   "complexity": 2,
    "tags": [
-    "Co-op",
-    "Family"
+    "Family",
+    "Co-op"
    ],
+   "adults": false,
    "summary": "A co-operative family game: grab four treasures from a sinking island and escape by helicopter before it disappears.",
    "teach": [
     "Goal: collect all four treasures and fly off from Fools' Landing together.",
@@ -1541,11 +1550,9 @@
     "You lose if Fools' Landing or both tiles of a treasure sink, a player drowns, or the water level tops out."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/-2cRyU_ssY77g2iHmIGyTg__large/img/r5HtDJmMKlPnp6EHIY9rM3StEEo=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic720360.jpg"
   },
   {
    "id": "fractured-sky",
@@ -1564,9 +1571,11 @@
     45,
     75
    ],
-   "weight": 2.37,
    "age": 12,
+   "weight": 2.37,
+   "complexity": 2,
    "tags": [],
+   "adults": false,
    "summary": "Summary still to be written.",
    "teach": [],
    "expansions": [
@@ -1575,48 +1584,9 @@
      "note": "Pre-ordered with the base game."
     }
    ],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
-  },
-  {
-   "id": "frosthaven",
-   "name": "Frosthaven",
-   "status": "Owned",
-   "bggId": 295770,
-   "players": [
-    1,
-    4
-   ],
-   "best": [
-    3
-   ],
-   "time": [
-    90,
-    180
-   ],
-   "weight": 4.41,
-   "age": 12,
-   "tags": [
-    "Strategy",
-    "Co-op",
-    "Campaign",
-    "Thematic"
-   ],
-   "summary": "The sequel to Gloomhaven: a huge co-operative campaign in a frozen outpost. You fight through tactical card-driven scenarios, and between them you rebuild the town of Frosthaven.",
-   "teach": [
-    "Goal: complete each scenario's objective before your mercenaries are exhausted.",
-    "Each round: everyone picks two cards from their hand, playing the top half of one and the bottom half of the other. Initiative sets the order, and monsters act from their own deck.",
-    "Between scenarios: resolve outpost events, build and upgrade the town, and level up."
-   ],
-   "expansions": [],
-   "complexity": 4,
-   "adults": false,
-   "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/xmxjHx8M0wzOHdcNe62Qpw__large/img/AUQI1P6rUNt4CUc94VlRdowJhVM=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7324567.jpg"
   },
   {
    "id": "game-changer-home-edition",
@@ -1632,19 +1602,19 @@
     60,
     90
    ],
-   "weight": 0,
    "age": 14,
+   "weight": 0,
+   "complexity": 2,
    "tags": [
     "Party"
    ],
+   "adults": false,
    "summary": "A party game based on Dropout's Game Changer, the show where the twist is that nobody knows the rules until the game is under way.",
    "teach": [],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/CpPlsOmC_Bgab-hynOsUnA__large/img/h_3FkbpLXUkOtdeu9-VnJ94VXkw=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9567811.jpg"
   },
   {
    "id": "game-of-thrones-board-game",
@@ -1662,13 +1632,15 @@
     120,
     240
    ],
-   "weight": 3.73,
    "age": 14,
+   "weight": 3.73,
+   "complexity": 4,
    "tags": [
     "Strategy",
     "Thematic",
     "Bluffing"
    ],
+   "adults": false,
    "summary": "An epic game of negotiation and betrayal for control of Westeros. Orders are placed in secret, so alliances are only as good as your next move.",
    "teach": [
     "Goal: control 7 castles and strongholds, or hold the most when round 10 ends.",
@@ -1681,11 +1653,9 @@
      "note": "Adds House Targaryen and House Arryn (up to 8 players), the Iron Bank and vassal rules."
     }
    ],
-   "complexity": 4,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/M_7UvwZvuxBVjxdadsa5AA__large/img/H68VWXlz8hgjEvi4UpAYdZNM8Gk=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic1077906.jpg"
   },
   {
    "id": "gloomhaven",
@@ -1703,13 +1673,15 @@
     60,
     120
    ],
-   "weight": 3.92,
    "age": 14,
+   "weight": 3.92,
+   "complexity": 4,
    "tags": [
+    "Thematic",
     "Co-op",
-    "Campaign",
-    "Thematic"
+    "Campaign"
    ],
+   "adults": false,
    "summary": "A huge tactical dungeon-crawling campaign. Card-driven combat means every turn is a puzzle, and your characters grow and retire as the story branches.",
    "teach": [
     "Goal: complete the scenario's objective before your party is exhausted.",
@@ -1717,11 +1689,9 @@
     "Cards are your stamina: when you can't play two, you're exhausted. Rest to recover some cards."
    ],
    "expansions": [],
-   "complexity": 4,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__large/img/SjAJC6-7tqR4SiJdzFKVv5S19xA=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2437871.jpg"
   },
   {
    "id": "gwent",
@@ -1739,11 +1709,13 @@
     20,
     20
    ],
-   "weight": 1.88,
    "age": 10,
+   "weight": 1.88,
+   "complexity": 2,
    "tags": [
     "Strategy"
    ],
+   "adults": false,
    "summary": "The Witcher card game in physical form: a two-player duel over three rounds where knowing when to pass matters as much as what you play.",
    "teach": [
     "Goal: win two of three rounds by having more total power on your rows.",
@@ -1751,11 +1723,9 @@
     "Hand management: cards are scarce, so sometimes losing a round cheaply wins the game."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/bLintO18LwPlMoA0DiC05Q__large/img/_rO6JRAfXOp96ElEURfhMyOFhXA=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8954964.png"
   },
   {
    "id": "heat",
@@ -1774,12 +1744,14 @@
     30,
     60
    ],
-   "weight": 2.2,
    "age": 8,
+   "weight": 2.2,
+   "complexity": 2,
    "tags": [
-    "Family",
-    "Strategy"
+    "Strategy",
+    "Family"
    ],
+   "adults": false,
    "summary": "A slick motor-racing card game. You manage your gears and push through corners too fast, but every risk adds heat that clogs up your hand.",
    "teach": [
     "Goal: be first across the line after the set number of laps.",
@@ -1787,11 +1759,9 @@
     "Corners: exceed the speed limit and you pay heat for every point over. If you can't pay, you spin out."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/-vOrd4bOspibyohYExLqWg__large/img/y3xCoWOyOrkUXlylMCqOGAu0QSM=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6940449.png"
   },
   {
    "id": "high-treason",
@@ -1809,12 +1779,14 @@
     30,
     45
    ],
-   "weight": 2.67,
    "age": 14,
+   "weight": 2.67,
+   "complexity": 3,
    "tags": [
     "Strategy",
     "Thematic"
    ],
+   "adults": false,
    "summary": "A two-player courtroom game based on the 1885 trial of Louis Riel. One player prosecutes and the other defends, competing for the jury's verdict.",
    "teach": [
     "Goal: win the jury over to your verdict.",
@@ -1822,11 +1794,9 @@
     "Trial: play cards to argue and sway individual jurors. The final verdict depends on where each juror lands."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/whs7-osymGVZYtNO8QyYrw__large/img/6GCZBs4IjBxeahzhkqiMXbcdXqU=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3736078.jpg"
   },
   {
    "id": "hoplomachus-victorum",
@@ -1844,13 +1814,15 @@
     60,
     90
    ],
-   "weight": 3.56,
    "age": 12,
+   "weight": 3.56,
+   "complexity": 4,
    "tags": [
     "Strategy",
-    "Campaign",
-    "Thematic"
+    "Thematic",
+    "Campaign"
    ],
+   "adults": false,
    "summary": "A tactical gladiator game played on a grid, built for solo and co-op. You lead a ludus of gladiators through a campaign of arena battles.",
    "teach": [
     "Goal: win arena battles and grow your ludus over the campaign.",
@@ -1858,11 +1830,9 @@
     "Between battles: upgrade your gladiators with prowess and earn rewards."
    ],
    "expansions": [],
-   "complexity": 4,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/VIfMhlaUvGwtHc4HqKy-jA__large/img/TQ-z4nNzIOfZTlzy_koJpiaMlTg=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7340742.jpg"
   },
   {
    "id": "horrified",
@@ -1880,13 +1850,15 @@
     60,
     60
    ],
-   "weight": 2.02,
    "age": 8,
+   "weight": 2.02,
+   "complexity": 2,
    "tags": [
-    "Co-op",
     "Family",
-    "Thematic"
+    "Thematic",
+    "Co-op"
    ],
+   "adults": false,
    "summary": "A co-operative game against classic movie monsters. Each monster has its own way to be defeated, so every game is a different puzzle.",
    "teach": [
     "Goal: defeat every monster in play before the terror level maxes out or the monster deck runs out.",
@@ -1894,11 +1866,9 @@
     "Villagers: get them to safe locations. If they die, terror rises."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/OXX2YKecMpfOxvOKAkSuyQ__large/img/Civ4FuZ_qgtohFoStGB-TCksaP4=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5954885.jpg"
   },
   {
    "id": "jaipur",
@@ -1916,12 +1886,14 @@
     30,
     30
    ],
-   "weight": 1.46,
    "age": 8,
+   "weight": 1.46,
+   "complexity": 1,
    "tags": [
-    "Family",
-    "Strategy"
+    "Strategy",
+    "Family"
    ],
+   "adults": false,
    "summary": "A slick two-player trading game set in a market. Take goods or sell them, and use camels to control what's on offer.",
    "teach": [
     "Goal: win two rounds by earning more rupees.",
@@ -1929,11 +1901,9 @@
     "Selling: earlier sales get higher tokens, and big sales earn bonus tokens."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/BeE-zZS2hS0G_BftjBEtow__large/img/CUnVRMu-K-EaBSO1D4k3srJ9T4M=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic620428.jpg"
   },
   {
    "id": "king-of-tokyo",
@@ -1952,12 +1922,14 @@
     30,
     30
    ],
-   "weight": 1.48,
    "age": 6,
+   "weight": 1.48,
+   "complexity": 1,
    "tags": [
-    "Family",
-    "Party"
+    "Party",
+    "Family"
    ],
+   "adults": false,
    "summary": "Giant monsters smash each other for control of Tokyo. You roll dice Yahtzee-style for points, energy, healing or attacks, and buy power cards that bend the rules.",
    "teach": [
     "Goal: be the first to 20 victory points, or the last monster standing.",
@@ -1965,11 +1937,9 @@
     "Tokyo: while you're in Tokyo you score points but can't heal, and your claws hit everyone outside. When you're hit, you can leave and let the attacker in."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/m_RzXpHURC0_xLkvRSR_sw__large/img/gwk5iPPUjwleyG3yhgAE2TIwTx4=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3043734.jpg"
   },
   {
    "id": "last-of-us-escape-the-dark",
@@ -1987,12 +1957,14 @@
     60,
     120
    ],
-   "weight": 2.35,
    "age": 14,
+   "weight": 2.35,
+   "complexity": 2,
    "tags": [
-    "Co-op",
-    "Thematic"
+    "Thematic",
+    "Co-op"
    ],
+   "adults": false,
    "summary": "A co-operative survival game based on The Last of Us, using a chapter-by-chapter dice-and-card system. Decisions and dice rolls decide who makes it out.",
    "teach": [
     "Goal: reach the end of the journey with someone still alive.",
@@ -2000,11 +1972,9 @@
     "Resources: share items and health carefully; losses add up."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/Eq7kRjE41Qgh4zCj8L8nmA__large/img/vUvLTK_8eLSp4L7R05j4UwFx1n0=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7176145.jpg"
   },
   {
    "id": "listography",
@@ -2023,12 +1993,14 @@
     15,
     45
    ],
-   "weight": 1.0,
    "age": 12,
+   "weight": 1,
+   "complexity": 1,
    "tags": [
     "Party",
     "Word & trivia"
    ],
+   "adults": false,
    "summary": "A party game of writing lists against the clock. Points depend on what the others wrote too.",
    "teach": [
     "Goal: score the most points over the rounds.",
@@ -2036,11 +2008,9 @@
     "Scoring: compare lists; see the rulebook for how matches score."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/Qwgj7NTTvKAmcdYMIbb9mg__large/img/MTxnfz8XB8sA7uGBQFMUOxiaTf4=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8116052.jpg"
   },
   {
    "id": "london",
@@ -2058,11 +2028,13 @@
     60,
     90
    ],
-   "weight": 2.72,
    "age": 12,
+   "weight": 2.72,
+   "complexity": 3,
    "tags": [
     "Strategy"
    ],
+   "adults": false,
    "summary": "A tight card game about rebuilding London after the Great Fire. You build up stacks of cards and choose when to run your city, while poverty creeps up.",
    "teach": [
     "Goal: most victory points once the deck runs out and poverty is scored.",
@@ -2070,11 +2042,9 @@
     "Poverty: it grows with your hand size and unused stacks, and costs you heavily at the end."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/TMbEUs1GZpO96P5ubsqQew__large/img/af8AQBI6Hx-ZcpulfyYz5-Intn0=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3693999.jpg"
   },
   {
    "id": "lotr-fate-of-the-fellowship",
@@ -2092,12 +2062,14 @@
     60,
     150
    ],
-   "weight": 3.11,
    "age": 12,
+   "weight": 3.11,
+   "complexity": 3,
    "tags": [
-    "Co-op",
-    "Thematic"
+    "Thematic",
+    "Co-op"
    ],
+   "adults": false,
    "summary": "A co-operative game from Pandemic's designer: get the Ring to Mount Doom while the free peoples hold back Sauron's forces across Middle-earth.",
    "teach": [
     "Goal: destroy the Ring and complete your objectives before Sauron prevails.",
@@ -2105,11 +2077,9 @@
     "Hunt: the closer the Ring gets, the more the Shadow hunts it."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/scw36iBIad7l-rGzxPGcGg__large/img/iqKRrRt2QiIu9LBzDDWYGgLZe6U=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8662670.png"
   },
   {
    "id": "lotr-journeys-in-middle-earth",
@@ -2127,13 +2097,15 @@
     60,
     120
    ],
-   "weight": 2.7,
    "age": 10,
+   "weight": 2.7,
+   "complexity": 3,
    "tags": [
+    "Thematic",
     "Co-op",
-    "Campaign",
-    "Thematic"
+    "Campaign"
    ],
+   "adults": false,
    "summary": "An app-driven co-operative adventure campaign in Middle-earth. The free app runs the story, map and enemies while you manage your heroes' decks.",
    "teach": [
     "Goal: complete each adventure's objective as the campaign unfolds.",
@@ -2141,11 +2113,9 @@
     "Needs: the free app on a phone, tablet or computer."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/1N0LkkVQmiYHTQjL8bcR2A__large/img/ic18-SAWK6tD1Wzno7RYU-gtPEQ=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4695020.jpg"
   },
   {
    "id": "lotr-trick-taking",
@@ -2163,12 +2133,14 @@
     20,
     20
    ],
-   "weight": 1.91,
    "age": 10,
+   "weight": 1.91,
+   "complexity": 2,
    "tags": [
     "Co-op",
     "Campaign"
    ],
+   "adults": false,
    "summary": "A co-operative trick-taking campaign through The Fellowship of the Ring. Each chapter gives the characters goals for which tricks they need to win.",
    "teach": [
     "Goal: every player completes their character's goal for the chapter.",
@@ -2176,11 +2148,9 @@
     "Campaign: play chapters in order; failing means replaying the chapter."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/uC4N_3kQdoHefNPesAHCzQ__large/img/Ffo1YLP-HrwNiCXvMFrnKVr68oQ=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8437787.png"
   },
   {
    "id": "lotr-kings-gambit",
@@ -2196,19 +2166,19 @@
     90,
     120
    ],
-   "weight": 0,
    "age": 12,
+   "weight": 0,
+   "complexity": 2,
    "tags": [
     "Thematic"
    ],
+   "adults": false,
    "summary": "Summary still to be written.",
    "teach": [],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "lost-ruins-of-arnak",
@@ -2226,12 +2196,14 @@
     30,
     120
    ],
-   "weight": 2.93,
    "age": 10,
+   "weight": 2.93,
+   "complexity": 3,
    "tags": [
     "Strategy",
     "Thematic"
    ],
+   "adults": false,
    "summary": "An expedition game that blends deck-building with worker placement. Explore an island, uncover sites, fight guardians and race up the research track.",
    "teach": [
     "Goal: most points after five rounds.",
@@ -2239,11 +2211,9 @@
     "Research: moving up the track earns bonuses; reaching the temple is worth big points."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "love-letter",
@@ -2261,12 +2231,14 @@
     20,
     20
    ],
-   "weight": 1.18,
    "age": 8,
+   "weight": 1.18,
+   "complexity": 1,
    "tags": [
-    "Bluffing",
-    "Party"
+    "Party",
+    "Bluffing"
    ],
+   "adults": false,
    "summary": "A tiny game of deduction and luck with a 16-card deck. Everyone holds a single card and tries to get their letter to the princess.",
    "teach": [
     "Goal: win enough rounds to collect the target number of tokens.",
@@ -2274,11 +2246,9 @@
     "Round end: the last player standing, or the highest card when the deck runs out, wins the round."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "magic-maze",
@@ -2296,12 +2266,14 @@
     15,
     15
    ],
-   "weight": 1.75,
    "age": 8,
+   "weight": 1.75,
+   "complexity": 2,
    "tags": [
-    "Co-op",
-    "Party"
+    "Party",
+    "Co-op"
    ],
+   "adults": false,
    "summary": "A real-time, mostly silent co-operative game. Everyone controls every hero, but each player can only make one kind of move.",
    "teach": [
     "Goal: get all four heroes to their items, then out of the exits, before the sand timer runs out.",
@@ -2309,11 +2281,9 @@
     "Talking: none allowed. Bang the big red pawn in front of someone to say 'do something!'"
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "marvel-champions",
@@ -2332,12 +2302,14 @@
     45,
     90
    ],
-   "weight": 2.96,
    "age": 12,
+   "weight": 2.96,
+   "complexity": 3,
    "tags": [
-    "Co-op",
-    "Thematic"
+    "Thematic",
+    "Co-op"
    ],
+   "adults": false,
    "summary": "A co-operative superhero card game. Each player is a hero with their own deck, flipping between hero and alter-ego to stop the villain's scheme.",
    "teach": [
     "Goal: knock the villain out before their main scheme completes, or before all heroes are defeated.",
@@ -2354,11 +2326,9 @@
      "note": "Which packs you own is still to be checked."
     }
    ],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "mascarade",
@@ -2378,12 +2348,14 @@
     30,
     30
    ],
-   "weight": 1.53,
    "age": 10,
+   "weight": 1.53,
+   "complexity": 2,
    "tags": [
-    "Bluffing",
-    "Party"
+    "Party",
+    "Bluffing"
    ],
+   "adults": false,
    "summary": "A chaotic bluffing game for a big group. Roles get secretly swapped around, so you may not even know who you are any more.",
    "teach": [
     "Goal: first to 13 coins.",
@@ -2391,11 +2363,9 @@
     "Claims: others may claim the same role. Everyone claiming reveals; the real one uses the power and the liars pay 1 coin."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/OS3ckk3rZbwFi8en1rjiGQ__large/img/OkfF7SirRUPP8B0La0pRFggkZqA=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic1762410.jpg"
   },
   {
    "id": "micromacro-crime-city",
@@ -2413,12 +2383,14 @@
     15,
     45
    ],
-   "weight": 1.11,
    "age": 8,
+   "weight": 1.11,
+   "complexity": 1,
    "tags": [
     "Co-op",
     "Deduction"
    ],
+   "adults": false,
    "summary": "Detective work on a giant, densely drawn map of a city. Every case is hidden somewhere in the picture, and you follow the trail with a magnifying glass.",
    "teach": [
     "Goal: solve each case's questions by finding the scenes on the map.",
@@ -2426,11 +2398,9 @@
     "Tip: start with the easier cases. Some are a bit grim, so check the age guidance before playing with kids."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/p2iRPXTxYLWd6osK2c4VvQ__large/img/jjCGbWLtPNSJCNXlnXatKgiJa4g=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6343533.jpg"
   },
   {
    "id": "monopoly-bojack",
@@ -2448,12 +2418,14 @@
     60,
     60
    ],
-   "weight": 1.6,
    "age": 17,
+   "weight": 1.6,
+   "complexity": 2,
    "tags": [
     "Family",
     "Thematic"
    ],
+   "adults": false,
    "summary": "Classic Monopoly reskinned with BoJack Horseman locations and characters. Ideal for fans of the show.",
    "teach": [
     "Goal: bankrupt everyone else.",
@@ -2461,11 +2433,9 @@
     "Build: complete colour sets to add houses and hotels."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/uarlQUpuDcKIr5DWZQM57w__large/img/sJh3uE01tNc7X0zM4tVmBOCXE0Q=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7337130.jpg"
   },
   {
    "id": "monopoly-cheaters",
@@ -2483,12 +2453,14 @@
     60,
     180
    ],
-   "weight": 1.33,
    "age": 8,
+   "weight": 1.33,
+   "complexity": 1,
    "tags": [
-    "Family",
-    "Party"
+    "Party",
+    "Family"
    ],
+   "adults": false,
    "summary": "Monopoly where cheating is part of the rules. Cheat cards challenge you to get away with things, but get caught and you're cuffed to the board.",
    "teach": [
     "Goal: bankrupt everyone else.",
@@ -2496,11 +2468,9 @@
     "Banker: players run the bank themselves, which is part of the cheating."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/Jk-bsNPrYauo5sTmbIt3iQ__large/img/-wJ1BH3BEorGiVD-Yy0WgTi-J0k=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4187119.jpg"
   },
   {
    "id": "mysterium",
@@ -2519,13 +2489,15 @@
     42,
     42
    ],
-   "weight": 1.89,
    "age": 8,
+   "weight": 1.89,
+   "complexity": 2,
    "tags": [
+    "Party",
     "Co-op",
-    "Deduction",
-    "Party"
+    "Deduction"
    ],
+   "adults": false,
    "summary": "A co-operative game where one player is a silent ghost sending dreamlike picture cards to help the psychics work out how they died.",
    "teach": [
     "Goal: every psychic identifies their suspect, location and weapon in time, then the group finds the true culprit.",
@@ -2533,11 +2505,9 @@
     "Psychics: discuss, guess and vote with clairvoyance tokens before the clock runs out."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/CjJb81YeOToWdrIzFJGPPw__large/img/zC1Txsvwo5Ky6jSXPXydnhBiGlE=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2599983.jpg"
   },
   {
    "id": "nemesis",
@@ -2556,12 +2526,14 @@
     90,
     180
    ],
-   "weight": 3.49,
    "age": 14,
+   "weight": 3.49,
+   "complexity": 3,
    "tags": [
     "Thematic",
     "Bluffing"
    ],
+   "adults": false,
    "summary": "A tense sci-fi survival horror game. You wake on a ship crawling with aliens, and everyone has a secret objective that may not include you surviving.",
    "teach": [
     "Goal: complete your secret objective and survive (or be on the ship when it reaches Earth).",
@@ -2569,11 +2541,9 @@
     "Event phase: intruders move and attack, fires spread, and the ship's systems break."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/zJ3_bNtF7cZWEQ-sfc8GYg__large/img/LG6DOjI01S2U46ziCrbrqi6-D9M=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3756288.jpg"
   },
   {
    "id": "no-thanks",
@@ -2592,12 +2562,14 @@
     20,
     20
    ],
-   "weight": 1.13,
    "age": 8,
+   "weight": 1.13,
+   "complexity": 1,
    "tags": [
-    "Family",
-    "Party"
+    "Party",
+    "Family"
    ],
+   "adults": false,
    "summary": "A tiny, clever filler where you try to avoid taking cards by paying chips, until the pile of chips on a card makes it worth taking.",
    "teach": [
     "Goal: the lowest score wins.",
@@ -2605,11 +2577,9 @@
     "Scoring: cards score their value, but a run of consecutive numbers only scores its lowest card. Chips are minus one each."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/2P4-gR4xYLnfZtljfc2dRA__large/img/pEw2aJBElTblnGu_AeZiIMs-MyU=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2602161.jpg"
   },
   {
    "id": "on-a-scale-of-one-to-t-rex",
@@ -2627,11 +2597,13 @@
     15,
     15
    ],
-   "weight": 1.0,
    "age": 6,
+   "weight": 1,
+   "complexity": 1,
    "tags": [
     "Party"
    ],
+   "adults": false,
    "summary": "A daft acting party game: act out a situation at a set intensity, from mild to full T-Rex, while everyone guesses the number.",
    "teach": [
     "Goal: score the most points.",
@@ -2639,11 +2611,9 @@
     "Guessing: everyone guesses the number; points go to accurate guessers and the actor."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/Pq_RQ7jeafjBl_ubaAW34Q__large/img/p2VofrH-fhreElTFtjaA1FJHmDI=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4948818.png"
   },
   {
    "id": "outsmarted",
@@ -2665,13 +2635,15 @@
     30,
     30
    ],
-   "weight": 1.0,
    "age": 10,
+   "weight": 1,
+   "complexity": 1,
    "tags": [
-    "Family",
     "Party",
+    "Family",
     "Word & trivia"
    ],
+   "adults": false,
    "summary": "A family quiz-show board game run through a TV, phone or tablet app, with a mix of picture, video and general knowledge questions.",
    "teach": [
     "Goal: be first to collect a full set of pieces by answering questions.",
@@ -2679,11 +2651,9 @@
     "Needs: the app and a screen everyone can see."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/5XMzmlyNDiDl3gTyt1Jo3A__large/img/aljUvDVV8XiXe_gcFdCNYwJYwY8=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5884986.jpg"
   },
   {
    "id": "pandemic",
@@ -2701,12 +2671,14 @@
     45,
     45
    ],
-   "weight": 2.39,
    "age": 10,
+   "weight": 2.39,
+   "complexity": 2,
    "tags": [
-    "Co-op",
-    "Strategy"
+    "Strategy",
+    "Co-op"
    ],
+   "adults": false,
    "summary": "The classic co-operative game: a team of specialists races around the world to cure four diseases before outbreaks spiral out of control.",
    "teach": [
     "Goal: discover cures for all four diseases.",
@@ -2714,11 +2686,9 @@
     "You lose if outbreaks hit 8, any disease's cubes run out, or the player deck runs out."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/akgpsD6n2vKG5mM2C0j3LA__large/img/RYQ0nvqGbSrNNKv91jhLHPhI3ZM=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic309018.jpg"
   },
   {
    "id": "pandemic-contagion",
@@ -2737,11 +2707,13 @@
     30,
     30
    ],
-   "weight": 1.91,
    "age": 10,
+   "weight": 1.91,
+   "complexity": 2,
    "tags": [
     "Strategy"
    ],
+   "adults": false,
    "summary": "A competitive spin on Pandemic where you play the diseases, competing to wipe out the most cities.",
    "teach": [
     "Goal: score the most points by eliminating cities.",
@@ -2749,11 +2721,9 @@
     "Events: event cards change conditions for everyone each round."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/xzvsFlkgqol2UPF_qxKBFQ__large/img/7uMRjA1OdlJupTQKRPf79oPrT6M=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2037506.png"
   },
   {
    "id": "pitch-car",
@@ -2772,13 +2742,15 @@
     30,
     30
    ],
-   "weight": 1.12,
    "age": 5,
+   "weight": 1.12,
+   "complexity": 1,
    "tags": [
-    "Dexterity",
+    "Party",
     "Family",
-    "Party"
+    "Dexterity"
    ],
+   "adults": false,
    "summary": "Flick wooden discs around a jigsaw race track. It's pure dexterity and pure fun at any age.",
    "teach": [
     "Goal: first to complete the agreed number of laps.",
@@ -2786,11 +2758,9 @@
     "Off the track: go back to where you were. Knocking others off sends them back too."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/lvC1qJo4-RQ_zqudi_oRmA__large/img/SXrpSHOGiBPc8Ozj6GFNOcmejOw=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic215555.jpg"
   },
   {
    "id": "priests-of-ra",
@@ -2808,12 +2778,14 @@
     60,
     60
    ],
-   "weight": 2.24,
    "age": 10,
+   "weight": 2.24,
+   "complexity": 2,
    "tags": [
     "Strategy",
     "Bluffing"
    ],
+   "adults": false,
    "summary": "A press-your-luck auction game. Draw tiles into the lot, then call an auction with your sun disks.",
    "teach": [
     "Goal: most points after three epochs.",
@@ -2821,11 +2793,9 @@
     "Disasters and Ra tiles: drawing Ra forces an auction; filling the Ra track ends the epoch."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/hylwDoCxIE7ndHJeRBIClw__large/img/JAqFqJCLUuv0BSjHoMeT0u7Gj40=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic900543.jpg"
   },
   {
    "id": "really-nasty-horse-racing",
@@ -2843,12 +2813,14 @@
     90,
     90
    ],
-   "weight": 1.65,
    "age": 10,
+   "weight": 1.65,
+   "complexity": 2,
    "tags": [
-    "Family",
-    "Party"
+    "Party",
+    "Family"
    ],
+   "adults": false,
    "summary": "An old-school horse racing and betting game where nasty cards let you sabotage other people's horses.",
    "teach": [
     "Goal: end with the most money.",
@@ -2856,11 +2828,9 @@
     "Payouts: winning bets pay out at the horse's odds."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/eiVxX7xNLHDDfmLe41_zIw__large/img/oQYpvVqVVVJmw1vfybZL0yVkFvs=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2008430.jpg"
   },
   {
    "id": "regicide-legacy",
@@ -2878,12 +2848,14 @@
     20,
     60
    ],
-   "weight": 2.44,
    "age": 10,
+   "weight": 2.44,
+   "complexity": 2,
    "tags": [
     "Co-op",
     "Campaign"
    ],
+   "adults": false,
    "summary": "A co-operative card battler that grows into a campaign. Fight through royal enemies by playing cards whose suits give different powers.",
    "teach": [
     "Goal: defeat the enemies in each encounter as the campaign unfolds.",
@@ -2891,11 +2863,9 @@
     "Damage: then the enemy hits back, and you must discard cards to absorb it."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/g2vsMxa3sLYNk_jKL7QmoQ__large/img/zuCjtIPdSvMDWS6YKj6mgVfKNeE=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8007487.jpg"
   },
   {
    "id": "the-resistance",
@@ -2913,13 +2883,15 @@
     30,
     30
    ],
-   "weight": 1.59,
    "age": 12,
+   "weight": 1.59,
+   "complexity": 2,
    "tags": [
     "Party",
     "Bluffing",
     "Deduction"
    ],
+   "adults": false,
    "summary": "The hidden-traitor game for groups: a few spies hide among the resistance and secretly sabotage missions.",
    "teach": [
     "Goal: the resistance wins with 3 successful missions, the spies with 3 failed ones.",
@@ -2927,11 +2899,9 @@
     "Spies: they know each other; a single Fail usually sinks a mission."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/JuLOVSGoBd6JcxgCq6NfwA__large/img/exIp-RAJXUJf2xT6TU1q0Jgfocs=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic864141.jpg"
   },
   {
    "id": "revolution",
@@ -2949,12 +2919,14 @@
     60,
     60
    ],
-   "weight": 2.04,
    "age": 10,
+   "weight": 2.04,
+   "complexity": 2,
    "tags": [
-    "Bluffing",
-    "Strategy"
+    "Strategy",
+    "Bluffing"
    ],
+   "adults": false,
    "summary": "A blind-bidding game of bribery, blackmail and force for control of a city. Everyone bids in secret, so outguessing each other is the heart of it.",
    "teach": [
     "Goal: most support (points) when the board fills.",
@@ -2962,11 +2934,9 @@
     "Resolution: the highest bid wins each character's reward; force beats blackmail, which beats gold."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/QNfiVUjQUb3WizjliCu1NQ__large/img/_I2_dc8IObGkKu_zN8goZSO-ISE=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic470283.jpg"
   },
   {
    "id": "riff-raff",
@@ -2985,12 +2955,14 @@
     30,
     30
    ],
-   "weight": 1.19,
    "age": 8,
+   "weight": 1.19,
+   "complexity": 1,
    "tags": [
-    "Dexterity",
-    "Family"
+    "Family",
+    "Dexterity"
    ],
+   "adults": false,
    "summary": "A wobbly ship dexterity game. Load your cargo onto the swaying mast and deck without knocking anything into the sea.",
    "teach": [
     "Goal: be first to get rid of all your cargo.",
@@ -2998,11 +2970,9 @@
     "Falls: anything that falls is yours to take back."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/pSIv1EXJkkI7NIxpyeZGgg__large/img/qDpxyYyF87Hbao9FW6-1R3SnYJQ=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6460771.jpg"
   },
   {
    "id": "risk-game-of-thrones",
@@ -3021,12 +2991,14 @@
     120,
     240
    ],
-   "weight": 2.71,
    "age": 14,
+   "weight": 2.71,
+   "complexity": 3,
    "tags": [
     "Strategy",
     "Thematic"
    ],
+   "adults": false,
    "summary": "Risk set in Westeros and Essos, with character cards, maesters and objectives on top of classic conquest.",
    "teach": [
     "Goal: depends on the mode, usually objectives or points.",
@@ -3034,11 +3006,9 @@
     "Extras: character and maester cards give special abilities; check the mode you're playing."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/ZNJMbA3QUUKXJyYkMF10pg__large/img/SI_G1EyfRKbD2fTTQ2Ena7lG1Hs=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8890043.jpg"
   },
   {
    "id": "room-25",
@@ -3058,12 +3028,14 @@
     30,
     30
    ],
-   "weight": 1.93,
    "age": 10,
+   "weight": 1.93,
+   "complexity": 2,
    "tags": [
     "Co-op",
     "Bluffing"
    ],
+   "adults": false,
    "summary": "A sci-fi escape game in a shifting grid of deadly rooms. Play it fully co-op, or with hidden guards secretly working against the prisoners.",
    "teach": [
     "Goal: prisoners find Room 25 and escape before time runs out.",
@@ -3071,11 +3043,9 @@
     "Rooms: many are traps. Peek before you step in."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/c9C-T6DrB96djam2MGux2g__large/img/I7FBcyGQtMDPTw7hQbEjb-Rsd4U=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic1397624.jpg"
   },
   {
    "id": "scattergories",
@@ -3095,13 +3065,15 @@
     30,
     30
    ],
-   "weight": 1.36,
    "age": 10,
+   "weight": 1.36,
+   "complexity": 1,
    "tags": [
     "Party",
-    "Word & trivia",
-    "Family"
+    "Family",
+    "Word & trivia"
    ],
+   "adults": false,
    "summary": "The classic category word game: roll a letter and race the timer to fill your list with answers nobody else thought of.",
    "teach": [
     "Goal: score the most points.",
@@ -3109,11 +3081,9 @@
     "Scoring: read answers out. Unique valid answers score a point."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/tWzrjjqGVYRfUJWDyUqViA__large/img/rtEGXo9qN5yqvVW5P08PXrGim5Y=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5288755.jpg"
   },
   {
    "id": "scythe",
@@ -3131,12 +3101,14 @@
     115,
     115
    ],
-   "weight": 3.45,
    "age": 12,
+   "weight": 3.45,
+   "complexity": 3,
    "tags": [
     "Strategy",
     "Thematic"
    ],
+   "adults": false,
    "summary": "An engine-building game set in an alternate-history 1920s Europe of farms and mechs. There's surprisingly little fighting; it's mostly about efficiency and timing.",
    "teach": [
     "Goal: most coins when someone places their sixth star.",
@@ -3144,11 +3116,9 @@
     "Stars: earned for achievements (upgrades, mechs, buildings, workers, objectives, combat wins and so on)."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/Vf_rW03DVukbkbiCsz69VA__large/img/IO1wR5wZstXf7tZUWcsGBdly5Rc=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2323719.jpg"
   },
   {
    "id": "sierra-west",
@@ -3166,12 +3136,14 @@
     40,
     60
    ],
-   "weight": 2.96,
    "age": 12,
+   "weight": 2.96,
+   "complexity": 3,
    "tags": [
     "Strategy",
     "Thematic"
    ],
+   "adults": false,
    "summary": "A pioneering game set in the Sierra Nevada mountains, built around an unusual card-shifting system that decides your actions each turn.",
    "teach": [
     "Goal: most points at the end.",
@@ -3179,11 +3151,9 @@
     "Expeditions: move your pioneer up the mountain to collect resources and opportunities."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/H2hN5Xkuma1mkAwKj-qooA__large/img/L0SRq43TJsCLF_BNsFAhlAI16D0=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8624307.jpg"
   },
   {
    "id": "skull",
@@ -3202,12 +3172,14 @@
     15,
     45
    ],
-   "weight": 1.12,
    "age": 8,
+   "weight": 1.12,
+   "complexity": 1,
    "tags": [
-    "Bluffing",
-    "Party"
+    "Party",
+    "Bluffing"
    ],
+   "adults": false,
    "summary": "An elegant bluffing game with just four coasters each: three flowers and one skull. Bid how many you can flip without finding a skull.",
    "teach": [
     "Goal: win two challenges, or be the last player with coasters.",
@@ -3215,11 +3187,9 @@
     "Flipping: the highest bidder flips their own pile first. Hit a skull and you lose a coaster."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/0jbkKZOgP_7_-pqWW_PjMg__large/img/CFUpbZHqYY2AG_xQ2CSm85qBob0=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic966962.jpg"
   },
   {
    "id": "sky-team",
@@ -3237,11 +3207,13 @@
     20,
     20
    ],
-   "weight": 2.04,
    "age": 10,
+   "weight": 2.04,
+   "complexity": 2,
    "tags": [
     "Co-op"
    ],
+   "adults": false,
    "summary": "A co-operative two-player game about landing a plane. You place dice on the cockpit controls without talking, trusting your co-pilot to read your mind.",
    "teach": [
     "Goal: land safely at the airport.",
@@ -3249,11 +3221,9 @@
     "Landing: on the final round, axis, speed, gear, flaps and brakes must all be right."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/uXMeQzNenHb3zK7Hoa6b2w__large/img/aNaKRjWSPll2C7mWCytIVtwJVJ8=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7398904.jpg"
   },
   {
    "id": "slay-the-spire",
@@ -3271,13 +3241,15 @@
     30,
     150
    ],
-   "weight": 2.91,
    "age": 12,
+   "weight": 2.91,
+   "complexity": 3,
    "tags": [
+    "Strategy",
     "Co-op",
-    "Campaign",
-    "Strategy"
+    "Campaign"
    ],
+   "adults": false,
    "summary": "The deck-building roguelike turned into a co-operative board game. Fight up the spire act by act, growing your deck and relics along the way.",
    "teach": [
     "Goal: defeat the boss at the top of each act.",
@@ -3285,11 +3257,9 @@
     "Between fights: choose your path on the map: fights, events, shops, rest sites."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "small-world",
@@ -3307,12 +3277,14 @@
     40,
     80
    ],
-   "weight": 2.35,
    "age": 8,
+   "weight": 2.35,
+   "complexity": 2,
    "tags": [
     "Strategy",
     "Family"
    ],
+   "adults": false,
    "summary": "A light area-control game of fantasy races in a world that's too small for all of them. Know when to put your race into decline and start a new one.",
    "teach": [
     "Goal: most coins after the last turn.",
@@ -3320,11 +3292,9 @@
     "Decline: put your race into decline (skip conquering for a turn) and pick a fresh race next turn. Score coins for every region you hold."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "snakesss",
@@ -3342,19 +3312,19 @@
     20,
     20
    ],
-   "weight": 1.08,
    "age": 12,
+   "weight": 1.08,
+   "complexity": 1,
    "tags": [
     "Party"
    ],
+   "adults": false,
    "summary": "A party game.",
    "teach": [],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "soar",
@@ -3370,17 +3340,17 @@
     30,
     30
    ],
-   "weight": 2.0,
    "age": 8,
+   "weight": 2,
+   "complexity": 2,
    "tags": [],
+   "adults": false,
    "summary": "Summary still to be written.",
    "teach": [],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "spirit-island",
@@ -3398,12 +3368,14 @@
     90,
     120
    ],
-   "weight": 4.08,
    "age": 14,
+   "weight": 4.08,
+   "complexity": 4,
    "tags": [
-    "Co-op",
-    "Strategy"
+    "Strategy",
+    "Co-op"
    ],
+   "adults": false,
    "summary": "A deep co-operative game where you play island spirits driving out colonising invaders. Each spirit plays completely differently.",
    "teach": [
     "Goal: drive the invaders out by raising terror and meeting the terror victory condition.",
@@ -3411,11 +3383,9 @@
     "Invaders: they ravage, build and explore in a predictable cycle. Use that to plan ahead."
    ],
    "expansions": [],
-   "complexity": 4,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "splendor",
@@ -3433,12 +3403,14 @@
     30,
     30
    ],
-   "weight": 1.77,
    "age": 8,
+   "weight": 1.77,
+   "complexity": 2,
    "tags": [
     "Strategy",
     "Family"
    ],
+   "adults": false,
    "summary": "An elegant engine-builder: collect gem chips to buy development cards, which make future purchases cheaper.",
    "teach": [
     "Goal: first to 15 prestige (finish the round).",
@@ -3451,11 +3423,9 @@
      "note": "Four modules: Cities (new win conditions), Trading Posts, The Orient, and Strongholds. Add one at a time."
     }
    ],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/fXEj4hEOFSvQNU7EbZTWNQ__large/img/mam6YxGJ-tYnNk0SNavvfwsNoxE=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic1991004.jpg"
   },
   {
    "id": "splendor-duel",
@@ -3473,11 +3443,13 @@
     30,
     30
    ],
-   "weight": 2.05,
    "age": 10,
+   "weight": 2.05,
+   "complexity": 2,
    "tags": [
     "Strategy"
    ],
+   "adults": false,
    "summary": "A tighter two-player Splendor with a shared token board, privileges and three ways to win.",
    "teach": [
     "Goal: 20 prestige, 10 crowns, or 10 prestige in a single colour.",
@@ -3485,11 +3457,9 @@
     "Watch out: refilling the board gives your opponent a privilege."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "splendor-marvel",
@@ -3507,12 +3477,14 @@
     30,
     30
    ],
-   "weight": 1.8,
    "age": 8,
+   "weight": 1.8,
+   "complexity": 2,
    "tags": [
     "Strategy",
     "Family"
    ],
+   "adults": false,
    "summary": "Splendor with Marvel heroes and the Infinity Stones. The finish needs a little more than points.",
    "teach": [
     "Goal: 16 points, 3 Avengers icons, and at least one card of each Infinity Stone colour.",
@@ -3520,47 +3492,9 @@
     "Avengers tile: whoever has the most Avengers icons holds the tile."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
-  },
-  {
-   "id": "dobble",
-   "name": "Dobble",
-   "status": "Owned",
-   "bggId": 63268,
-   "players": [
-    2,
-    8
-   ],
-   "best": [
-    4,
-    5
-   ],
-   "time": [
-    15,
-    15
-   ],
-   "weight": 1.04,
-   "age": 4,
-   "tags": [
-    "Family",
-    "Party"
-   ],
-   "summary": "The frantic spotting game: any two cards share exactly one symbol, and you race to call it first.",
-   "teach": [
-    "Goal: depends on the mini-game, usually the most cards collected.",
-    "Spot it: find the one symbol your card shares with the middle card and say it aloud.",
-    "Mini-games: the tin has several. The Towering Inferno is a good default."
-   ],
-   "expansions": [],
-   "complexity": 1,
-   "adults": false,
-   "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "spyfall",
@@ -3578,13 +3512,15 @@
     15,
     15
    ],
-   "weight": 1.23,
    "age": 12,
+   "weight": 1.23,
+   "complexity": 1,
    "tags": [
     "Party",
     "Bluffing",
     "Deduction"
    ],
+   "adults": false,
    "summary": "A quick party game of questions. Everyone knows the location except the spy, who has to work it out without giving themselves away.",
    "teach": [
     "Goal: catch the spy, or as the spy, guess the location.",
@@ -3592,11 +3528,9 @@
     "Accusations: anyone can call a vote. The spy can stop the game at any time to guess the location."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": ""
   },
   {
    "id": "star-wars-imperial-assault",
@@ -3615,13 +3549,15 @@
     60,
     120
    ],
-   "weight": 3.3,
    "age": 12,
+   "weight": 3.3,
+   "complexity": 3,
    "tags": [
-    "Campaign",
+    "Strategy",
     "Thematic",
-    "Strategy"
+    "Campaign"
    ],
+   "adults": false,
    "summary": "Tactical Star Wars skirmishes on tiled maps. Play a campaign with one Imperial player against the Rebels, a two-player skirmish, or co-op with the free app.",
    "teach": [
     "Goal: complete the mission's objectives.",
@@ -3629,11 +3565,9 @@
     "Campaign: Rebels and the Empire both spend experience and credits between missions."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/zAKiHmdanBsspxYmXwjQjQ__large/img/_LHqtLyKnxJHV64NsxzUG-FV_F4=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2205750.png"
   },
   {
    "id": "star-wars-rebellion",
@@ -3651,12 +3585,14 @@
     180,
     240
    ],
-   "weight": 3.75,
    "age": 12,
+   "weight": 3.75,
+   "complexity": 4,
    "tags": [
     "Strategy",
     "Thematic"
    ],
+   "adults": false,
    "summary": "The whole original trilogy as an asymmetric strategy epic. The Empire hunts for the hidden Rebel base while the Rebels win hearts and minds.",
    "teach": [
     "Goal: the Empire finds and destroys the base. The Rebels survive until the time marker meets reputation.",
@@ -3664,11 +3600,9 @@
     "Combat: dice and tactic cards; leaders can be captured."
    ],
    "expansions": [],
-   "complexity": 4,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/7SrPNGBKg9IIsP4UQpOi8g__large/img/G10Mtmm7iow8YUkIYRH6WbDPR3U=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4325841.jpg"
   },
   {
    "id": "superclub",
@@ -3687,12 +3621,14 @@
     90,
     240
    ],
-   "weight": 2.17,
    "age": 10,
+   "weight": 2.17,
+   "complexity": 2,
    "tags": [
     "Strategy",
     "Thematic"
    ],
+   "adults": false,
    "summary": "A football management board game. Buy and sell players, build your club and compete across a season.",
    "teach": [
     "Goal: build the most successful club over the season.",
@@ -3700,11 +3636,9 @@
     "Matches: player ratings decide results, with a little luck."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/BS-KrMmBjWh4IKDobbuYVg__large/img/2KuxweoYj8L_KKjQFEAzRyPqGaU=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8226789.jpg"
   },
   {
    "id": "survivalist",
@@ -3722,17 +3656,17 @@
     40,
     80
    ],
-   "weight": 3.0,
    "age": 8,
+   "weight": 3,
+   "complexity": 3,
    "tags": [],
+   "adults": false,
    "summary": "Summary still to be written.",
    "teach": [],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/dqb58UhheuYxjwPWGE-IDA__large/img/M_1z4kH8xz7v7eb-PGkDmtcKddk=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9363540.jpg"
   },
   {
    "id": "survive-the-island",
@@ -3750,12 +3684,14 @@
     45,
     45
    ],
-   "weight": 1.48,
    "age": 8,
+   "weight": 1.48,
+   "complexity": 1,
    "tags": [
-    "Family",
-    "Strategy"
+    "Strategy",
+    "Family"
    ],
+   "adults": false,
    "summary": "A cut-throat family classic: rescue your islanders as the island sinks, while sending sharks, whales and sea serpents after everyone else's.",
    "teach": [
     "Goal: most points from the people you get to the safe islands.",
@@ -3763,11 +3699,9 @@
     "Points: each person has a hidden value, so you never know exactly who's ahead."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/MG8gloAo6F2cD4C6gz12Lg__large/img/gPBEa8TjlyYma2gDGWcy6u0MHkE=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8337555.png"
   },
   {
    "id": "sushi-go",
@@ -3785,12 +3719,14 @@
     15,
     15
    ],
-   "weight": 1.2,
    "age": 8,
+   "weight": 1.2,
+   "complexity": 1,
    "tags": [
-    "Family",
-    "Party"
+    "Party",
+    "Family"
    ],
+   "adults": false,
    "summary": "A cute, quick card-drafting game: pick a sushi dish, pass the rest, and build the best-scoring meal.",
    "teach": [
     "Goal: most points after three rounds.",
@@ -3798,11 +3734,9 @@
     "Scoring: sets score in different ways (tempura pairs, sashimi triples, maki majority). Puddings are scored at the very end."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/s2udHhzHJFpwoEDCddG1kw__large/img/F1dwnyF54mDrrzUznMxv9-1iqyg=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8313736.png"
   },
   {
    "id": "taskmaster-card-game",
@@ -3821,11 +3755,13 @@
     20,
     60
    ],
-   "weight": 1.0,
    "age": 12,
+   "weight": 1,
+   "complexity": 1,
    "tags": [
     "Party"
    ],
+   "adults": false,
    "summary": "Silly tasks in the style of the TV show. Players attempt the tasks and a Taskmaster judges who did best.",
    "teach": [
     "Goal: earn the most points.",
@@ -3833,11 +3769,9 @@
     "Judging: the Taskmaster awards points, as arbitrarily as on the show."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/e0_NjUE0lPWg1j7yFH4gzg__large/img/8-EUaWOhmH97sprbqIY3EJLu1Zs=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8240744.jpg"
   },
   {
    "id": "tension",
@@ -3855,12 +3789,14 @@
     40,
     40
    ],
-   "weight": 1.14,
    "age": 10,
+   "weight": 1.14,
+   "complexity": 1,
    "tags": [
     "Party",
     "Word & trivia"
    ],
+   "adults": false,
    "summary": "A fast team naming game: shout out as many answers as you can in a category against the clock.",
    "teach": [
     "Goal: score the most points for your team.",
@@ -3868,11 +3804,9 @@
     "Scoring: see the rulebook for which answers count."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/_TXBZ5-gvLepnHXdxeF10g__large/img/L2NumHMYjIw0DkA_-GoCtc7TMYs=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic906458.jpg"
   },
   {
    "id": "terraforming-mars",
@@ -3890,11 +3824,13 @@
     120,
     120
    ],
-   "weight": 3.27,
    "age": 12,
+   "weight": 3.27,
+   "complexity": 3,
    "tags": [
     "Strategy"
    ],
+   "adults": false,
    "summary": "Run a corporation turning Mars habitable. Raise temperature and oxygen, and place oceans, cities and greenery, all powered by a huge deck of project cards.",
    "teach": [
     "Goal: most victory points (terraform rating plus cards, tiles, milestones and awards) once Mars is terraformed.",
@@ -3902,11 +3838,9 @@
     "Each generation: buy cards, take actions in turn until everyone passes, then production pays out."
    ],
    "expansions": [],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__large/img/eqV2FA_n0O-8NdSH1DczQY04jco=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3536616.jpg"
   },
   {
    "id": "throw-throw-burrito",
@@ -3926,13 +3860,15 @@
     15,
     15
    ],
-   "weight": 1.09,
    "age": 8,
+   "weight": 1.09,
+   "complexity": 1,
    "tags": [
     "Party",
-    "Dexterity",
-    "Family"
+    "Family",
+    "Dexterity"
    ],
+   "adults": false,
    "summary": "A card game crossed with dodgeball. Collect matching sets, then throw squishy foam burritos at each other when battle cards come up.",
    "teach": [
     "Goal: most points from sets and burrito battles.",
@@ -3940,11 +3876,9 @@
     "Battles: when a battle set appears, grab a burrito and throw. Getting hit costs points."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/_-eHW9MfHjAClQpKkX1kMw__large/img/N8NcEVbxlWrgYP05tHAPZAlL4aA=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6097313.png"
   },
   {
    "id": "thunder-road-vendetta",
@@ -3962,12 +3896,14 @@
     45,
     75
    ],
-   "weight": 2.32,
    "age": 8,
+   "weight": 2.32,
+   "complexity": 2,
    "tags": [
     "Family",
     "Thematic"
    ],
+   "adults": false,
    "summary": "Mad Max-style racing and car combat. Each player drives a gang of cars down a desert road that builds as you go, ramming, shooting and leaving the stragglers behind.",
    "teach": [
     "Goal: be first across the finish line, or the last gang still driving.",
@@ -3975,11 +3911,9 @@
     "Watch out: cars that drop off the back of the road are wrecked."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/64rGThiVRbCJ0p7VHRQiiQ__large/img/iLqGRgi7Bg43JDe9YUQvUl6wVLI=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9036122.jpg"
   },
   {
    "id": "ticket-to-ride",
@@ -3997,12 +3931,14 @@
     30,
     60
    ],
-   "weight": 1.82,
    "age": 8,
+   "weight": 1.82,
+   "complexity": 2,
    "tags": [
-    "Family",
-    "Strategy"
+    "Strategy",
+    "Family"
    ],
+   "adults": false,
    "summary": "The gateway classic: collect coloured train cards to claim railway routes across the map and connect the cities on your tickets.",
    "teach": [
     "Goal: most points from routes, completed tickets and the longest route.",
@@ -4010,11 +3946,9 @@
     "Watch out: unfinished tickets count against you."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/T9r0Bu75OUzHCq6jJcIaFg__large/img/m6k4TmqTb7owbex7m6Q5TUFIVrk=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic339747.jpg"
   },
   {
    "id": "tokyo-highway",
@@ -4032,12 +3966,14 @@
     30,
     50
    ],
-   "weight": 1.4,
    "age": 8,
+   "weight": 1.4,
+   "complexity": 1,
    "tags": [
-    "Dexterity",
-    "Strategy"
+    "Strategy",
+    "Dexterity"
    ],
+   "adults": false,
    "summary": "A dexterity and strategy game about building elevated highways with tiny pillars and road sticks. Score by placing cars where your roads cross over or under others.",
    "teach": [
     "Goal: be first to place all your cars.",
@@ -4045,11 +3981,9 @@
     "Cars: crossing over or under an opponent's road lets you place a car. Knocking pieces over means a penalty."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/HYD-FGWnz9wIQ7RpPzupbw__large/img/NKy1g-NcfCisb8u5SzI8U6Gwk7s=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3290526.png"
   },
   {
    "id": "uno",
@@ -4069,12 +4003,14 @@
     30,
     30
    ],
-   "weight": 1.1,
    "age": 5,
+   "weight": 1.1,
+   "complexity": 1,
    "tags": [
-    "Family",
-    "Party"
+    "Party",
+    "Family"
    ],
+   "adults": false,
    "summary": "The classic card game: match by colour or number, and don't forget to call UNO.",
    "teach": [
     "Goal: be first to empty your hand (or reach the target score over rounds).",
@@ -4082,11 +4018,9 @@
     "Action cards: skip, reverse, draw two and wild draw four. Say 'UNO' when you have one card left."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/oWgb53IuNKCY3y8WUUsr7g__large/img/HUVPfdFT7liNyYMpWu2cM6lOY78=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic389600.jpg"
   },
   {
    "id": "wavelength",
@@ -4105,11 +4039,13 @@
     30,
     45
    ],
-   "weight": 1.1,
    "age": 10,
+   "weight": 1.1,
+   "complexity": 1,
    "tags": [
     "Party"
    ],
+   "adults": false,
    "summary": "A team guessing game about reading each other's minds. One player gives a clue to show where a hidden target sits on a spectrum like 'hot ↔ cold'.",
    "teach": [
     "Goal: first team to 10 points.",
@@ -4117,11 +4053,9 @@
     "Scoring: points for how close the dial lands. The other team then guesses left or right of the dial for a bonus point."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/rnYriTERkVAuKZWEZZx6zg__large/img/jhlgs3lEu0_pMXnyy-im6gojhNE=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5558198.jpg"
   },
   {
    "id": "what-on-earth",
@@ -4137,19 +4071,19 @@
     15,
     45
    ],
-   "weight": 0,
    "age": 8,
+   "weight": 0,
+   "complexity": 1,
    "tags": [
     "Party"
    ],
+   "adults": false,
    "summary": "Summary still to be written.",
    "teach": [],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/5Asz99BJGwxUefiGyIfirg__large/img/36JLfVSw0ZCsTDeU6WhQP06rZXk=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8322441.png"
   },
   {
    "id": "wingspan",
@@ -4167,12 +4101,14 @@
     40,
     70
    ],
-   "weight": 2.48,
    "age": 10,
+   "weight": 2.48,
+   "complexity": 2,
    "tags": [
     "Strategy",
     "Family"
    ],
+   "adults": false,
    "summary": "A relaxing engine-builder about attracting birds to your wildlife preserves. It's lovely to look at, and your bird powers chain together nicely.",
    "teach": [
     "Goal: most points after four rounds.",
@@ -4180,11 +4116,9 @@
     "Rounds: you get fewer turns each round, and each round has an end-of-round goal."
    ],
    "expansions": [],
-   "complexity": 2,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/yLZJCVLlIx4c7eJEWUNJ7w__large/img/LYVqCScD4_HADiSYfHW6mVCRXFw=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4458123.jpg"
   },
   {
    "id": "witcher-old-world",
@@ -4203,12 +4137,14 @@
     90,
     150
    ],
-   "weight": 2.88,
    "age": 12,
+   "weight": 2.88,
+   "complexity": 3,
    "tags": [
-    "Thematic",
-    "Strategy"
+    "Strategy",
+    "Thematic"
    ],
+   "adults": false,
    "summary": "An adventure game set in the Witcher world. You train as a witcher, hunt monsters across the Continent and race to complete your trophies.",
    "teach": [
     "Goal: first to complete the set number of trophies (monsters, quests, duels).",
@@ -4221,11 +4157,9 @@
      "note": "Exact contents of your Kickstarter add-ons still to be confirmed."
     }
    ],
-   "complexity": 3,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/vVJs7_1JU8D8eb-CiTnvsg__large/img/VObNr4TvhS_JQquz8y55u7aeFAY=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6987320.png"
   },
   {
    "id": "wits-and-wagers",
@@ -4244,13 +4178,15 @@
     25,
     25
    ],
-   "weight": 1.2,
    "age": 8,
+   "weight": 1.2,
+   "complexity": 1,
    "tags": [
     "Party",
-    "Word & trivia",
-    "Family"
+    "Family",
+    "Word & trivia"
    ],
+   "adults": false,
    "summary": "A trivia game where you don't need to know the answers. Everyone guesses a number, then bets on whichever guess they think is closest.",
    "teach": [
     "Goal: most chips after seven questions.",
@@ -4258,11 +4194,9 @@
     "Betting: bet on the guess you think is closest without going over. Odds pay out more on the edges."
    ],
    "expansions": [],
-   "complexity": 1,
-   "adults": false,
+   "similar": [],
    "shelf": "",
-   "cover": "",
-   "similar": []
+   "cover": "https://cf.geekdo-images.com/5eGv23b7gutMvKYOPtQkYA__large/img/f2AgQvQwFHo7R_MDK8090xmggTE=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic96548.jpg"
   }
  ]
 }

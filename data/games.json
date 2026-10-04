@@ -144,42 +144,7 @@
    ],
    "similar": [],
    "shelf": "",
-   "cover": ""
-  },
-  {
-   "id": "accentuate",
-   "name": "Accentuate",
-   "status": "Owned",
-   "bggId": 170054,
-   "players": [
-    4,
-    12
-   ],
-   "best": [
-    6,
-    8
-   ],
-   "time": [
-    30,
-    30
-   ],
-   "age": 12,
-   "weight": 1,
-   "complexity": 1,
-   "tags": [
-    "Party"
-   ],
-   "adults": false,
-   "summary": "A silly team party game built around saying things in different accents. It's best played loud, with people who don't mind sounding ridiculous.",
-   "teach": [
-    "Goal: score the most points for your team.",
-    "On your turn: follow the card and say the phrase in the accent shown while your team tries to guess.",
-    "Game end: first team to the target, or most points when you stop."
-   ],
-   "expansions": [],
-   "similar": [],
-   "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/zdagMskTF7wJBPjX74XsRw__imagepage/img/HdJ4d4O1P89V4UIhZnL3zoYnjow=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2576399.jpg"
   },
   {
    "id": "ark-nova",
@@ -213,7 +178,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/SoU8p28Sk1s8MSvoM4N8pQ__imagepage@2x/img/PoYV8aoWAa8PCSUJUgs-176bbCk=/fit-in/1800x1200/filters:strip_icc()/pic6293412.jpg"
   },
   {
    "id": "arkham-horror-lcg",
@@ -254,7 +219,7 @@
    ],
    "similar": [],
    "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/B5F5ulz0UivNgrI9Ky0euA__imagepage/img/tgpLRvv6AIsClnegErNpAoieeMo=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3122349.jpg"
   },
   {
    "id": "assassins-creed-animus",
@@ -386,41 +351,6 @@
    "similar": [],
    "shelf": "",
    "cover": "https://cf.geekdo-images.com/OyzTx82bKd5iLNIbR570UQ__large/img/4FIMPh8xcNdFmvm03vd-Oa7UQV0=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5027805.png"
-  },
-  {
-   "id": "backstories-alone-under-the-ice",
-   "name": "Backstories: Alone Under the Ice",
-   "status": "Owned",
-   "bggId": 415921,
-   "players": [
-    1,
-    6
-   ],
-   "best": [
-    1,
-    2
-   ],
-   "time": [
-    50,
-    70
-   ],
-   "age": 12,
-   "weight": 1.19,
-   "complexity": 1,
-   "tags": [
-    "Thematic"
-   ],
-   "adults": false,
-   "summary": "A story-driven card game where you explore one scenario, make choices and uncover what happened. It's played for the story rather than to win.",
-   "teach": [
-    "Goal: reach a good ending to the story.",
-    "On your turn: choose cards and actions to explore; the story text tells you what happens.",
-    "Replay: you can play again to find other endings."
-   ],
-   "expansions": [],
-   "similar": [],
-   "shelf": "",
-   "cover": "https://cf.geekdo-images.com/XoNr0ImZ12f2tMUvoAp_ww__large/img/wHB8U_NHrZlLoC4pHwez_aaijv0=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8134255.jpg"
   },
   {
    "id": "battlesticks",
@@ -558,7 +488,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/6By7Sm8Nsy8M6SNfEhQtGw__large/img/K9dBzKIJbv4H0yVxcmGIwvwyF6M=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4103239.jpg"
+   "cover": "https://cf.geekdo-images.com/HINb2nkFn5IiZxAlzQIs4g__itemrep@2x/img/f8s-g70BViz6Thkzu5_jYoGf8BA=/fit-in/492x600/filters:strip_icc()/pic7009391.jpg"
   },
   {
    "id": "by-order-of-the-king",
@@ -802,7 +732,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/p6yE2N7_TbkD3JV9Jve6Zw__large/img/-3Grt7Sqf344iSP6FNB7Uv87aQQ=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7526914.jpg"
+   "cover": "https://cf.geekdo-images.com/DPjV1iI0ygo5Bl3XLNRiIg__itemrep@2x/img/mmZozOIJSKk9eOjSnCBCB5jbURM=/fit-in/492x600/filters:strip_icc()/pic4449526.jpg"
   },
   {
    "id": "cockroach-poker",
@@ -944,7 +874,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/H0LomaCTd6MVXvH1KqUaeQ__large/img/RfHgU3kfYm4p0ROaZ1kudUVzegY=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic1929575.jpg"
+   "cover": "https://cf.geekdo-images.com/MWhSY_GOe2-bmlQ2rntSVg__imagepage/img/HPKaW4sG3jlaO3MM5V6x0Ks0DGI=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2016054.jpg"
   },
   {
    "id": "the-crew-mission-deep-sea",
@@ -978,7 +908,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/0d5_I9L3qgt_6Fz6_YhNGw__large/img/iybI7xesz3ThzaFnOw_cpNTwGf4=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6014017.jpg"
+   "cover": "https://cf.geekdo-images.com/VuBqZ1sMaDAVVHF_OEJP4g__itemrep@2x/img/UWb0vhCXqH3MPIp3F7oHtcinDys=/fit-in/492x600/filters:strip_icc()/pic5988903.jpg"
   },
   {
    "id": "the-crew-planet-nine",
@@ -1013,7 +943,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/F9eMTAGMiQ1vdEumFEyVNg__large/img/V4T7ja3munhwpVkV_CXvAtsOkcw=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7280490.jpg"
+   "cover": "https://cf.geekdo-images.com/98LnQShydr11OBKS46xY-Q__itemrep@2x/img/1ZTS88m5qgAXS-EN3F_4e07zwEc=/fit-in/492x600/filters:strip_icc()/pic5687013.jpg"
   },
   {
    "id": "cryptid",
@@ -1085,6 +1015,41 @@
    "cover": "https://cf.geekdo-images.com/NMLnWbJsqrouWTsLGKjr7A__large/img/F2Cx7nznkElCu7nmbFdzrtIQNgc=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3591274.jpg"
   },
   {
+   "id": "deep-sea-adventure",
+   "name": "Deep Sea Adventure",
+   "status": "Owned",
+   "bggId": 169654,
+   "players": [
+    2,
+    6
+   ],
+   "best": [
+    4
+   ],
+   "time": [
+    30,
+    30
+   ],
+   "age": 8,
+   "weight": 1.19,
+   "complexity": 1,
+   "tags": [
+    "Party",
+    "Family"
+   ],
+   "adults": false,
+   "summary": "A little push-your-luck game about divers who share one submarine's air supply. Dive for treasure, but every piece anyone carries makes the air run out faster for everybody.",
+   "teach": [
+    "Goal: have the most treasure safely back on the submarine after three rounds.",
+    "On your turn: the shared air drops by one for each treasure you carry. Roll the dice and move (one space less per treasure), then you may pick up a treasure. You can turn back towards the submarine once.",
+    "Watch out: when the air runs out, anyone still underwater drops everything they were carrying to the sea floor."
+   ],
+   "expansions": [],
+   "similar": [],
+   "shelf": "",
+   "cover": "https://cf.geekdo-images.com/owyKXaa5SPB2HG9F_MueNQ__large/img/F4eaFDKOIMcHFb8T7g6rsHf7S4s=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3169827.png"
+  },
+  {
    "id": "deep-regrets",
    "name": "Deep Regrets",
    "status": "Owned",
@@ -1126,7 +1091,7 @@
    ],
    "similar": [],
    "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/WUvpRzsNSZgq1gyvjiQcWw__itemrep@2x/img/QR0Qt7F8_nz0DokogydNkGQTLzE=/fit-in/492x600/filters:strip_icc()/pic8156363.jpg"
   },
   {
    "id": "dobble",
@@ -1162,7 +1127,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/w4wocaP3GUoBDWXUe_nEwg__imagepage/img/_Pm4j5-5ECAIIHpkmpIM4KHnPvg=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1641943.png"
   },
   {
    "id": "doomlings",
@@ -1202,7 +1167,7 @@
    ],
    "similar": [],
    "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/0ZLGPaSmEBtxppBm4oBNdQ__imagepage@2x/img/2OvM9JMLBZM_vZ_A-rRX90sc3_U=/fit-in/1800x1200/filters:strip_icc()/pic6674014.jpg"
   },
   {
    "id": "dune-imperium",
@@ -1238,7 +1203,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/PhjygpWSo-0labGrPBMyyg__itemrep@2x/img/Jo0nBF30UyHL5WSuh1xWppwt1cY=/fit-in/492x600/filters:strip_icc()/pic5666597.jpg"
   },
   {
    "id": "dungeon-party",
@@ -1377,7 +1342,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/Gqut8wnq6RmTVzdL2yRhTA__large/img/wRxgpdfrI6Vi-Ms-_pW3jE1pquk=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5103731.jpg"
+   "cover": "https://cf.geekdo-images.com/fjE7V5LNq31yVEW_yuqI-Q__itemrep@2x/img/rCk5yWDLA7IBpIqBw8Sc0OOh7aE=/fit-in/492x600/filters:strip_icc()/pic3918905.png"
   },
   {
    "id": "exit-pharaohs-tomb",
@@ -1517,7 +1482,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/sz7k-dCgsK1ZmuFQV3BL6w__large/img/HScbodF-DEr70oP6htgLdanX_Og=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3686636.jpg"
+   "cover": "https://cf.geekdo-images.com/FDOlU-KIv3iRKqHzC57-Qg__itemrep@2x/img/8-hIMenHcuqLZA-Oh0DO8u987T4=/fit-in/492x600/filters:strip_icc()/pic6353234.jpg"
   },
   {
    "id": "forbidden-island",
@@ -1552,7 +1517,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/-2cRyU_ssY77g2iHmIGyTg__large/img/r5HtDJmMKlPnp6EHIY9rM3StEEo=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic720360.jpg"
+   "cover": "https://cf.geekdo-images.com/JgAkEBUaiHOsOS94iRMs2w__itemrep@2x/img/WZqvQguwQfQgUPUnrsj2gOqhfOI=/fit-in/492x600/filters:strip_icc()/pic646458.jpg"
   },
   {
    "id": "fractured-sky",
@@ -1796,7 +1761,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/whs7-osymGVZYtNO8QyYrw__large/img/6GCZBs4IjBxeahzhkqiMXbcdXqU=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic3736078.jpg"
+   "cover": "https://cf.geekdo-images.com/Smpqdevb_ZKryLdCZBHMPg__imagepage/img/4KFNKt8wOT5kwX0R-iklpR3F_ks=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4654745.jpg"
   },
   {
    "id": "hoplomachus-victorum",
@@ -1868,7 +1833,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/OXX2YKecMpfOxvOKAkSuyQ__large/img/Civ4FuZ_qgtohFoStGB-TCksaP4=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5954885.jpg"
+   "cover": "https://cf.geekdo-images.com/SoClIcwjDo_iZs0idVikDw__itemrep@2x/img/WejlTKKkFpL1rpHkDHTeZ5T8GPQ=/fit-in/492x600/filters:strip_icc()/pic4848330.jpg"
   },
   {
    "id": "jaipur",
@@ -1903,7 +1868,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/BeE-zZS2hS0G_BftjBEtow__large/img/CUnVRMu-K-EaBSO1D4k3srJ9T4M=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic620428.jpg"
+   "cover": "https://cf.geekdo-images.com/_LTujSe_o16nvjDC-J0seA__itemrep@2x/img/Gegca8Y6LO7RuZFDYzRx89KjE6o=/fit-in/492x600/filters:strip_icc()/pic5100947.jpg"
   },
   {
    "id": "king-of-tokyo",
@@ -1974,7 +1939,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/Eq7kRjE41Qgh4zCj8L8nmA__large/img/vUvLTK_8eLSp4L7R05j4UwFx1n0=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic7176145.jpg"
+   "cover": "https://cf.geekdo-images.com/AtXsiR9FmMR_n1iFM7HFAw__itemrep/img/tSOtYgR8waTpzcUrUjFKLNxctZA=/fit-in/246x300/filters:strip_icc()/pic8699244.png"
   },
   {
    "id": "listography",
@@ -2115,7 +2080,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/1N0LkkVQmiYHTQjL8bcR2A__large/img/ic18-SAWK6tD1Wzno7RYU-gtPEQ=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4695020.jpg"
+   "cover": "https://cf.geekdo-images.com/1XA2-niwTBa0HEB7hOz3Dw__itemrep@2x/img/vm_IF43cf8AJ4GF3zekYZ9uiP1Q=/fit-in/492x600/filters:strip_icc()/pic4530974.jpg"
   },
   {
    "id": "lotr-trick-taking",
@@ -2178,7 +2143,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/Oys-FI2abuOyZwJ8uQGWdw__itemrep@2x/img/XUm56sp3TH4Aw-Rp0IoRvOy9L2Q=/fit-in/492x600/filters:strip_icc()/pic9488951.jpg"
   },
   {
    "id": "lost-ruins-of-arnak",
@@ -2213,7 +2178,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/6GqH14TJJhza86BX5HCLEQ__itemrep@2x/img/hX4PzEbU71mE4VPlo3l-mLFC2W0=/fit-in/492x600/filters:strip_icc()/pic5674958.jpg"
   },
   {
    "id": "love-letter",
@@ -2248,7 +2213,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/T1ltXwapFUtghS9A7_tf4g__itemrep@2x/img/RuIYzxY90UFXkgth8B5Gq-rP1bo=/fit-in/492x600/filters:strip_icc()/pic1401448.jpg"
   },
   {
    "id": "magic-maze",
@@ -2283,7 +2248,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/NVsxRYyE_vIBzObK72maCQ__itemrep@2x/img/BhWG4pIaDlR005yeXUjxNUnsU9k=/fit-in/492x600/filters:strip_icc()/pic9402780.jpg"
   },
   {
    "id": "marvel-champions",
@@ -2328,7 +2293,7 @@
    ],
    "similar": [],
    "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/kRvUgYiaOq07kC67ZK5UoQ__itemrep@2x/img/kp6Bh0MGfOt7zmVMdElX9Qxy1_I=/fit-in/492x600/filters:strip_icc()/pic4900321.jpg"
   },
   {
    "id": "mascarade",
@@ -2613,7 +2578,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/Pq_RQ7jeafjBl_ubaAW34Q__large/img/p2VofrH-fhreElTFtjaA1FJHmDI=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic4948818.png"
+   "cover": "https://cf.geekdo-images.com/9qbxsnp1CWpI6OUiV1cL2w__itemrep@2x/img/Q_5rC6zehYQ2LWZ7oVut3Z-AO8Y=/fit-in/492x600/filters:strip_icc()/pic4960288.jpg"
   },
   {
    "id": "outsmarted",
@@ -2688,7 +2653,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/akgpsD6n2vKG5mM2C0j3LA__large/img/RYQ0nvqGbSrNNKv91jhLHPhI3ZM=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic309018.jpg"
+   "cover": "https://cf.geekdo-images.com/S3ybV1LAp-8SnHIXLLjVqA__imagepage/img/kIBu-2Ljb_ml5n-S8uIbE6ehGFc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1534148.jpg"
   },
   {
    "id": "pandemic-contagion",
@@ -2795,7 +2760,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/hylwDoCxIE7ndHJeRBIClw__large/img/JAqFqJCLUuv0BSjHoMeT0u7Gj40=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic900543.jpg"
+   "cover": "https://cf.geekdo-images.com/jxCGEC0Bi88GxqtB0fFfuw__imagepage/img/tAZ4KK3Nm8dm3x4ZieRnZuD1mZc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic589744.jpg"
   },
   {
    "id": "really-nasty-horse-racing",
@@ -2830,7 +2795,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/eiVxX7xNLHDDfmLe41_zIw__large/img/oQYpvVqVVVJmw1vfybZL0yVkFvs=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic2008430.jpg"
+   "cover": "https://cf.geekdo-images.com/0b2Q_D4JyzNA1V8RcQAtBg__imagepage/img/FTSOCNRbbaZONACGT3Ac5fXx858=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2008449.jpg"
   },
   {
    "id": "regicide-legacy",
@@ -2865,7 +2830,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/g2vsMxa3sLYNk_jKL7QmoQ__large/img/zuCjtIPdSvMDWS6YKj6mgVfKNeE=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8007487.jpg"
+   "cover": "https://cf.geekdo-images.com/g2vsMxa3sLYNk_jKL7QmoQ__imagepage@2x/img/OFZANRaIFc8r0OYaGLpcRaK-84s=/fit-in/1800x1200/filters:strip_icc()/pic8007487.jpg"
   },
   {
    "id": "the-resistance",
@@ -3008,7 +2973,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/ZNJMbA3QUUKXJyYkMF10pg__large/img/SI_G1EyfRKbD2fTTQ2Ena7lG1Hs=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8890043.jpg"
+   "cover": "https://cf.geekdo-images.com/UNici3J_3qZIYeEapfaLpg__imagepage/img/xWA6B17fho-E0WWP_GPunT1xvXQ=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2568573.jpg"
   },
   {
    "id": "room-25",
@@ -3153,7 +3118,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/H2hN5Xkuma1mkAwKj-qooA__large/img/L0SRq43TJsCLF_BNsFAhlAI16D0=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic8624307.jpg"
+   "cover": "https://cf.geekdo-images.com/zNA2nt58of806l-aNOqRJw__imagepage@2x/img/KkY_pKMVcX3up98gCtKDzDKGbL4=/fit-in/1800x1200/filters:strip_icc()/pic4705378.jpg"
   },
   {
    "id": "skull",
@@ -3259,7 +3224,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/PQzVclEoOQ_wr4e1V86kxA__itemrep@2x/img/-46swiY5b8F2Gv6nplJvhSoWdmY=/fit-in/492x600/filters:strip_icc()/pic8157856.png"
   },
   {
    "id": "small-world",
@@ -3294,37 +3259,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": ""
-  },
-  {
-   "id": "snakesss",
-   "name": "Snakesss",
-   "status": "Owned",
-   "bggId": 337389,
-   "players": [
-    4,
-    8
-   ],
-   "best": [
-    6
-   ],
-   "time": [
-    20,
-    20
-   ],
-   "age": 12,
-   "weight": 1.08,
-   "complexity": 1,
-   "tags": [
-    "Party"
-   ],
-   "adults": false,
-   "summary": "A party game.",
-   "teach": [],
-   "expansions": [],
-   "similar": [],
-   "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/aoPM07XzoceB-RydLh08zA__itemrep@2x/img/BabTTgEL6Yl0SoDzh9yyx_3mtp8=/fit-in/492x600/filters:strip_icc()/pic428828.jpg"
   },
   {
    "id": "soar",
@@ -3350,7 +3285,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/5AwcUFbDxDy_6k3EJFAPDQ__itemrep@2x/img/YF0kjulgIMNFLDi4AYN-3kmzM4w=/fit-in/492x600/filters:strip_icc()/pic9388812.png"
   },
   {
    "id": "spirit-island",
@@ -3385,7 +3320,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/kjCm4ZvPjIZxS-mYgSPy1g__itemrep@2x/img/-avAay86cuC29LAZVlTE84r5SSA=/fit-in/492x600/filters:strip_icc()/pic7013651.jpg"
   },
   {
    "id": "splendor",
@@ -3459,7 +3394,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/V1PyFDPNFY4bJFgreLPxmQ__itemrep@2x/img/mOcAU4QBrEe_aa45DdzHcivR5P0=/fit-in/492x600/filters:strip_icc()/pic6929347.jpg"
   },
   {
    "id": "splendor-marvel",
@@ -3494,7 +3429,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/2thZjcw0ZvrsP09PDz002Q__itemrep@2x/img/nUQQdTd29HBWszzuLXm8VTaPa2E=/fit-in/492x600/filters:strip_icc()/pic5585867.jpg"
   },
   {
    "id": "spyfall",
@@ -3530,7 +3465,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": ""
+   "cover": "https://cf.geekdo-images.com/Ehx72XRdSeQHISVXcZVnHg__itemrep@2x/img/HlnXRv8NnxohDUCpKAT26avDMCg=/fit-in/492x600/filters:strip_icc()/pic2453926.jpg"
   },
   {
    "id": "star-wars-imperial-assault",
@@ -3666,7 +3601,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/dqb58UhheuYxjwPWGE-IDA__large/img/M_1z4kH8xz7v7eb-PGkDmtcKddk=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9363540.jpg"
+   "cover": "https://cf.geekdo-images.com/obBlDMRx93g4XbnZd6tiEg__imagepage@2x/img/6B80Dr0L5te_JV2H09dLIrhcSpE=/fit-in/1800x1200/filters:strip_icc()/pic9268378.png"
   },
   {
    "id": "survive-the-island",
@@ -3913,7 +3848,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/64rGThiVRbCJ0p7VHRQiiQ__large/img/iLqGRgi7Bg43JDe9YUQvUl6wVLI=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic9036122.jpg"
+   "cover": "https://cf.geekdo-images.com/8GePHY93STfcwWXt9R0T1Q__imagepage/img/URRz60uh6damYzS2lVd-8QY9JVk=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8631039.jpg"
   },
   {
    "id": "ticket-to-ride",
@@ -3948,7 +3883,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/T9r0Bu75OUzHCq6jJcIaFg__large/img/m6k4TmqTb7owbex7m6Q5TUFIVrk=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic339747.jpg"
+   "cover": "https://cf.geekdo-images.com/ZWJg0dCdrWHxVnc0eFXK8w__imagepage/img/FcSGmLeIStNfb0l_qKSuOyz-rHY=/fit-in/900x600/filters:no_upscale():strip_icc()/pic38668.jpg"
   },
   {
    "id": "tokyo-highway",
@@ -4055,7 +3990,7 @@
    "expansions": [],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/rnYriTERkVAuKZWEZZx6zg__large/img/jhlgs3lEu0_pMXnyy-im6gojhNE=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic5558198.jpg"
+   "cover": "https://cf.geekdo-images.com/z4fbPdmJg_5yphJEvql4ZA__imagepage@2x/img/aeaTc0ItDioSjvdggdTpnqfFMaI=/fit-in/1800x1200/filters:strip_icc()/pic4552862.png"
   },
   {
    "id": "what-on-earth",
@@ -4159,7 +4094,7 @@
    ],
    "similar": [],
    "shelf": "",
-   "cover": "https://cf.geekdo-images.com/vVJs7_1JU8D8eb-CiTnvsg__large/img/VObNr4TvhS_JQquz8y55u7aeFAY=/fit-in/1024x1024/filters:no_upscale():strip_icc()/pic6987320.png"
+   "cover": "https://cf.geekdo-images.com/tQVVSXcmYLvAoI28cp-2Tg__imagepage@2x/img/-T-5YAMKmfQOpHIG5fjizppcilM=/fit-in/1800x1200/filters:strip_icc()/pic5974859.jpg"
   },
   {
    "id": "wits-and-wagers",

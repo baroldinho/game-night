@@ -96,6 +96,10 @@ details.filters[open] summary { border-bottom: 2px solid var(--line); }
   background: transparent; color: var(--text); font: 15px/1 var(--body); cursor: pointer;
 }
 .chip[aria-pressed="true"] { background: var(--yellow); border-color: var(--yellow); color: #1E1E1E; font-weight: 700; }
+.players-pick { margin: 0 0 12px; }
+.players-pick .filter-label { margin-top: 0; font-size: 16px; }
+.players-pick .chip { min-width: 44px; }
+.pick-btns { display: flex; flex-wrap: wrap; gap: 8px; }
 .toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin: 6px 0 4px; }
 
 /* ---------- game list: rows, not cards ---------- */

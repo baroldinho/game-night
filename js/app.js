@@ -72,12 +72,7 @@ function matches(g, f) {
     const q = f.q.toLowerCase();
     if (!g.name.toLowerCase().includes(q) && !(g.summary || "").toLowerCase().includes(q)) return false;
   }
-  if (f.players) {
-    const n = f.players;
-    const fits = n >= 8 ? g.players[1] >= 8 : g.players[0] <= n && g.players[1] >= n;
-    if (!fits) return false;
-    if (f.best && !(g.best || []).some((b) => (n >= 8 ? b >= 8 : b === n))) return false;
-  }
+  if (!fitsPlayers(g, f)) return false;
   if (f.time && g.time[1] > f.time) return false;
   if (f.cx.length && !f.cx.includes(g.complexity)) return false;
   if (f.tags.length) { const t = gameTags(g); if (!f.tags.every((x) => t.includes(x))) return false; }
@@ -87,7 +82,7 @@ function matches(g, f) {
 const filtered = (list = S.games) => list.filter((g) => matches(g, S.filters));
 const activeFilterCount = () => {
   const f = S.filters;
-  return (f.players ? 1 : 0) + (f.time ? 1 : 0) + f.cx.length + f.tags.length + (f.hideAdults ? 1 : 0);
+  return (f.time ? 1 : 0) + f.cx.length + f.tags.length + (f.hideAdults ? 1 : 0);
 };
 
 function similar(g) {
@@ -213,21 +208,52 @@ function footer() {
 }
 
 // ---------- filters
+// The player-count picker sits above everything, on the collection and the voting page.
+const countLabel = (n) => (n >= 8 ? "8+" : String(n));
+function playersPicker() {
+  const f = S.filters;
+  const chips = [0, 1, 2, 3, 4, 5, 6, 7, 8].map((n) => `<button type="button" class="chip" data-action="f-players" data-v="${n}" aria-pressed="${f.players === n}">${n === 0 ? "Any" : countLabel(n)}</button>`).join("");
+  return `<div class="players-pick"><div class="filter-label" id="pp-label">How many of you are playing?</div>
+    <div class="chips" role="group" aria-labelledby="pp-label">${chips}</div>
+    ${f.players ? `<label class="check"><input type="checkbox" data-action="f-best" ${f.best ? "checked" : ""}> Only games that are best with ${countLabel(f.players)}</label>` : ""}</div>`;
+}
+const fitsPlayers = (g, f = S.filters) => {
+  if (!f.players) return true;
+  const n = f.players;
+  const ok = n >= 8 ? g.players[1] >= 8 : g.players[0] <= n && g.players[1] >= n;
+  return ok && (!f.best || (g.best || []).some((b) => (n >= 8 ? b >= 8 : b === n)));
+};
+
+// "Pick one for us": from the games shown (the player count and any filters), or from everything.
+function pickButtons(shown, everything, src) {
+  const f = S.filters;
+  const narrowed = shown.length !== everything.length;
+  const fitLabel = f.players ? `Pick one for ${countLabel(f.players)} ${f.players === 1 ? "player" : "players"}` : "Pick from these";
+  if (!narrowed) return `<button type="button" class="btn ghost" data-action="pick" data-scope="all" data-src="${src}" ${everything.length ? "" : "disabled"}>Pick one for us</button>`;
+  return `<span class="pick-btns"><button type="button" class="btn" data-action="pick" data-scope="fit" data-src="${src}" ${shown.length ? "" : "disabled"}>${fitLabel}</button>
+    <button type="button" class="btn ghost" data-action="pick" data-scope="all" data-src="${src}" ${everything.length ? "" : "disabled"}>Pick from all</button></span>`;
+}
+function pickPool(scope, src) {
+  const shortlist = src === "vote" && S.night && S.night.mode === "shortlist";
+  const base = playable(shortlist ? (S.night.shortlist || []).map((id) => S.byId[id]).filter(Boolean) : S.games);
+  if (scope !== "fit") return { pool: base, label: shortlist ? "the whole shortlist" : "the whole collection" };
+  const pool = shortlist ? base.filter((g) => fitsPlayers(g)) : playable(filtered());
+  const who = S.filters.players ? `${countLabel(S.filters.players)} ${S.filters.players === 1 ? "player" : "players"}` : "";
+  return { pool, label: shortlist ? `the shortlist games for ${who}` : who && activeFilterCount() === 0 && !S.filters.q ? `games for ${who}` : "the games matching your choices" };
+}
+
 function filtersBlock() {
   const f = S.filters;
   const chip = (action, v, on, label) => `<button type="button" class="chip" data-action="${action}" data-v="${esc(v)}" aria-pressed="${on}">${label}</button>`;
-  const players = [0, 1, 2, 3, 4, 5, 6, 7, 8].map((n) => chip("f-players", n, f.players === n, n === 0 ? "Any" : n === 8 ? "8+" : n)).join("");
   const times = [[0, "Any"], [30, "30 min"], [60, "1 hour"], [90, "90 min"], [120, "2 hours"]].map(([v, l]) => chip("f-time", v, f.time === v, l)).join("");
   const cx = [1, 2, 3, 4, 5].map((n) => chip("f-cx", n, f.cx.includes(n), "🤔".repeat(n))).join("");
   const tags = FILTER_TAGS.map((t) => chip("f-tag", t, f.tags.includes(t), esc(t))).join("");
   const n = activeFilterCount();
-  return `<label class="search"><span class="sr-only" hidden>Search</span>
+  return `${playersPicker()}<label class="search"><span class="sr-only" hidden>Search</span>
       <input type="search" data-input="q" value="${esc(f.q)}" placeholder="Search games" aria-label="Search games" autocomplete="off"></label>
     <details class="filters"${S.filtersOpen ? " open" : ""}>
       <summary><span>Filters${n ? ` (${n})` : ""}</span><span class="muted">${S.filtersOpen ? "Hide" : "Show"}</span></summary>
       <div class="filter-body">
-        <div class="filter-label">How many are playing?</div><div class="chips">${players}</div>
-        ${f.players ? `<label class="check"><input type="checkbox" data-action="f-best" ${f.best ? "checked" : ""}> Only games that are best at ${f.players === 8 ? "8+" : f.players}</label>` : ""}
         <div class="filter-label">Time available</div><div class="chips">${times}</div>
         <div class="filter-label">Complexity</div><div class="chips">${cx}</div>
         <div class="filter-label">Type of game</div><div class="chips">${tags}</div>
@@ -251,7 +277,7 @@ function viewCollection(params) {
   resultsFn = () => {
     const list = filtered();
     return `<div class="toolbar"><span class="muted">${list.length === S.games.length ? `All ${list.length} games` : `${list.length} of ${S.games.length} games`}</span>
-      <button type="button" class="btn ghost" data-action="pick" ${playable(list).length ? "" : "disabled"}>Pick one for us</button></div>
+      ${pickButtons(playable(list), playable(S.games), "all")}</div>
       ${list.length ? `<ul class="list">${list.map(gameRow).join("")}</ul>` : `<p class="empty">Nothing matches those filters. Try removing one.</p>`}`;
   };
   return `${S.night ? `<div class="notice">${nightOpen() ? `Game night is on. <a href="#/vote">Cast your votes</a>.` : `Voting has closed. ${esc(HOST_NAME)} will announce the winner.`}</div>` : ""}
@@ -278,7 +304,7 @@ function viewGame(g, params) {
   const editing = isOwner() && S.editing === g.id;
   const canVote = S.night && votable(g.id);
   return `<a class="back" href="#/all">Back to the collection</a>
-    ${picked ? `<div class="picked"><strong>Picked for you</strong> from ${esc(picked)} matching games you can play now. <button type="button" class="btn ghost" data-action="pick">Pick again</button></div>` : ""}
+    ${picked ? `<div class="picked"><strong>Picked for you</strong> from ${esc(S.lastPick ? S.lastPick.label : "the collection")} (${esc(picked)} ${picked === "1" ? "game" : "games"}). <button type="button" class="btn ghost" data-action="pick" data-scope="${esc(S.lastPick ? S.lastPick.scope : "all")}" data-src="${esc(S.lastPick ? S.lastPick.src : "all")}">Pick again</button></div>` : ""}
     <h1>${esc(g.name)}${preBadge(g)}${g.adults ? '<span class="badge adults">Adults</span>' : ""}</h1>
     ${isPre(g) ? `<p class="notice">On pre-order: ${esc(HOST_NAME)} hasn't got this one yet.</p>` : ""}
     ${onShortlist(g.id) ? `<p><span class="badge tonight" style="margin-left:0">On tonight's list</span></p>` : ""}
@@ -398,9 +424,11 @@ function viewVote() {
   const open = nightOpen();
   const games = n.mode === "all" ? playable(filtered()) : (n.shortlist || []).map((id) => S.byId[id]).filter(Boolean).sort(byName);
   resultsFn = () => {
-    const list = n.mode === "all" ? playable(filtered()) : games;
-    if (!list.length) return `<p class="empty">${n.mode === "all" ? "Nothing matches those filters." : "The shortlist is empty."}</p>`;
-    return `<ul class="list">${list.map((g) => `<li class="vote-item"><a class="row-name" href="#/game/${esc(g.id)}">${esc(g.name)}</a>${factsLine(g)}
+    const list = n.mode === "all" ? playable(filtered()) : games.filter((g) => fitsPlayers(g));
+    const everything = n.mode === "all" ? playable(S.games) : playable(games);
+    const head = `<div class="toolbar"><span class="muted">${n.mode === "all" ? `${list.length} games` : list.length === games.length ? `All ${games.length} on the shortlist` : `${list.length} of ${games.length} on the shortlist`}</span>${pickButtons(list, everything, "vote")}</div>`;
+    if (!list.length) return head + `<p class="empty">${n.mode === "all" ? "Nothing matches those filters." : games.length ? `Nothing on the shortlist fits ${countLabel(S.filters.players)} players. <button type="button" class="btn ghost" data-action="f-players" data-v="0">Show all</button>` : "The shortlist is empty."}</p>`;
+    return head + `<ul class="list">${list.map((g) => `<li class="vote-item"><a class="row-name" href="#/game/${esc(g.id)}">${esc(g.name)}</a>${factsLine(g)}
       ${g.summary ? `<p class="snippet">${esc(g.summary.split(/(?<=\.)\s/)[0])}</p>` : ""}${voteButtons(g)}</li>`).join("")}</ul>`;
   };
   const yesFull = S.draft.yes.length >= MAX_YES, noFull = S.draft.no.length >= MAX_NO;
@@ -409,7 +437,7 @@ function viewVote() {
     ${S.authProblem ? `<p class="notice warn">${esc(S.authProblem)}</p>` : ""}
     ${open ? nameLine(false) : `<p class="notice">Voting has closed. ${esc(HOST_NAME)} will announce the winner.</p>`}
     ${open ? `<div class="counter" aria-live="polite"><span class="count yes${yesFull ? " full" : ""}">YES ${S.draft.yes.length}/${MAX_YES}</span><span class="count no${noFull ? " full" : ""}">NO ${S.draft.no.length}/${MAX_NO}</span><span class="small muted">${S.saveState === "saving" ? "Saving…" : S.saveState === "saved" ? "Saved" : S.saveState === "error" ? "Couldn't save" : ""}</span></div>` : ""}
-    ${n.mode === "all" ? filtersBlock() : ""}
+    ${n.mode === "all" ? filtersBlock() : playersPicker()}
     <div id="results">${resultsFn()}</div>
     <p style="margin-top:20px"><a href="#/all">Browse the whole collection</a></p>`;
 }
@@ -623,11 +651,13 @@ const actions = {
   "f-tag": (el) => setFilter((f) => { const t = el.dataset.v; f.tags = f.tags.includes(t) ? f.tags.filter((x) => x !== t) : [...f.tags, t]; }),
   "f-adults": (el) => setFilter((f) => { f.hideAdults = el.checked; }),
   "f-clear": () => setFilter((f) => { Object.assign(f, { q: "", players: 0, best: false, time: 0, cx: [], tags: [], hideAdults: false }); }),
-  pick: () => {
-    const list = playable(filtered());
-    if (!list.length) return;
-    const g = list[Math.floor(Math.random() * list.length)];
-    location.hash = `#/game/${g.id}?picked=${list.length}&r=${Date.now() % 100000}`;
+  pick: (el) => {
+    const scope = el.dataset.scope || "all", src = el.dataset.src || "all";
+    const { pool, label } = pickPool(scope, src);
+    if (!pool.length) { toast("No games to pick from."); return; }
+    S.lastPick = { scope, src, label };
+    const g = pool[Math.floor(Math.random() * pool.length)];
+    location.hash = `#/game/${g.id}?picked=${pool.length}&r=${Date.now() % 100000}`;
   },
   "vote-yes": (el) => toggleVote(el.dataset.id, "yes"),
   "vote-no": (el) => toggleVote(el.dataset.id, "no"),
